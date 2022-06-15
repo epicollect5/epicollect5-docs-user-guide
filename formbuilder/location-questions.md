@@ -1,0 +1,65 @@
+---
+description: Location of the user device can be acquired adding a LOCATION question.
+---
+
+# Location Questions
+
+The user needs to tap on the "Update Location" button to get the location data stored (see below).
+
+![](../.gitbook/assets/location.png)
+
+Basically tapping that button gives the app the consent to store the user's location.
+
+{% hint style="warning" %}
+It cannot be done automatically for the above reason (privacy issues).&#x20;
+
+If you ever used Facebook or Instagram, you might have noticed they use the same approach, as when adding a post the location needs to be added separately.
+{% endhint %}
+
+{% hint style="danger" %}
+**A location question cannot be required**: a user might not want to answer that, or the device might lack GPS capabilities (for example a cheap Android tablet).
+
+Moreover, often getting a GPS lock is not possible for a number of reasons. If that happens and the location question was required, the user would not be able to complete the form.
+{% endhint %}
+
+### Mobile app
+
+On the mobile app the interface will show:
+
+| Data                   | Format                                                                                                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Latitude and Longitude | **Signed degrees format**, with 6 decimal places to pinpoint a location within 11cm.                                                                                                 |
+| Accuracy               | **Meters**, refers to how close the device's calculated position is from the truth, expressed as a radius. Consumer smartphones devices can get a maximum accuracy of 3 or 4 meters. |
+
+{% hint style="info" %}
+The interface and features are kept to a minimum to be able to work both online and **offline.**
+{% endhint %}
+
+### Web Application
+
+When adding or editing data via the web application ([**See how**](https://app.gitbook.com/adding-data.md)), more features are available since the application will always be **online**.
+
+![](<../.gitbook/assets/Screen Shot 2019-10-18 at 11.12.53.png>)
+
+You could:
+
+* Enter the coordinates manually.
+* Find a location based on an address (it is called [**geocoding**](https://en.wikipedia.org/wiki/Geocoding)).
+* Find your current location and drag the marker where you want.
+* Change map tiles to your preferences.
+
+![](../.gitbook/assets/Screen\_Shot\_2019-10-18\_at\_11\_18\_25.jpg)
+
+Latitude and longitude values are shown as **signed degrees format**, with 6 decimal places to pinpoint a location within 11cm.
+
+### Exported location data
+
+When exporting your datasets, by downloading a `csv` or `json` file and by using the API endpoints, location data are provided in both signed degrees format and UTM.
+
+
+
+### Reverse geocoding
+
+Epicollect5 does not feature any way to automatically pick up an address based on latitude and longitude. Such a feature would require a reverse geocoding service (usually not free) and an internet connection thus it would not work offline.
+
+For projects requiring it, latitude and longitude values can be converted to addresses in the post-processing of the data by using a third-party service like [**What3Words**](https://what3words.com/products/batch-converter/) or [**Geocodio**](https://www.geocod.io/upload/).

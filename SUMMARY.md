@@ -1,0 +1,107 @@
+# Table of contents
+
+* [What is Epicollect5](README.md)
+
+## About
+
+* [Our Community](about/our-community.md)
+* [Privacy Policy](about/privacy-policy.md)
+* [Cookie Policy](about/cookie-policy.md)
+
+## Web Application
+
+* [Intro](web-application/web-application.md)
+* [Create a Project](web-application/create-a-project.md)
+* [Edit Project Details](web-application/set-project-details.md)
+* [Delete Projects](web-application/delete-projects.md)
+* [View Projects](web-application/view-projects.md)
+* [Search Projects](web-application/search-projects.md)
+* [Viewing Entries](web-application/viewing-data.md)
+* [Print Entries](web-application/print-entries.md)
+* [Add & Edit Entries](web-application/adding-data.md)
+* [Bulk Uploads](web-application/bulk-uploads.md)
+* [Manage Users](web-application/manage-users.md)
+* [Transfer Ownership](web-application/transfer-ownership.md)
+* [Manage Entries](web-application/manage-entries.md)
+* [Mapping Data](web-application/mapping-data.md)
+* [Downloading Data](web-application/downloading-data.md)
+* [Metadata](web-application/metadata.md)
+* [Clone Project](web-application/clone-project.md)
+* [Rename Projects](web-application/rename-projects.md)
+* [Import & Export Projects](web-application/import-and-export-projects.md)
+* [Web Link to Add Entries](web-application/web-link-to-add-entries.md)
+
+## Formbuilder
+
+* [Intro](formbuilder/build-your-questionnaire.md)
+* [Languages](formbuilder/languages.md)
+* [Question Types](formbuilder/input-types.md)
+* [Location Questions](formbuilder/location-questions.md)
+* [Add Questions](formbuilder/add-inputs.md)
+* [Edit Questions](formbuilder/edit-inputs.md)
+* [Linking Forms](formbuilder/multiple-forms.md)
+* [Rename Forms](formbuilder/rename-forms.md)
+* [Print Forms](formbuilder/print-form.md)
+* [Search](formbuilder/search.md)
+* [Jumps](formbuilder/jumps.md)
+* [Branches](formbuilder/branches.md)
+* [Groups](formbuilder/groups.md)
+* [Title](formbuilder/title.md)
+* [Uniqueness](formbuilder/uniqueness.md)
+* [Double-entry Verification](formbuilder/double-entry-verification.md)
+* [Import & Export Forms](formbuilder/importexport-forms.md)
+* [Import & Export Possible Answers](formbuilder/importexport-possible-answers.md)
+* [Edit Possible Answers](formbuilder/edit-possible-answers.md)
+
+## Mobile Application
+
+* [Platforms and Media](mobile-application/mobile-application.md)
+* [Add Projects](mobile-application/add-projects.md)
+* [Add Entries (Single Form)](mobile-application/add-an-entry.md)
+* [Add Entries (Multiple Forms)](mobile-application/add-child-entries.md)
+* [Edit Entries](mobile-application/edit-entries.md)
+* [Save & Resume Entries](mobile-application/saveresume-entry.md)
+* [Upload Entries](mobile-application/upload-entries.md)
+* [Entries Limits](mobile-application/entries-limits.md)
+* [Download Entries](mobile-application/download-entries.md)
+* [Delete Entries](mobile-application/delete-entries.md)
+* [Delete Projects](mobile-application/delete-project-mobile-app.md)
+* [Add Bookmarks](mobile-application/add-bookmarks.md)
+* [Project Info](mobile-application/project-info.md)
+* [Share Photos](mobile-application/export-photos.md)
+* [Adjust Font Size](mobile-application/adjust-font-size.md)
+* [Filter Entries](mobile-application/filter-entries.md)
+* [Beta updates (Android)](mobile-application/beta-program.md)
+* [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
+
+## Developers
+
+* [Intro](developers/intro.md)
+* [API](developers/api.md)
+* [Apps](developers/apps.md)
+
+## Integrations
+
+* [Google Maps](integrations/google-maps.md)
+* [Microreact](integrations/microreact.md)
+* [Survey Toolkit](integrations/survey-toolkit.md)
+* [Google Sheets](integrations/google-sheets.md)
+
+## Common Use Cases
+
+* [Matrix Style Questions](common-use-cases/matrix.md)
+* [Consolidate data](common-use-cases/consolidate-data.md)
+* [Other, Please Specify](common-use-cases/specify-answer-with-jump.md)
+* [Non-Hierarchical Forms](common-use-cases/non-hierarchical-forms.md)
+* [Users Working Groups](common-use-cases/users-working-groups.md)
+* [Excel and UTF-8](common-use-cases/excel-and-utf-8.md)
+* [Barcodes](common-use-cases/barcodes.md)
+* [Child Forms vs Branches](common-use-cases/child-forms-vs-branches.md)
+* [Dependent Dropdowns](common-use-cases/dependent-dropdowns.md)
+
+## Extra
+
+* [Useful Links](extra/useful-links.md)
+* [Demo Projects](extra/demo-projects.md)
+* [FAQ](extra/faq.md)
+* [How-to Videos](extra/how-to-videos.md)
