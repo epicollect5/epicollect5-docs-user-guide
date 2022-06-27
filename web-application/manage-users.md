@@ -41,7 +41,7 @@ Any email can be used, not only Google or Apple accounts
 {% endhint %}
 
 {% hint style="warning" %}
-Both the magic link and the one-off code **expire** **after 30 minutes** and can be **used only once.** Once authenticated, each session will last 24 hours**.**  When the session expires,  a new magic link or  one-off code must be requested.
+Both the magic link and the one-off code **expire** **after 30 minutes** and can be **used only once.** Once authenticated, each session will last 24 hours.  ****  When the session expires,  a new magic link or one-off code must be requested.
 {% endhint %}
 
 {% hint style="warning" %}
