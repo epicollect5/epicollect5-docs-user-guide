@@ -153,7 +153,7 @@ The csv file **MUST** have an extra**`ec5_branch_uuid`**column, which is used as
 
 By using the bulk upload feature it is possible to perform bulk edits on the entries already uploaded. This can be done by downloading the entries which need to be amended, perform the edits with your favorite text editor (like Excel or Google Sheets), then re-upload the entries.
 
-Each entry created on the Epicollect5 platform is given a universal identifier, a [**uuid**](https://en.wikipedia.org/wiki/Universally\_unique\_identifier),  like `87dc71ea-1323-47ae-8acb-6002c66f08fd`. When entries are downloaded, all the identifiers are added to the exported dataset along with other metadata (See **** [**metadata**](metadata.md)). When uploading entries in bulk, by providing these identifiers in the`csv`file, the system will look for a match. If a match is found and the user has the permissions to edit that entry, the existing entry will be updated.
+Each entry created on the Epicollect5 platform is given a universal identifier, a [**uuid**](https://en.wikipedia.org/wiki/Universally\_unique\_identifier),  like `87dc71ea-1323-47ae-8acb-6002c66f08fd`. When entries are downloaded, all the identifiers are added to the exported dataset along with other metadata (See [**metadata**](metadata.md)). When uploading entries in bulk, by providing these identifiers in the`csv`file, the system will look for a match. If a match is found and the user has the permissions to edit that entry, the existing entry will be updated.
 
 For example, we have a project called People, with a single form PERSON asking just for the person's name. We have just a few entries and we would like to replace all the "Johnny" with "John".
 
@@ -221,7 +221,7 @@ If we try to upload the same file to another UNIVERSITY entry, like "Oxford Univ
 
 The procedure to bulk edit entries of a branch is almost identical to the one used to edit entries of a parent or child form. The only extra step is selecting the correct entry which contains the branch entries that need to be amended.
 
-On the example project [**Football Teams and Players**](https://five.epicollect.net/project/football-teams-and-players)**,** there is a single form TEAM and a branch PLAYER. **** We will change the PLAYER branch entries of "Juventus", the players need to be listed by surname.
+On the example project [**Football Teams and Players**](https://five.epicollect.net/project/football-teams-and-players)**,** there is a single form TEAM and a branch PLAYER. We will change the PLAYER branch entries of "Juventus", the players need to be listed by surname.
 
 ![Get "Juventus" branch entries](../.gitbook/assets/bulk-uploads-32.jpg)
 

@@ -6,6 +6,20 @@ description: Import and export possible answers using csv files.
 
 For the question types where a list of possible answers must be provided (_RADIO_, _CHECKBOX, DROPDOWN & SEARCH_) you can import/export your list of options from/to a CSV file.
 
+{% hint style="warning" %}
+The maximum number of possible answers for a single question is **300**. Once that limit is reached, additional possible answers will be ignored.&#x20;
+
+SEARCH question types have an upper limit of **1000**, but it is possible to have **up to 5 SEARCH questions per project.**
+
+
+
+Empty values will be skipped.
+
+
+
+Invalid symbols like "<" and ">" will be removed.
+{% endhint %}
+
 ## Import possible answers
 
 To import the list, click on the arrow next to the "Add answer button" to open the context menu:
@@ -39,14 +53,6 @@ The import button is disabled until you select a column.
 ![](../.gitbook/assets/import-possible-answers-5.png)
 
 The list is imported successfully!
-
-{% hint style="warning" %}
-The maximum number of possible answers for a single input is **300**. Once that limit is reached, further list items will be ignored.
-
-&#x20;Empty values will be skipped.
-
-Invalid symbols like "<" and ">" will be removed.
-{% endhint %}
 
 ## Export possible answers
 

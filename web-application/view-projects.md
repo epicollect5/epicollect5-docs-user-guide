@@ -8,7 +8,7 @@ Your project home page URL will be at the top:
 
 It is usually like [https://five.epicollect.net/project/my-awesome-project](https://five.epicollect.net/project/my-awesome-project)
 
-The last part `/my-awesome-project` **** is your project slug. A project slug is a web-friendly version of your project name, where all the spaces are converted to dashes (`-`) and the letters are all lowercase. This is a convention for URLs all over the web. Since each project gets its own URL, **your project name cannot be the same** as any other projects on Epicollect5.
+The last part `/my-awesome-project` is your project slug. A project slug is a web-friendly version of your project name, where all the spaces are converted to dashes (`-`) and the letters are all lowercase. This is a convention for URLs all over the web. Since each project gets its own URL, **your project name cannot be the same** as any other projects on Epicollect5.
 
 {% hint style="danger" %}
 Projects with the **EC5** prefix are projects created by the Epicollect5 Team only therefore the prefix **EC5** is reserved.

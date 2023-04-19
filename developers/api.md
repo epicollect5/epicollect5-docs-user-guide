@@ -5,7 +5,7 @@ description: Get data out of Epicollect5 programmatically
 # API
 
 {% hint style="info" %}
-A fully-fledged Developer Guide can be found at [**https://developers.epicollect.net**](https://developers.epicollect.net/)****
+A fully-fledged Developer Guide can be found at [**https://developers.epicollect.net**](https://developers.epicollect.net/)
 {% endhint %}
 
 To access the API page go to your project details **(**[**show me how**](../web-application/set-project-details.md)**)** then on the left sidebar click on API under the Developers section:
@@ -14,7 +14,7 @@ To access the API page go to your project details **(**[**show me how**](../web-
 
 You will get to a page with two tabs: parameters and endpoints.
 
-The following screenshots are based on our [**EC5 API TEST project.**](https://five.epicollect.net/project/ec5-api-test)****
+The following screenshots are based on our [**EC5 API TEST project.**](https://five.epicollect.net/project/ec5-api-test)
 
 ## Parameters
 
@@ -28,4 +28,4 @@ We list the most common endpoints to get the data for the selected project. If t
 
 ![](../.gitbook/assets/api-3.png)
 
-[**More info about Epicollect5 API.**](https://developers.epicollect.net/)****
+[**More info about Epicollect5 API.**](https://developers.epicollect.net/)

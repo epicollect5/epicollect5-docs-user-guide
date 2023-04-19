@@ -17,7 +17,7 @@ Data are visualized as a table or a map:
 {% hint style="warning" %}
 For **PHOTO** questions, if there is a placeholder thumbnail that looks like the Epicollect5 logo in black and white colors, it means **PHOTO** files were not synced.&#x20;
 
-Syncing data is a two steps process, please read **** [**how to upload entries.**](../mobile-application/upload-entries.md)****
+Syncing data is a two steps process, please read [**how to upload entries.**](../mobile-application/upload-entries/)
 {% endhint %}
 
 ![Photo syncing in Epicollect5](../.gitbook/assets/view-data-11.jpg)

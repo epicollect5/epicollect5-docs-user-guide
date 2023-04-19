@@ -43,5 +43,5 @@ To consolidate the data, it is pretty easy to merge columns in Google Sheets, Ex
 
 [**For Google Sheets see here**](https://support.google.com/docs/answer/9060449?hl=en\&co=GENIE.Platform%3DDesktop#zippy=%2Cmerge-rows-or-columns).
 
-****[**For Excel see here**](https://support.microsoft.com/en-us/office/combine-text-from-two-or-more-cells-into-one-cell-81ba0946-ce78-42ed-b3c3-21340eb164a6)**.**
+[**For Excel see here**](https://support.microsoft.com/en-us/office/combine-text-from-two-or-more-cells-into-one-cell-81ba0946-ce78-42ed-b3c3-21340eb164a6)**.**
 {% endhint %}

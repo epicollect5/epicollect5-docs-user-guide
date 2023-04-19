@@ -22,7 +22,7 @@ A panel will slide in from the left:
 
 ### Select the mapping&#x20;
 
-(The default mapping is always pre-selected). [**More on mapping data**](mapping-data.md)****
+(The default mapping is always pre-selected). [**More on mapping data**](mapping-data.md)
 
 {% hint style="success" %}
 if you do not know what mapping is, just ignore it.&#x20;
@@ -45,7 +45,7 @@ Click on the project zip file to download it.
 {% hint style="info" %}
 If you have more than one single form and branches, you will get separate files: one file per each form and one file per each branch.&#x20;
 
-How to merge the data (if needed) il left to the user. For example, using Excel, there are several ways to merge tables based on common columns (in Epicollect5, look at **ec5\_uuid**, **ec5\_parent\_uuid** for child forms and **ec5\_branch\_owner\_uuid** for branch forms), [**have a look at this link.** ](https://www.extendoffice.com/product/kutools-for-excel/excel-merge-tables-by-column.html)****
+How to merge the data (if needed) il left to the user. For example, using Excel, there are several ways to merge tables based on common columns (in Epicollect5, look at **ec5\_uuid**, **ec5\_parent\_uuid** for child forms and **ec5\_branch\_owner\_uuid** for branch forms), [**have a look at this link.** ](https://www.extendoffice.com/product/kutools-for-excel/excel-merge-tables-by-column.html)
 
 An example using Google Sheet can be found [**here**](../common-use-cases/consolidate-data.md)**.**
 {% endhint %}

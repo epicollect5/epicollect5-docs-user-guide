@@ -4,40 +4,44 @@ description: Add entries to a project that consists of a single form.
 
 # Add Entries (Single Form)
 
-|                                                 |                                                                                           |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| ![](<../.gitbook/assets/projects-page (1).png>) | To begin adding an entry, first click on your project from the 'Projects' list home page. |
+&#x20;To begin adding entries, tap on your project on the **PROJECTS** list home page.
 
-|                                              |                                                                             |
-| -------------------------------------------- | --------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/my-project-empty.png) | Next, click the '+ Add Entry' button to start adding an entry to your form. |
+<figure><img src="../.gitbook/assets/20230413_123159521_1.png" alt=""><figcaption></figcaption></figure>
 
-In this example, the form is called simply 'Form 1'.
+Next, tap the **+ADD ENTRY** button at the top right to start adding an entry to the first form.
 
-|                                      |                                                                                                 |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/entry-q1.png) | This will begin the process of adding an entry, where you can answer each question in the form. |
+In this example, the form is called simply _'FORM 1'_.
 
-|                                      |                                                                                                                                |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/entry-q2.png) | A progress indicator tells you how far through each form you are and you can use the 'Next'and 'Previous' buttons to navigate. |
+<figure><img src="../.gitbook/assets/20230413_123159122_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                        |                                                                                       |
-| -------------------------------------- | ------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/quit-entry.png) | If you decide to quit your entry early, you can choose to save your incomplete entry. |
+This will begin the process of adding an entry, by answering each question on the form.
 
-{% hint style="info" %}
-Incomplete  entries cannot be uploaded.&#x20;
+<figure><img src="../.gitbook/assets/20230413_123200377_1.png" alt=""><figcaption></figcaption></figure>
 
-Only complete entries may be synced with the server.&#x20;
+A progress indicator at the top show you how far through each form you are.&#x20;
+
+You can use the **NEXT** and **PREVIOUS** buttons to navigate back and forth.
+
+<figure><img src="../.gitbook/assets/20230413_123159925_1.png" alt=""><figcaption></figcaption></figure>
+
+If you decide to quit your entry early, you can choose to save your incomplete entry.
+
+<figure><img src="../.gitbook/assets/20230413_123201196_1.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Incomplete entries cannot be uploaded.&#x20;
+
+Only fully completed entries can be synced with the server.&#x20;
 
 In order to complete an entry, you must reach the end of the form.
 {% endhint %}
 
-|                                        |                                                                     |
-| -------------------------------------- | ------------------------------------------------------------------- |
-| ![](../.gitbook/assets/save-entry.png) | Once you have reached the end of the form, you can save your entry. |
+Once you have reached the end of the form, you can save your entry.
 
-|                                                      |                                                                                                                                       |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](<../.gitbook/assets/my-project-1-entry (2).png>) | You will then be taken back to the form home page where you can add more entries, view your entry or upload your entry to the server. |
+<figure><img src="../.gitbook/assets/20230413_123200770_1.png" alt=""><figcaption></figcaption></figure>
+
+After the entry is saved locally, you will be taken back to the form home page where you can add more entries, view your entries or upload your entries to the server.
+
+<figure><img src="../.gitbook/assets/20230413_123201598_1.png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://www.youtube.com/watch?v=Z4VMccxwljY" %}

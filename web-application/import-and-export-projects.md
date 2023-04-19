@@ -4,7 +4,7 @@ description: Export just the project definition
 
 # Import & Export Projects
 
-Sometimes you might want to share a project with someone not part of your organization, or just use a project as a template, and so on. In that case, [**cloning**](clone-project.md) **** is not an option since that will always assign it to the original **CREATOR** of the project.
+Sometimes you might want to share a project with someone not part of your organization, or just use a project as a template, and so on. In that case, [**cloning**](clone-project.md) is not an option since that will always assign it to the original **CREATOR** of the project.
 
 {% hint style="warning" %}
 **Exporting a project** does not export its [**mapping**](mapping-data.md) or its [**users**](manage-users.md). If you need that, look at project [**cloning**](clone-project.md) and at [**how to transfer project ownership**](transfer-ownership.md).

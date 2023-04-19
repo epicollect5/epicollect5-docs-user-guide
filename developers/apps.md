@@ -3,7 +3,7 @@
 If you want to use the Epicollect5 API to get data for a **private project**, you will have to register your "app" to get authentication details to exchange with the Epicollect5 server.&#x20;
 
 {% hint style="info" %}
-A fully-fledged Developer Guide can be found at [**https://developers.epicollect.net**](https://developers.epicollect.net/)****
+A fully-fledged Developer Guide can be found at [**https://developers.epicollect.net**](https://developers.epicollect.net/)
 {% endhint %}
 
 Go to your Apps page under the Developers section:

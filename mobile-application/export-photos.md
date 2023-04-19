@@ -1,6 +1,8 @@
 # Share Photos
 
-You can share images you took using the Epicollect5 app with other apps on your device.
+For security, privacy and consistency, third-party apps like your gallery or video player cannot access Epicollect5 data and media.
+
+However, you can share a copy of the photos you took using the Epicollect5 app with other apps on your device, if you wish to do so.
 
 |                                           |                                                        |
 | ----------------------------------------- | ------------------------------------------------------ |

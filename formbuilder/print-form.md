@@ -20,7 +20,7 @@ On the menu, click in print form
 
 ![](../.gitbook/assets/print-form-2.jpg)
 
-The print dialog will open. ****&#x20;
+The print dialog will open.&#x20;
 
 {% hint style="info" %}
 We recommend saving the form as a PDF first and tweak the pagination using something like [**Acrobat Pro**](https://acrobat.adobe.com/us/en/acrobat/acrobat-pro.html). Since each project is different, sometimes page breaks are not where you would like them to be, therefore the need to edit the PDF before printing or distributing.

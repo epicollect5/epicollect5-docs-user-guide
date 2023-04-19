@@ -1,28 +1,39 @@
 # Add Projects
 
-|                                            |                                                                                                                                                                                                                    |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/projects-empty.png) | <p>To add a project, click on the '+ Add Project' button from the top right corner of the 'Projects' page. <br> <em>NOTE: you must have an internet connection to be able to search for and add projects.</em></p> |
+To add a project, tap the **+ ADD PROJECT** button at the top right corner of the **PROJECTS** page.&#x20;
 
-|                                         |                                                                                                          |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/add-project.png) | You will be presented with the 'Add Project' page, where you can search for the project you want to add. |
+{% hint style="info" %}
+&#x20;An internet connection is required to be able to search and add projects.
+{% endhint %}
 
-|                                                |                                                                                                                                                                |
-| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/add-project-search.png) | <p>The search will begin once you enter 3 or more characters and you will be presented with a list of matches.<br>Click on the project name to download it</p> |
+<figure><img src="../.gitbook/assets/20230412_185446860_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                                 |                                                                                                                                                        |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/login-screen-google-private-project.png) | If the project is private, you will be prompted to login._NOTE: you must also have permission from the project manager to download a private project._ |
+You will be presented with the **ADD PROJECT** page, where you can search for a project by typing its name.
 
-|                                                          |                                                                                                                                |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/add-project-search-logged-in.png) | Once successfully authenticated, you can then click on the project you wish to add and the project will be downloaded for you. |
+<figure><img src="../.gitbook/assets/20230412_185446397_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                 |                                                                   |
-| ----------------------------------------------- | ----------------------------------------------------------------- |
-| ![](<../.gitbook/assets/projects-page (1).png>) | The project will then be added to your 'Projects' list home page. |
+The search will begin once you enter 3 or more characters.
+
+You will be presented with a list of matches.
+
+Tap the desired project to download it.
+
+<figure><img src="../.gitbook/assets/20230412_185447733_1 (1).png" alt=""><figcaption></figcaption></figure>
+
+If the project is private, you will be prompted to log in.
+
+{% hint style="warning" %}
+**You must be a member of a private project to download it.**
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/20230412_185447259_1.png" alt=""><figcaption></figcaption></figure>
+
+Once successfully authenticated, just tap the project you wish to add and it will be downloaded to the device.
+
+<figure><img src="../.gitbook/assets/20230412_185447733_1.png" alt=""><figcaption></figcaption></figure>
+
+The project will be added to your **PROJECTS** home page.
+
+<figure><img src="../.gitbook/assets/20230412_185448096_1.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=lwmpSxGpCo8&ab_channel=KarenJoyce" %}
-

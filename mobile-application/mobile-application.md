@@ -4,15 +4,19 @@ description: Epicollect5 mobile app is available for Android and iOS.
 
 # Platforms and Media
 
+{% hint style="success" %}
+Try our new app for [Android](https://appdistribution.firebase.dev/i/8abab31013254ea2) & [iOS](https://testflight.apple.com/join/XbAmIp12). Thank you in advance 😎 💻
+{% endhint %}
+
 ### Android
 
-We support phones and tablets on Android 5 onwards.
+We support phones and tablets on Android 5.1 onwards.
 
 [Download it from the Play Store.](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five\&hl=en\_GB)
 
 ### iOS
 
-We support iPhones and iPads with iOS8+.
+We support iPhones and iPads with iOS 13+.
 
 [Download it from the App Store.](https://itunes.apple.com/us/app/epicollect5/id1183858199?mt=8)
 

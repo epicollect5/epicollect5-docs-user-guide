@@ -7,7 +7,7 @@ description: The SEARCH question type behaves like an autocomplete search bar.
 When using the SEARCH question type, the users filling in the form will get a list of matching possible answers as soon as they start typing.&#x20;
 
 {% hint style="success" %}
-Try our [**EC5 SEARCH QUESTION TYPE**](https://five.epicollect.net/project/ec5-search-question-type) **** project to see the SEARCH questions in action!
+Try our [**EC5 SEARCH QUESTION TYPE**](https://five.epicollect.net/project/ec5-search-question-type) project to see the SEARCH questions in action!
 {% endhint %}
 
 It is possible to accept a single answer only (like RADIO and DROPDOWN) or multiple answers (like CHECKBOX).

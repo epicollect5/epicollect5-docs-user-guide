@@ -38,4 +38,4 @@ When the users answer this question they will have to enter the email address tw
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 |                                                                                |                                                                                |
 
-Have a look at the example project [**EC5 Double Entry Example.**](https://five.epicollect.net/project/ec5-double-entry-example)****
+Have a look at the example project [**EC5 Double Entry Example.**](https://five.epicollect.net/project/ec5-double-entry-example)

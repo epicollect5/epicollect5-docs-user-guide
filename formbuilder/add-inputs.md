@@ -49,7 +49,7 @@ If the question is of type README_,_ you can only specify some text to be shown,
 {% endhint %}
 
 {% hint style="info" %}
-If the question is of type RADIO_,_ DROPDOWN_,_ or __ CHECKBOX, you can list all the possible answers here as well. Just click on "Add Answer" and modify the placeholder text with anything you want. You **MUST** have at least one possible answer set.
+If the question is of type RADIO_,_ DROPDOWN_,_ or CHECKBOX, you can list all the possible answers here as well. Just click on "Add Answer" and modify the placeholder text with anything you want. You **MUST** have at least one possible answer set.
 {% endhint %}
 
 {% hint style="info" %}
@@ -77,7 +77,7 @@ You are probably familiar with wildcard notations such as `*.txt` to find all te
 
 ### Uniqueness
 
-**Make answer unique (form OR hierarchy):** the answer must be unique. You can select if you like to have it unique for any entries belonging to a form or just for the children of a particular entry (hierarchy). More on **** [**uniqueness.**](uniqueness.md)****
+**Make answer unique (form OR hierarchy):** the answer must be unique. You can select if you like to have it unique for any entries belonging to a form or just for the children of a particular entry (hierarchy). More on [**uniqueness.**](uniqueness.md)
 
 ### **Date & Time**
 

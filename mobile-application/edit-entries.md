@@ -1,35 +1,26 @@
 # Edit Entries
 
-|                                                      |                                                                                                       |
-| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| ![](<../.gitbook/assets/my-project-1-entry (1).png>) | To edit an entry, first select the entry you wish to edit, from the list of entries for your project. |
+To edit an entry, tap the entry you wish to edit, from the list of project entries.
 
-|                                               |                                                                                                                                                                  |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/view-entry-before.png) | You will be taken to the View Entry page and, from here, select a question you wish to edit the answer for, and you will be taken to this question in the entry. |
+<figure><img src="../.gitbook/assets/20230414_135727454_1.png" alt=""><figcaption></figcaption></figure>
 
-You can also delete an entry from this page. |
+On the View Entry page, tap the edit button of a question you wish to edit the answer for.
 
-|                                                |                                  |
-| ---------------------------------------------- | -------------------------------- |
-| ![](../.gitbook/assets/edit-answer-before.png) | Edit this answer as you see fit. |
+{% hint style="info" %}
+You can also delete the whole entry by tapping **DELETE.**
+{% endhint %}
 
-|                                               |                         |
-| --------------------------------------------- | ----------------------- |
-| ![](../.gitbook/assets/edit-answer-after.png) | Add surname for example |
+<figure><img src="../.gitbook/assets/20230414_135727037_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                  |                               |
-| ------------------------------------------------ | ----------------------------- |
-| ![](../.gitbook/assets/quit-save-edit-entry.png) | You can then quit and save... |
+Edit the existing answer, for example adding a family name
 
-|                                                      |                                                                                                                                                         |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/edit-entry-next-question.png) | ...or continue through the entry to edit the answers for other questions (scrolling forwards or backwards, as when adding an entry for the first time). |
+<figure><img src="../.gitbook/assets/20230414_135728261_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                             |                                 |
-| ------------------------------------------- | ------------------------------- |
-| ![](../.gitbook/assets/save-edit-entry.png) | Saving at the end of the entry. |
+It is possible to quit and save at any time, or to reach the end of the form and then save.
 
-|                                              |                                                            |
-| -------------------------------------------- | ---------------------------------------------------------- |
-| ![](../.gitbook/assets/view-entry-after.png) | Once saved, you will be taken back to the View Entry page. |
+<figure><img src="../.gitbook/assets/20230414_135727860_1.png" alt=""><figcaption></figcaption></figure>
+
+Once saved, you will be taken back to the View Entry page.\
+Please note the warning about the entry now unsynced, since the changes were applied only locally.
+
+<figure><img src="../.gitbook/assets/20230414_135729508_1.png" alt=""><figcaption></figcaption></figure>

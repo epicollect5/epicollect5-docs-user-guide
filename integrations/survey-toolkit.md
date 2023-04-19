@@ -15,4 +15,3 @@ We love that it’s been field-proven for a year or more, and we’d recommend t
 
 **Learn more at https://enaccess.org/surveytoolkit**
 
-****

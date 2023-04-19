@@ -52,11 +52,11 @@ It is also possible to export a project definition only (no users attached) so i
 
 To compare data from multiple projects which share a similar structure, the  [**Epicollect5 mapping feature**](../web-application/mapping-data.md) comes in handy. Answers are mapped against unique identifiers no matter what the question text is, therefore it is just a matter of using the same identifiers for answers that need to be compared or merged.
 
-For example, we created a project called **** [**EC5 Comparison Master**](https://five.epicollect.net/project/ec5-comparison-master) with a custom mapping called "Common", see below
+For example, we created a project called [**EC5 Comparison Master**](https://five.epicollect.net/project/ec5-comparison-master) with a custom mapping called "Common", see below
 
 ![](../.gitbook/assets/comparison-1.png)
 
-We cloned the project as [**EC5 Comparison Copy**](https://five.epicollect.net/project/ec5-comparison-copy) **** and we decided to translate its questions to Italian for the Italian users. It is a very common use case to localize the language of the questions to the main language used in the area where the data collection will be performed. Therefore we renamed _**Name**_ to _**Nome**_ and _**Age**_ to _**Eta**_'. We have not changed the "Common" mapping which is still the same as before.
+We cloned the project as [**EC5 Comparison Copy**](https://five.epicollect.net/project/ec5-comparison-copy) and we decided to translate its questions to Italian for the Italian users. It is a very common use case to localize the language of the questions to the main language used in the area where the data collection will be performed. Therefore we renamed _**Name**_ to _**Nome**_ and _**Age**_ to _**Eta**_'. We have not changed the "Common" mapping which is still the same as before.
 
 ![](../.gitbook/assets/comparison-2.png)
 
@@ -68,6 +68,6 @@ When downloading the entries for both projects (selecting the "Common" mapping) 
 
 As you can see above,  the question answers are mapped to the same identifiers `name` and `age`, making a comparison of the two data sets extremely easy to do!
 
-[**Read more about cloning a project**](../web-application/clone-project.md)****
+[**Read more about cloning a project**](../web-application/clone-project.md)
 
-****[**Read more about mapping data**](../web-application/mapping-data.md)****
+[**Read more about mapping data**](../web-application/mapping-data.md)

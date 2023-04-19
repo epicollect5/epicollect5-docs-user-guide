@@ -23,7 +23,7 @@ The form builder features a three columns layout:
 By default, each input is shown on a single screen on the mobile app. This allows space for the popup keyboard and the question at the same time. You might want to have more than one question on a page, in that case just use a [**group**](groups.md).
 
 {% hint style="warning" %}
-Remember, **you cannot set jumps on inputs within a group**, just on the group input. [**More on jumps.**](jumps.md)****
+Remember, **you cannot set jumps on inputs within a group**, just on the group input. [**More on jumps.**](jumps.md)
 {% endhint %}
 
 ### Video Tutorials

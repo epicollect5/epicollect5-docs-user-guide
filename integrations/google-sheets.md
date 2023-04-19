@@ -46,14 +46,14 @@ Another option is to load the first 1000 entries and the headers on the first ce
 
 ![Loading entries in the same sheet](../.gitbook/assets/gs-2.jpg)
 
-The spreadsheet in the example can be viewed at [**https://docs.google.com/spreadsheets/d/1XibVZ5RXxT9ZfrDUx403I0ZTS0MHe1h26tlFP0dM-bU/edit?usp=sharing**](https://docs.google.com/spreadsheets/d/1XibVZ5RXxT9ZfrDUx403I0ZTS0MHe1h26tlFP0dM-bU/edit?usp=sharing)****
+The spreadsheet in the example can be viewed at [**https://docs.google.com/spreadsheets/d/1XibVZ5RXxT9ZfrDUx403I0ZTS0MHe1h26tlFP0dM-bU/edit?usp=sharing**](https://docs.google.com/spreadsheets/d/1XibVZ5RXxT9ZfrDUx403I0ZTS0MHe1h26tlFP0dM-bU/edit?usp=sharing)
 
-Full API guide at [**https://developers.epicollect.net**](https://developers.epicollect.net/)****
+Full API guide at [**https://developers.epicollect.net**](https://developers.epicollect.net/)
 
 {% hint style="danger" %}
-_**`Resource at URL content exceeded maximum size`**_** **&#x20;
+_**`Resource at URL content exceeded maximum size`**_&#x20;
 
-This **** error on Google Sheets means the dataset you are trying to import is too big in size.
+This error on Google Sheets means the dataset you are trying to import is too big in size.
 
 Try to lower the number of entries on each`importdata()` call.
 {% endhint %}

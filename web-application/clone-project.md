@@ -23,5 +23,5 @@ There is also the option to clone all the users of the original project.
 {% hint style="info" %}
 Please be aware cloned projects are always assigned to the original CREATOR(s) of a project.&#x20;
 
-If you would like to use someone else's project as a template please have a look at [**how to export and import projects.**](import-and-export-projects.md)****
+If you would like to use someone else's project as a template please have a look at [**how to export and import projects.**](import-and-export-projects.md)
 {% endhint %}
