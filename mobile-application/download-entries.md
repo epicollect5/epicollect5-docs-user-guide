@@ -20,61 +20,67 @@ The web application is responsive and it will work on a mobile device or a table
 
 ## Add child entries to downloaded entries
 
-|                                                |                                                                                                                                                                                       |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-1.png) | Let's use out [EC5 Hierarchy project ](https://five.epicollect.net/project/ec5-hierarchy-project)to show how everything works. Load that project and select it from the project list. |
+Let's use our [EC5 Hierarchy project ](https://five.epicollect.net/project/ec5-hierarchy-project)to show how everything works. Load that project and select it from the project list.
 
-|                                                |                                                                        |
-| ---------------------------------------------- | ---------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-2.png) | On the entries list page, open the menu and tap on "Download Entries". |
+<figure><img src="../.gitbook/assets/20230502_105140004_1 (1).png" alt=""><figcaption></figcaption></figure>
 
-|                                                |                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/download-entries-3.png) | On the next screen you see the list of your form buttons, from top to bottom following your hierarchy structure ([More on linking forms](../formbuilder/multiple-forms.md)). Only the form at the top is enabled, as you need to download entries following the project hierarchy structure, in this case it is CLASS > PUPIL >TEST. Tap the "CLASS" button to download **ALL** the class entries from the server. |
-|                                                |                                                                                                                                                                                                                                                                                                                                                                                                                    |
+On the entries page, open the menu and tap "**Download Entries".**
 
-|                                                |                                                                                                                                                                                                        |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/download-entries-4.png) | You will be prompt to confirm the download. This is to remove any remote entries you already have on the device, as you always get the latest entries snapshot from the server. Press "OK" to proceed. |
+<figure><img src="../.gitbook/assets/20230502_105141089_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                 |                                                                                                                                           |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-12.png) | After all the CLASS entries are downloaded, the PUPIL button is then enabled. Press PUPIL to download all the entries for the PUPIL form. |
+On the next screen, you see the list of your form buttons, from top to bottom following your hierarchy structure ([More on linking forms](../formbuilder/multiple-forms.md)). Only the form at the top is enabled, as you need to download entries following the project hierarchy structure, in this case, it is CLASS > PUPIL >TEST. Tap the "**CLASS**" button to download **ALL** the class entries from the server.
 
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](../.gitbook/assets/download-entries-5.png) | Now press TEST to download all the TEST entries. |
+<figure><img src="../.gitbook/assets/20230502_105140525_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                |                                                                                                                                    |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-7.png) | When all the entries for all the forms are downloaded, the forms buttons are all disabled and you can go back to the entries list. |
+You will be prompted to confirm the download. This is to remove any remote entries you already have on the device, as you always get the latest entries snapshot from the server. Press "**OK**" to proceed.
 
-|                                                |                                                                                                                                                                                                                                                                                               |
-| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-6.png) | Your remote entries are now all listed, with a desktop icon next to each of them to indicate they are "remote" i.e. not directly editable. Now you can add child entries or branches to existing entries (See [Add an entry](add-an-entry.md) and [Add a child entry](add-child-entries.md)). |
+<figure><img src="../.gitbook/assets/20230502_105142246_1.png" alt=""><figcaption></figcaption></figure>
+
+After all the CLASS entries are downloaded, the PUPIL button is then enabled.&#x20;
+
+Tap PUPIL to download all the entries for the PUPIL form.
+
+<figure><img src="../.gitbook/assets/20230502_105141730_1.png" alt=""><figcaption></figcaption></figure>
+
+Finally, tap TEST to download all the TEST entries.
+
+<figure><img src="../.gitbook/assets/20230502_125137227_1.png" alt=""><figcaption></figcaption></figure>
+
+When all the entries for all the forms are downloaded, the forms buttons are all disabled and you can go back to the entries list.
+
+<figure><img src="../.gitbook/assets/20230502_105142751_1.png" alt=""><figcaption></figcaption></figure>
+
+The remote entries are now all listed, with a desktop icon next to each of them to indicate they are "**remote**" i.e. **not directly editable**. Now you can add child entries or branches to existing entries (See [Add an entry](add-an-entry.md) and [Add a child entry](add-child-entries.md)).
+
+<figure><img src="../.gitbook/assets/20230502_105143762_1.png" alt=""><figcaption></figcaption></figure>
 
 ## Add branch entries to downloaded entries
 
-|                                                |                                                                                                                                                                                |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/download-entries-8.png) | Let's download soome entries and add brach entries to them. For this example we will use the [EC5 Branches Project.](https://five.epicollect.net/project/ec5-branches-project) |
+Let's download some entries and add brach entries to them. For this example, we will use the [EC5 Branches Project.](https://five.epicollect.net/project/ec5-branches-project)
 
-|                                                 |                                                            |
-| ----------------------------------------------- | ---------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-10.png) | Select one of the entries downloaded, in this case "Mirko" |
+<figure><img src="../.gitbook/assets/20230502_105143256_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                 |                                                                                                                                                       |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-13.png) | As you can see the edit buttons are disable, but next to the branc question the view button is enabled. Press it once to go to the add branch screen. |
+Select one of the entries downloaded, in this case "Mirko"
 
-|                                                 |                                                   |
-| ----------------------------------------------- | ------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-11.png) | Click the add branch button to add a branch entry |
+<figure><img src="../.gitbook/assets/20230502_105144845_1.png" alt=""><figcaption></figcaption></figure>
 
-|                                                 |                                                                                                                                                            |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/download-entries-14.png) | After you add a branch entry, you need to SAVE it before you can upload it. Obviously you might add more branch entries and then save all of them at once. |
+As you can see there are not edit buttons, but next to the branch question the view button is enabled. Tap it once to go to the add branch screen.
 
-|                                                 |                                                                                                              |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/download-entries-15.png) | After you save the branch entry, you can upload it. You can also notice the total of branch entries changed. |
+<figure><img src="../.gitbook/assets/20230502_105144321_1.png" alt=""><figcaption></figcaption></figure>
+
+Tap the add branch button to add a branch entry.
+
+<figure><img src="../.gitbook/assets/20230502_105214966_1.png" alt=""><figcaption></figcaption></figure>
+
+After you add a branch entry, you need to SAVE it before you can upload it. Obviously, you might add more branch entries and then save all of them at once.
+
+<figure><img src="../.gitbook/assets/20230502_105214484_1.png" alt=""><figcaption></figcaption></figure>
+
+
+
+After you save the branch entry, you can upload it. &#x20;
+
+Notice the total of branch entries changed to "1 Entry"
+
+<figure><img src="../.gitbook/assets/20230502_105215471_1.png" alt=""><figcaption></figcaption></figure>
+
