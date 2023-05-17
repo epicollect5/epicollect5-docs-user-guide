@@ -6,7 +6,11 @@ To add a project, tap the **+ ADD PROJECT** button at the top right corner of th
 &#x20;An internet connection is required to be able to search and add projects.
 {% endhint %}
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/20230412_185446860_1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 You will be presented with the **ADD PROJECT** page, where you can search for a project by typing its name.
 
