@@ -71,7 +71,7 @@
 * [Delete Projects](mobile-application/delete-project-mobile-app.md)
 * [Add Bookmarks](mobile-application/add-bookmarks.md)
 * [Project Info](mobile-application/project-info.md)
-* [Share Photos](mobile-application/export-photos.md)
+* [Share Media Files](mobile-application/export-photos.md)
 * [Adjust Font Size](mobile-application/adjust-font-size.md)
 * [Filter Entries](mobile-application/filter-entries.md)
 * [Beta updates (Android)](mobile-application/beta-program.md)
