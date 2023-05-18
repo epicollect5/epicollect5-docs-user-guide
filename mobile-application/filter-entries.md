@@ -1,35 +1,20 @@
 # Filter Entries
 
-{% hint style="warning" %}
-Currently Android only, from app version 3.0.0 onwards.
-{% endhint %}
+Entries saved to the device can be filtered: it is possible to search by title or filter by date or status.
 
-Entries can be filtered on the mobile app.
+On the entries list page, tap the filter icon to open the filter panel.
 
-&#x20;The filter controls are disabled by default as they might clutter the interface on small devices or they might not be needed when collecting data.
+<figure><img src="../.gitbook/assets/iMarkup_20230518_093418.jpg" alt=""><figcaption></figcaption></figure>
 
-### Enable filters
+<figure><img src="../.gitbook/assets/20230517_164744178_1 (1).png" alt=""><figcaption></figcaption></figure>
 
-You can enable the filters from the settings page:
+The **SHOW (N) ENTRIES** button at the top will update based on the parameters specified. For example, tapping **INCOMPLETE** will show only incomplete entries.
 
-![Filters are disabled](../.gitbook/assets/filter-entries-mobile-1.jpg)
+<figure><img src="../.gitbook/assets/20230517_164742654_1.png" alt=""><figcaption></figcaption></figure>
 
-![Filters are enabled](../.gitbook/assets/filter-entries-mobile-2.jpg)
 
-![Filters are shown on entries list](../.gitbook/assets/filter-entries-mobile-3.jpg)
 
-### Filter by dates
+<figure><img src="../.gitbook/assets/20230517_164743350_1.png" alt=""><figcaption></figcaption></figure>
 
-![Tap start date OR end date button](../.gitbook/assets/filter-entries-mobile-4.jpg)
 
-![Pick a day on the date picker](../.gitbook/assets/filter-entries-mobile-5.jpg)
 
-### Filter by entries status
-
-![Tap the status button](../.gitbook/assets/filter-entries-mobile-6.jpg)
-
-![Pick a status from the list of statuses](../.gitbook/assets/filter-entries-mobile-7.jpg)
-
-### Filter by title
-
-![Type the word you are looking for](../.gitbook/assets/filter-entries-mobile-8.jpg)
