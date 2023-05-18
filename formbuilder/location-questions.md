@@ -6,12 +6,24 @@ description: Location of the user device can be acquired adding a LOCATION quest
 
 The user needs to tap on the "Update Location" button to get the location data stored (see below).
 
-![](../.gitbook/assets/location.png)
+<figure><img src="../.gitbook/assets/20230518_133417835_1.png" alt=""><figcaption></figcaption></figure>
 
 Basically tapping that button gives the app the consent to store the user's location.
 
+It is possible to enter the latitude and longitude values manually by tapping the edit icon.
+
+<figure><img src="../.gitbook/assets/20230518_133418201_1.png" alt=""><figcaption></figcaption></figure>
+
+The format must be `latitude, longitude`in decimal degrees format.
+
+This feature is useful when copying coordinates from third-party apps, like [**Organic Maps**](https://organicmaps.app/).
+
+<figure><img src="../.gitbook/assets/20230518_133418603_1.png" alt=""><figcaption></figcaption></figure>
+
+
+
 {% hint style="warning" %}
-It cannot be done automatically for the above reason (privacy issues).&#x20;
+Device location tracking cannot be done automatically for privacy reasons.
 
 If you ever used Facebook or Instagram, you might have noticed they use the same approach, as when adding a post the location needs to be added separately.
 {% endhint %}
@@ -24,7 +36,7 @@ Moreover, often getting a GPS lock is not possible for a number of reasons. If t
 
 ### Mobile app
 
-On the mobile app the interface will show:
+On the mobile app, the interface will show:
 
 | Data                   | Format                                                                                                                                                                               |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
