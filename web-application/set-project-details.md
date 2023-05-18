@@ -4,13 +4,15 @@ description: The Project details panel shows basic info about your project.
 
 # Edit Project Details
 
-After creating the project, you will be sent to the project details page. Here you can manage all the settings about your project
+After creating the project, you will be sent to the project details page. Here you can manage all the settings of your project.
 
-![](../.gitbook/assets/edit-project-details-full.png)
+<figure><img src="../.gitbook/assets/screely-1684412197010.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Project Logo and Description
 
-Clicking the edit button (pen icon) will show the panel below, giving you the chance to edit the small description, write a full one and, also upload a logo for your project.
+Clicking the edit button (pen icon) will show the panel below, giving you the chance to edit the small description, write a full one, also upload a logo for your project.
 
 If you make any changes, confirm them by clicking "update", otherwise close the edit panel with the X button.
 
@@ -52,7 +54,7 @@ On the mobile app, all projects are shown when searching (otherwise it would be 
 
 ### Project Category
 
-A label attached to projects to group them into categories.&#x20;
+A label is attached to projects to group them into categories.&#x20;
 
 "**GENERAL**" is the default one. You can choose from:
 
@@ -68,6 +70,6 @@ A label attached to projects to group them into categories.&#x20;
 
 ### My Projects Page
 
-To access the project details page, click on "**My Projects**" then the "**Details**" button for the project you wish to edit.&#x20;
+To access the project details page, click on "**My Projects**" and then the "**Details**" button for the project you wish to edit.&#x20;
 
-![](../.gitbook/assets/edit-project-1.png)
+<figure><img src="../.gitbook/assets/screely-1684412301936.png" alt=""><figcaption></figcaption></figure>
