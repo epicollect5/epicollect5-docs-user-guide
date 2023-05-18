@@ -60,6 +60,7 @@
 * [Add Entries (Single Form)](mobile-application/add-an-entry.md)
 * [Add Entries (Multiple Forms)](mobile-application/add-child-entries.md)
 * [Edit Entries](mobile-application/edit-entries.md)
+* [Re-use answers](mobile-application/re-use-answers.md)
 * [Save & Resume Entries](mobile-application/saveresume-entry.md)
 * [Upload Entries](mobile-application/upload-entries/README.md)
   * [Upload Errors](mobile-application/upload-entries/upload-errors.md)
