@@ -10,17 +10,19 @@ From the project home page click on "View Data".
 
 Data are visualized as a table or a map:
 
-![](<../.gitbook/assets/Screen Shot 2019-03-25 at 12.01.41.png>)
+<figure><img src="../.gitbook/assets/screely-1684412726388.png" alt=""><figcaption></figcaption></figure>
 
 ## Viewing entries with media files
 
 {% hint style="warning" %}
-For **PHOTO** questions, if there is a placeholder thumbnail that looks like the Epicollect5 logo in black and white colors, it means **PHOTO** files were not synced.&#x20;
+For **PHOTO** questions, if there is a placeholder thumbnail that looks like the Epicollect5 logo in black and white colours, it means **PHOTO** files were not synced.&#x20;
 
 Syncing data is a two steps process, please read [**how to upload entries.**](../mobile-application/upload-entries/)
 {% endhint %}
 
-![Photo syncing in Epicollect5](../.gitbook/assets/view-data-11.jpg)
+<figure><img src="../.gitbook/assets/screely-1684412867395.png" alt=""><figcaption></figcaption></figure>
+
+
 
 Audio and Video questions will show a button to play the media, but if the media file is not synced, an error message will be displayed when trying to play the file.
 
@@ -36,7 +38,7 @@ If there are any locations for the selected form, view them on a map:
 
 ![](../.gitbook/assets/view-data-3.jpg)
 
-You can change map style according to your needs:
+You can change the map style according to your needs:
 
 * Carto
 * Contrast
@@ -50,11 +52,11 @@ Open the left panel to get some view options:
 
 ![](../.gitbook/assets/view-data-4.jpg)
 
-You can filter your data set by dates, select a different location **question** to view, and select a multiple choice question (like dropdown, radio. or checkbox) to trigger the pie chart distribution clusters.
+You can filter your data set by dates, select a different location **question** to view, and select a multiple-choice question (like dropdown, radio. or checkbox) to trigger the pie chart distribution clusters.
 
 ![](../.gitbook/assets/view-data-6.jpg)
 
-For example, let's see the distribution for the question "_What is your favorite color?_" of the **EC5 Demo Project.**
+For example, let's see the distribution for the question "_What is your favourite colour?_" of the **EC5 Demo Project.**
 
 ![](../.gitbook/assets/view-data-7.jpg)
 
