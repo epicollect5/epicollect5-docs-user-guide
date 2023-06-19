@@ -50,6 +50,6 @@ Daily backups of the server are run in case of a system fault.
 
 #### Contact us
 
-If you have any additional questions don't hesitate to get in touch with us through the [Epicollect5 Community](https://community.epicollect.net/)
+If you have any additional questions do not hesitate to get in touch with us through the [Epicollect5 Community](https://community.epicollect.net/).
 
 \
