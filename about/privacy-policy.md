@@ -26,7 +26,7 @@ The mobile application is verified by [**Exodus Privacy Project**](https://repor
 
 Project managers retain ownership of the data. We will never share or access your data unless granted permission by you, to provide you with technical assistance.
 
-Technically speaking, each user owns all of the content added to Epicollect5; therefore, they could copyright it. However, by uploading data to Epicollect5 a user gives explicit access to that material to whoever has got access to that project.
+Technically speaking, each user owns all of the content added to Epicollect5; therefore, they could copyright it. However, by uploading data to Epicollect5 a user gives direct access to that material to whoever has access to that project.
 
 #### Protecting Your Data
 
@@ -40,12 +40,16 @@ Digital Ocean services fully comply with GDPR:
 
 [**https://www.digitalocean.com/legal/gdpr**](https://www.digitalocean.com/legal/gdpr/)
 
-Epicollect5 embraces industry-standard best practices to protect against un-authorized access of your data.
+Epicollect5 embraces industry-standard best practices to protect against unauthorised access to your data.
 
 Data are sent over [**HTTPS**](https://en.wikipedia.org/wiki/HTTPS) and its TLS certificate uses SHA-256 with RSA encryption as a signature algorithm.
 
-Epicollect5 mobile app data stored on the device is not encrypted by default but if that extra level of security is needed, any recent Android and iOS device can be encrypted system wide. [**Read how to do it**](https://gizmodo.com/why-you-should-be-encrypting-your-devices-and-how-to-ea-1798698901).
+Epicollect5 mobile app data stored on the device is not encrypted by default but if that extra level of security is needed, any recent Android and iOS device can be encrypted system-wide. [**Read how to do it**](https://gizmodo.com/why-you-should-be-encrypting-your-devices-and-how-to-ea-1798698901).
 
 Daily backups of the server are run in case of a system fault.
 
-If you have any questions regarding our security and backup procedures please contact us.
+#### Contact us
+
+If you have any additional questions don't hesitate to get in touch with us through the [Epicollect5 Community](https://community.epicollect.net/)
+
+\
