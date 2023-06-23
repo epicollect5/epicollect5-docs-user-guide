@@ -1,6 +1,6 @@
 # Privacy Policy
 
-This statement explains how the Centre for Genomic Pathogen Surveillance (“CGPS”) and the commercial arm Digital Epidemiology Services LTD (“DES”) use the personal information we collect from you when you visit the Epicollect5 website.
+This statement explains how the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) (**CGPS**) and the commercial arm **Digital Epidemiology Services LTD** (**DES**) use the personal information we collect from you when you visit the Epicollect5 website.
 
 By visiting the Epicollect5 website you are consenting to our use of your information in this way.
 
