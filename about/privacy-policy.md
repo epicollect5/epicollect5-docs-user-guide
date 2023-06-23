@@ -1,10 +1,10 @@
----
-description: >-
-  We take privacy and security very seriously. Epicollect5 stores user data
-  according to the following Privacy Policy.
----
-
 # Privacy Policy
+
+This statement explains how the Centre for Genomic Pathogen Surveillance (“CGPS”) and the commercial arm Digital Epidemiology Services LTD (“DES”) use the personal information we collect from you when you visit the Epicollect5 website.
+
+By visiting the Epicollect5 website you are consenting to our use of your information in this way.
+
+We may make changes to this statement so please check from time to time for any updates.
 
 #### User Accounts
 
@@ -27,6 +27,21 @@ The mobile application is verified by [**Exodus Privacy Project**](https://repor
 Project managers retain ownership of the data. We will never share or access your data unless granted permission by you, to provide you with technical assistance.
 
 Technically speaking, each user owns all of the content added to Epicollect5; therefore, they could copyright it. However, by uploading data to Epicollect5 a user gives direct access to that material to whoever has access to that project.
+
+#### Personal Data and Your Responsibilities
+
+CGPS is based in the UK and operates under the UK General Data Protection Regulation (“UK GDPR”). You may be in a different legal jurisdiction so must ensure that you follow UK GDPR as well as your own local laws. For more information on UK GDPR please see [Information Commissioner's Office (ICO)](https://ico.org.uk/).
+
+When you use Epicollect5, CGPS is the Data Processor and you are the Data Controller, as you have control over the data you collect and CGPS only acts on your instructions.
+
+\
+**Publication of Data**
+
+If you make a project public, ALL project data you have collected will be visible to anyone on the internet. Please ensure that you are not breaking any Data Protections laws that may apply. CGPS cannot be held responsible for data published by users.
+
+#### Reasonable Use and Data Retention
+
+The service is provided at no cost to you, however, we incur costs for managing and processing the data. We reserve the right to delete excessively large or dormant data sets after a period of time, however, we will attempt to contact you by email before doing so.
 
 #### Protecting Your Data
 
