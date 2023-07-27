@@ -4,7 +4,7 @@ description: Free and easy-to-use mobile data-gathering platform.
 
 # What is Epicollect5
 
-[**Epicollect5**](https://five.epicollect.net/) is a mobile & web application for free and easy data collection.
+[**Epicollect5**](https://five.epicollect.net/) is a mobile & web application for free and easy data collection developed by the [**CGPS Team**](https://www.pathogensurveillance.net/our-software/)**.**
 
 {% hint style="success" %}
 Try our new app for [Android](https://appdistribution.firebase.dev/i/8abab31013254ea2) & [iOS](https://testflight.apple.com/join/XbAmIp12). Thank you in advance 😎 💻
