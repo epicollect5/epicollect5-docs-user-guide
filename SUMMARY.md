@@ -23,7 +23,7 @@
 * [Manage Users](web-application/manage-users.md)
 * [Transfer Ownership](web-application/transfer-ownership.md)
 * [Manage Entries](web-application/manage-entries.md)
-* [Mapping Data](web-application/mapping-data.md)
+* [Data Mapping](web-application/mapping-data.md)
 * [Downloading Data](web-application/downloading-data.md)
 * [Metadata](web-application/metadata.md)
 * [Clone Project](web-application/clone-project.md)

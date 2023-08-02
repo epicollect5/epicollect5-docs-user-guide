@@ -1,8 +1,8 @@
-# Mapping Data
+# Data Mapping
 
-Mapping data is an exclusive Epicollect5 feature where you can assign a **short identifier** to each question or to each possible answer. You will have access to this functionality if your role is either **CREATOR** or **MANAGER**.
+Data Mapping is an exclusive Epicollect5 feature where you can assign a **short identifier** to each question or to each possible answer. You will have access to this functionality if your role is either **CREATOR** or **MANAGER**.
 
-This is particularly useful when you want to download your data in CSV format and you need the column name to match an existing identifier, or some possible answer to be mapped against a number or a code. It is also possible to exclude (**hide**) some questions.
+This is particularly useful when you want to download your data in CSV format and you need the column name to match an existing identifier or some possible answer to be mapped against a number or a code. It is also possible to exclude (**hide**) some questions.
 
 For example, a question like _"What is your name"_ can be mapped against just _"name"_
 
