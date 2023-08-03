@@ -313,3 +313,35 @@ Here's a step-by-step guide with more details:
 13. Click "Close & Apply" to load the merged data into your Power BI report.
 
 Now, the merged data will be available in your Power BI report, and you can use it to create visualizations and build your dashboards. Power Query will handle the data merge based on the common identifier column you specified, and you won't need to write any code or formulas manually.
+
+### Using Apple Numbers
+
+In Apple Numbers, you can merge CSV files by importing them into separate sheets and then using the VLOOKUP function to combine the data based on a common identifier. Here's a step-by-step guide:
+
+1. Open Numbers and create a new blank spreadsheet.
+2. Click on the "Table" button in the top toolbar and select "Import CSV" from the drop-down menu.
+3. Choose the first CSV file (file1.csv) to import. The CSV data will be loaded into a new sheet (e.g., Sheet1).
+4. Repeat step 2 and import the second CSV file (file2.csv) into another new sheet (e.g., Sheet2).
+5. Now you have the data from both CSV files imported into separate sheets in the same Numbers document.
+6. In a new sheet (e.g., Sheet3), where you want to merge the data, use the VLOOKUP function to retrieve the data from the second sheet based on the common identifier.
+
+Assuming the common identifier column is named "identifier" in both Sheet1 and Sheet2, and you want to merge data from Sheet1 and Sheet2 into Sheet3:
+
+In cell B2 of Sheet3, use the following formula and drag it down to apply it to the rest of the rows:
+
+```excel
+=VLOOKUP(A2, Sheet2::A2:B100, 2, FALSE)
+```
+
+Explanation:
+
+* `VLOOKUP`: Looks up the identifier in cell A2 (the common identifier in Sheet1) and retrieves the corresponding value from the range A2:B100 in Sheet2 (the merged data).
+* `Sheet2::A2:B100`: The double colon (::) indicates that we are using a range from Sheet2.
+* `2`: We want to retrieve the second column's value from the matched row in Sheet2 (column B).
+* `FALSE`: We use an exact match for VLOOKUP.
+
+This formula will merge data from the second column of Sheet2 into Sheet3 based on the matching identifiers in column A of Sheet1.
+
+Remember to adjust the formula, sheet names, and cell ranges if your data is in different columns or sheets.
+
+After applying the formula, Sheet3 will contain the merged data. You can customize the sheet further, create visualizations, and perform additional data analysis as needed in Apple Numbers.
