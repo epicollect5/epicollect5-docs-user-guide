@@ -280,3 +280,36 @@ Drag the formula down to apply it to the rest of the rows in column C. This will
 The formula will return an empty string (""), represented as a blank cell, if there is no match found in Sheet2 for a particular identifier from Sheet1. The `IFERROR` function is used to handle such cases and avoid showing error values.
 
 Please make sure to adjust the ranges (`$B$2:$B$100`, `$A$2:$A$100`, etc.) in the formula based on the actual range of data in your sheets. Also, ensure that the two sheets contain the common identifier column (named "identifier" in this example) and the data you want to merge.
+
+### Power BI
+
+In Power BI, you can merge CSV files based on a common identifier using Power Query, which is the data transformation engine in Power BI. Here's how you can do it:
+
+1. Open Power BI Desktop and create a new report.
+2. Go to the "Home" tab in the Power Query Editor.
+3. Click on "Combine Queries" and then select "Merge."
+4. In the "Merge" dialogue box, choose the first CSV file as the primary table and the second CSV file as the related table.
+5. Select the common identifier column in both tables as the key column.
+6. Choose the type of join you want (e.g., inner join, left outer join, etc.).
+7. Click "OK" to perform the merge.
+8. The merged data will be displayed in the Power Query Editor.
+9. Optionally, you can perform any additional data transformations or cleanups as needed.
+10. Click "Close & Apply" to load the merged data into your Power BI report.
+
+Here's a step-by-step guide with more details:
+
+1. In Power BI Desktop, click on "Home" in the ribbon and then select "Get Data."
+2. Choose "Text/CSV" as the data source and select the first CSV file (file1.csv).
+3. Follow the prompts to import the data, and it will be loaded into Power Query Editor.
+4. Click on "Home" in the Power Query Editor to return to the main Power Query Editor view.
+5. Click on "Combine Queries" in the Home tab and select "Merge."
+6. In the "Merge" dialogue box, select the first table (usually the one imported from file1.csv) as the primary table.
+7. Choose the second table (imported from file2.csv) as the related table.
+8. Select the common identifier column in both tables as the key column.
+9. Choose the type of join you want (e.g., inner join, left outer join, etc.).
+10. Click "OK" to perform the merge.
+11. The merged data will be displayed in the Power Query Editor.
+12. Optionally, perform any additional data transformations or cleanups as needed.
+13. Click "Close & Apply" to load the merged data into your Power BI report.
+
+Now, the merged data will be available in your Power BI report, and you can use it to create visualizations and build your dashboards. Power Query will handle the data merge based on the common identifier column you specified, and you won't need to write any code or formulas manually.
