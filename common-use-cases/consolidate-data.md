@@ -128,3 +128,155 @@ Copying the formula down to the whole column, all class names are returned:
 ![](../.gitbook/assets/excel-vlooup-3.jpg)
 
 Another simple tutorial about Excel VLOOKUP [**here**](https://medium.com/import2/join-multiple-data-sheets-in-excel-using-vlookup-function-24e3a27d80cd).
+
+### Using Python
+
+To merge CSV files based on an identifier, you can use Python with libraries like pandas. Assuming you have two CSV files with a common identifier, you can follow these steps:
+
+1. Install pandas if you haven't already:
+
+```bash
+pip install pandas
+```
+
+2. Create a Python script or Jupyter Notebook and import the required libraries:
+
+```python
+import pandas as pd
+```
+
+3. Read the CSV files into pandas DataFrames:
+
+```python
+df1 = pd.read_csv('file1.csv')
+df2 = pd.read_csv('file2.csv')
+```
+
+4. Merge the DataFrames based on the common identifier column:
+
+```python
+merged_df = pd.merge(df1, df2, on='identifier')
+```
+
+Here, `identifier` should be replaced with the actual column name that serves as the common identifier in both CSV files.
+
+5. Optionally, you can specify the type of merge (inner, outer, left, or right) based on your requirements. The default is an inner join:
+
+```python
+# For an inner join (only rows with matching identifiers in both files)
+merged_df = pd.merge(df1, df2, on='identifier', how='inner')
+
+# For an outer join (all rows from both files, NaN for non-matching identifiers)
+merged_df = pd.merge(df1, df2, on='identifier', how='outer')
+
+# For a left join (all rows from the left file, NaN for non-matching identifiers in the right file)
+merged_df = pd.merge(df1, df2, on='identifier', how='left')
+
+# For a right join (all rows from the right file, NaN for non-matching identifiers in the left file)
+merged_df = pd.merge(df1, df2, on='identifier', how='right')
+```
+
+6. Save the merged DataFrame back to a CSV file if needed:
+
+```python
+merged_df.to_csv('merged_file.csv', index=False)
+```
+
+Remember to adjust the column names and file paths accordingly to match your data.
+
+By following these steps, you can merge two CSV files based on a common identifier using Python and pandas.
+
+### Using a bash script
+
+If you prefer to use a bash script to merge CSV files based on a common identifier, you can use `awk` to accomplish this task. Here's a simple bash script to do that:
+
+```bash
+#!/bin/bash
+
+# Define the filenames of the CSV files
+file1="file1.csv"
+file2="file2.csv"
+
+# Define the common identifier column (replace 'identifier' with the actual column name)
+identifier_column="identifier"
+
+# Merge the CSV files based on the common identifier using awk
+awk -F',' '
+    NR == FNR {
+        if (NR == 1) { header = $0; next }
+        data[$'$identifier_column'] = $0
+        next
+    }
+    {
+        if (FNR == 1) { print $0; next }
+        if ($'$identifier_column' in data) {
+            print data[$'$identifier_column'], $0
+        }
+    }
+' "$file1" "$file2" > merged_file.csv
+```
+
+Copy and paste the above code into a text editor and save it with a `.sh` extension, e.g., `merge_csv.sh`. Then, make the script executable using the following command:
+
+```bash
+chmod +x merge_csv.sh
+```
+
+Finally, run the script:
+
+```bash
+./merge_csv.sh
+```
+
+Please make sure that the CSV files (`file1.csv` and `file2.csv`) are in the same directory as the script or provide the correct file paths if they are located elsewhere. The merged data will be saved in `merged_file.csv` in the same directory as the script.
+
+Note that this script assumes that the first row in both CSV files contains the header, and it will use the column names in the first CSV file for the merged output. Additionally, the script performs an inner join, meaning it will only include rows with matching identifiers in both files. If you need a different type of join, you may need to modify the script accordingly.
+
+### Google Sheets alternative to VLOOKUP
+
+If you want to merge CSV files in Google Sheets without using `VLOOKUP`, you can achieve this using the `QUERY` function combined with `IMPORTRANGE`. The `QUERY` function allows you to perform SQL-like queries on your data, and `IMPORTRANGE` lets you import data from another sheet or another Google Sheets document.
+
+Here's how you can do it:
+
+1. Upload the CSV files to Google Drive and import them into separate sheets in your Google Sheets document, similar to the steps mentioned earlier.
+2. In your new sheet (Sheet3), use the following formula in cell A1:
+
+```excel
+=QUERY({IMPORTRANGE("URL_OF_YOUR_SHEET1", "Sheet1!A:B"), IMPORTRANGE("URL_OF_YOUR_SHEET2", "Sheet2!B:B")}, "SELECT Col1, Col2, Col4 WHERE Col1 IS NOT NULL")
+```
+
+Replace `"URL_OF_YOUR_SHEET1"` and `"URL_OF_YOUR_SHEET2"` with the URLs of the respective Google Sheets containing your data from Sheet1 and Sheet2. You can find the URL in your browser's address bar when you have the corresponding sheet open.
+
+Explanation:
+
+* `{}`: This constructs an array containing data from both Sheet1 and Sheet2.
+* `IMPORTRANGE`: This function imports data from the specified sheets. We are importing columns A:B from Sheet1 and column B from Sheet2.
+* `QUERY`: We use the `QUERY` function to perform a SQL-like query on the imported data.
+* `SELECT Col1, Col2, Col4`: This selects columns 1, 2, and 4 from the imported data. In this case, Col1 is the identifier column from Sheet1, Col2 is the second column from Sheet1, and Col4 is the data from the second column of Sheet2.
+* `WHERE Col1 IS NOT NULL`: This filters out any rows where the identifier in Sheet1 is empty.
+
+This formula will merge data from Sheet1 and Sheet2 into Sheet3 based on the matching identifiers in column A of Sheet1.
+
+After applying the formula, Sheet3 will contain the merged data. If you need to download the merged data as a CSV file, click on "File" > "Download" > "Comma-separated values (.csv)".
+
+### Excel alternative to VLOOKUP
+
+To merge CSV files in Excel without using `VLOOKUP`, you can use the `INDEX` and `MATCH` functions instead. The `INDEX` and `MATCH` functions work together to look up values in a table based on a specified row or column header. Here's how you can do it:
+
+Assuming you have the two CSV files imported into separate sheets in your Excel workbook (e.g., Sheet1 and Sheet2) and the common identifier column is named "identifier" in both sheets, you can use the following formula in cell C2 of a new sheet (Sheet3):
+
+```excel
+=IFERROR(INDEX(Sheet2!$B$2:$B$100, MATCH(A2, Sheet2!$A$2:$A$100, 0)), "")
+```
+
+Explanation:
+
+* `INDEX(Sheet2!$B$2:$B$100, MATCH(A2, Sheet2!$A$2:$A$100, 0))`: This part of the formula performs the lookup. It searches for the value in cell A2 (the identifier in Sheet1) in the range A2:A100 of Sheet2 and returns the corresponding value from column B of Sheet2 (the merged data).
+* `MATCH(A2, Sheet2!$A$2:$A$100, 0)`: The `MATCH` function searches for the value in cell A2 in the range A2:A100 of Sheet2 and returns the position (row number) of the match. The `0` as the last argument specifies an exact match.
+* `INDEX(Sheet2!$B$2:$B$100, MATCH(A2, Sheet2!$A$2:$A$100, 0))`: The `INDEX` function uses the position returned by `MATCH` to retrieve the corresponding value from the range B2:B100 of Sheet2.
+
+Drag the formula down to apply it to the rest of the rows in column C. This will populate column C with the merged data from Sheet2 based on the common identifier from Sheet1.
+
+The formula will return an empty string (""), represented as a blank cell, if there is no match found in Sheet2 for a particular identifier from Sheet1. The `IFERROR` function is used to handle such cases and avoid showing error values.
+
+Please make sure to adjust the ranges (`$B$2:$B$100`, `$A$2:$A$100`, etc.) in the formula based on the actual range of data in your sheets. Also, ensure that the two sheets contain the common identifier column (named "identifier" in this example) and the data you want to merge.
