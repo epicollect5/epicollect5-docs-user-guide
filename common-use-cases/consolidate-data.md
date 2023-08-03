@@ -127,7 +127,7 @@ Copying the formula down to the whole column, all class names are returned:
 
 ![](../.gitbook/assets/excel-vlooup-3.jpg)
 
-Another simple tutorial about Excel VLOOKUP [**here**](https://medium.com/import2/join-multiple-data-sheets-in-excel-using-vlookup-function-24e3a27d80cd).
+Another simple tutorial about Excel VLOOKUP is [**here**](https://medium.com/import2/join-multiple-data-sheets-in-excel-using-vlookup-function-24e3a27d80cd). See below for further options.
 
 ### Using Python
 
