@@ -4,11 +4,15 @@ description: Location of the user device can be acquired adding a LOCATION quest
 
 # Location Questions
 
+### Device Location
+
 The user needs to tap on the "Update Location" button to get the location data stored (see below).
 
 <figure><img src="../.gitbook/assets/20230518_133417835_1.png" alt=""><figcaption></figcaption></figure>
 
 Basically tapping that button gives the app the consent to store the user's location.
+
+### Manual Location
 
 It is possible to enter the latitude and longitude values manually by tapping the edit icon.
 
