@@ -1,5 +1,18 @@
 # Create a Project
 
+In Epicollect5, a project refers to a structured and organized collection of data that revolves around a specific goal, task, or study. It’s a fundamental concept within the Epicollect5 platform, which is designed for data collection and management.
+
+A project in Epicollect5 typically includes the following components:
+
+1. **Form**: A form defines the data fields and structure for collecting information. You design the form to capture specific types of data relevant to your project, such as text, numbers, dates, images, and more.
+2. **Entries**: Entries are the individual records or instances of data collected using the form. Each time you gather data, it results in a new entry within the project.
+3. **Project Settings**: These settings allow you to configure various aspects of the project, such as its name, description, access permissions, and more.
+4. **Data Visualization**: Epicollect5 often provides tools for visualizing and analyzing the collected data.
+5. **Collaboration**: Depending on the platform’s capabilities, you might be able to collaborate with other users on the same project, enabling multiple people to contribute data.
+6. **Data Export**: The ability to export the collected data for further analysis is a crucial feature. Epicollect5 projects usually allow you to export data in various formats, such as CSV or JSON.
+
+Epicollect5 is often used for research, fieldwork, surveys, environmental monitoring, and other data collection tasks. The concept of a project helps you organize and manage the data you collect, making it easier to focus on your specific data collection objectives.
+
 To start, click the Create Project button at the top (Remember, you must login to see that button!)
 
 ![](../.gitbook/assets/create-project-navbar-button.jpg)
