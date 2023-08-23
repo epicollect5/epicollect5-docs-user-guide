@@ -12,11 +12,22 @@ When downloading entries, you will download all the entries present at that mome
 
 You can only add _child_ entries or _branches_ to the remote entries you downloaded. The entries on the servers always "win" over your local entries, so if there is a matching entry on your device (i.e. the entry was originally uploaded from your device) and that entry is synced already, it will get replaced by the remote entry and you will not be able to edit it again from the device.
 
-**Why does it work this way? To always have the data synced and consistent across devices. The server is the single source of truth.**
+{% hint style="success" %}
+**Why does it work this way?** \
+\
+**To always have the data synced and consistent across devices.** \
+
+
+**The server is the single source of truth.**
+{% endhint %}
 
 Entries can be edited on the server by CREATOR, MANAGER and CURATOR type of user via the web application. ([**See how**](../web-application/adding-data.md))
 
-The web application is responsive and it will work on a mobile device or a tablet as well as long as there is an internet connection. **If you need to edit entries from your mobile device, the only way is to use the web application instead of the mobile app.**
+The web application is responsive and it will work on a mobile device or a tablet as well as long as there is an internet connection.&#x20;
+
+{% hint style="success" %}
+**If you need to edit entries from your mobile device, the only way is to use the web application instead of the mobile app.**
+{% endhint %}
 
 ## Add child entries to downloaded entries
 
