@@ -13,7 +13,13 @@ A project in Epicollect5 typically includes the following components:
 
 Epicollect5 is often used for research, fieldwork, surveys, environmental monitoring, and other data collection tasks. The concept of a project helps you organize and manage the data you collect, making it easier to focus on your specific data collection objectives.
 
-To start, click the Create Project button at the top (_Remember, you must log in to see that button!_)
+Projects can be created by using the web application hosted at [five.epicollect.net](https://five.epicollect.net)
+
+{% hint style="warning" %}
+Users must log in to be able to create a project
+{% endhint %}
+
+To start, click the Create Project button at the top
 
 ![](../.gitbook/assets/create-project-navbar-button.jpg)
 
