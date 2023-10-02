@@ -37,9 +37,9 @@ Moreover, users must log in to download entries as `csv` or `json` files.
 
 ### Project Status
 
-* **ACTIVE**: project can be viewed, data can be collected and uploaded.&#x20;
-* **TRASH**: project cannot be viewed or receive data, but it can be restored. To delete it permanently, when a project is trashed a "delete" button appears.&#x20;
-* **LOCK**: project can be viewed, but it does not accept any new entries.
+* **ACTIVE**: The project can be viewed, and data can be collected and uploaded.&#x20;
+* **TRASH**: The project cannot be viewed or receive data, but it can be restored. To delete it permanently, when a project is trashed a "delete" button appears.&#x20;
+* **LOCK**: The project can be viewed, but it does not accept any new entries.
 
 ### Project Visibility
 
@@ -47,7 +47,7 @@ Moreover, users must log in to download entries as `csv` or `json` files.
 * **HIDDEN**: means only users knowing the URL will be able to access it on the web
 
 {% hint style="warning" %}
-Important: visibility settings make sense for a PUBLIC project, as a PRIVATE project is already hidden from web searches on the Epicollect5 site.
+Visibility settings make sense for a PUBLIC project, as a PRIVATE project is already hidden from web searches on the Epicollect5 site.
 
 On the mobile app, all projects are shown when searching (otherwise it would be impossible to download them), but private projects will show a "lock" icon and will require authentication to be downloaded.
 {% endhint %}
