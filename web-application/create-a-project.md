@@ -23,7 +23,7 @@ To start, click the Create Project button at the top
 
 ![](../.gitbook/assets/create-project-navbar-button.jpg)
 
-You will presented with a form to fill in (No worries, it takes 1 minute!)
+You will presented with a form to fill in:
 
 ![](../.gitbook/assets/create-project-form.png)
 
@@ -34,14 +34,14 @@ Once you have decided on the kind of project you wish to undertake, the first st
 Your project name will be used within the web address assigned to your project so should be relatively short, with a maximum length of 50 chars.
 
 {% hint style="warning" %}
-Project names must be unique, so you cannot use a name if someone else already took it. Think of it like a domain or url you register to yourself.&#x20;
+Project names must be unique, so you cannot use a name if someone else already took it. Think of it like a domain or URL you register to yourself.&#x20;
 
-Project name can contain only letters, numbers, underscores (\_), dashes (-), and spaces. No special symbols. You can use both uppercase and lowercase. Maximum length is 50 chars, minimum length is 3 chars.&#x20;
+Project names can contain only letters, numbers, underscores (\_), dashes (-), and spaces. No special symbols. You can use both uppercase and lowercase. Maximum length is 50 chars, minimum length is 3 chars.&#x20;
 
 We recommend a project name around 20 chars.
 {% endhint %}
 
-The project name will be use to create a friendly url to your project (called slug) using only lowercase and dashes
+The project name will be used to create a friendly URL to your project (called a slug) using only lowercase and dashes
 
 Have a look at the examples below:
 
@@ -59,27 +59,27 @@ You will be able to add a longer full description later on if you wish.
 
 ## Enter your form name
 
-A project must have at least one form to work with. It is the name you give to your questionnaire. You can add other nested forms later if you need.
+A project must have at least one form to work with. It is the name you give to your questionnaire. You can add other nested forms later if you need them.
 
 {% hint style="info" %}
 A form name can contain only letters, numbers, underscores (\_), dashes (-) and spaces. No special symbols.&#x20;
 
-You can use both uppercase or lowercase.&#x20;
+You can use both uppercase and lowercase.&#x20;
 
-The form name maximum length is 50 chars.
+The form name's maximum length is 50 chars.
 {% endhint %}
 
 ## Set the type of access
 
-A project can be **private** (accessible only to users you specify) or **public** (accessible to everyone). You can fine tune the type of access control on your data and project settings later.
+A project can be **private** (accessible only to users you specify) or **public** (accessible to everyone). You can fine-tune the type of access control on your data and project settings later.
 
 The private option is set as the default. That means you are the only one who can access the project (It requires login on both the server and the mobile app to be accessed).
 
 {% hint style="info" %}
-We recommend you leave the project as **private** as long as you are building and testing it, and setting it to **public** later when your form(s) is finalised, if you wish, or keep it as private and [**add users to it**](manage-users.md)**.**
+We recommend you leave the project **private** as long as you are building and testing it, and setting it to **public** later when your form(s) is finalised, if you wish, or keep it private and [**add users to it**](manage-users.md)**.**
 {% endhint %}
 
-Once you have done, click the **Create** button to create a project.
+Once you have done this, click the **Create** button to create a project.
 
 {% embed url="https://www.youtube.com/watch?v=9NlfySzLdPY" %}
 
