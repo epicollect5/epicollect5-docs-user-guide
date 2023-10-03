@@ -63,8 +63,28 @@ Epicollect5 mobile app data stored on the device is not encrypted by default but
 
 Daily backups of the server are run in case of a system fault.
 
-#### Contact us
+#### Account and Data Deletion
 
-If you have any additional questions do not hesitate to get in touch with us through the [Epicollect5 Community](https://community.epicollect.net/).
+In accordance with Google and Apple account deletion policies, we have implemented a process for data deletion.
+
+Users can initiate an account deletion request by clicking on the designated button available both in the app and on the web, specifically on the user profile page. It is important to note that personal data, which includes only email addresses, will always be deleted.
+
+Regarding user contributions (entries) to projects, the deletion process varies depending on the project role.
+
+For projects where the user has a CREATOR role, all projects (both private and public) created by the user will be deleted, along with all associated entries.
+
+For contributions made to private projects using the roles of MANAGER, CURATOR, or COLLECTOR, the entries will not be deleted but will be anonymized instead. Additionally, the user's access to these projects will be revoked.
+
+Contributions to public projects are already anonymized by default when using mobile apps, but entries added via the web will also undergo anonymization.
+
+Furthermore, users with a VIEWER role will be removed from any project. Since VIEWER role users cannot add entries to private projects, there won't be any entries to delete.
+
+Finally, users have the option to delete contributions to private projects before proceeding with their account deletion. However, it's important to note that this process is manual, and each entry must be deleted individually. This is a deliberate choice to prevent unintended data loss and mistakes. By taking this approach, users have better control over their data and can carefully manage their contributions before proceeding with the account deletion.
+
+#### Contact Us
+
+Our primary point of contact for all matters is the Epicollect5 Community at [community.epicollect.net](http://community.epicollect.net/)
+
+If there is a need to discuss a particular request privately, we will provide users with a form link to facilitate this private conversation. Subsequently, the public topic related to the request will be closed to ensure the confidentiality of the discussion.
 
 \
