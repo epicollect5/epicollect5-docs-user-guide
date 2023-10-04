@@ -59,24 +59,13 @@ The uniqueness of DATE and TIME questions is based on the format selected.&#x20;
 
 DATE answers are saved in ISO 8601 format, without timezone and with the time set to midnight, i.e \``2022-01-15T00:00:00.000`\` therefore the comparison is done only one the date part.
 
-| dd/MM/YYY  | same day, month and year                |   |
-| ---------- | --------------------------------------- | - |
-| MM/dd/YYYY | same day, month and year                |   |
-| YYYY/MM/dd | same day, month and year                |   |
-| MM/YYYY    | same month and year, day not considered |   |
-| dd/MM      | same day and month, year not considered |   |
+<table data-header-hidden><thead><tr><th></th><th width="372"></th><th></th></tr></thead><tbody><tr><td>dd/MM/YYY</td><td>same day, month and year</td><td></td></tr><tr><td>MM/dd/YYYY</td><td>same day, month and year</td><td></td></tr><tr><td>YYYY/MM/dd</td><td>same day, month and year</td><td></td></tr><tr><td>MM/YYYY</td><td>same month and year, day not considered</td><td></td></tr><tr><td>dd/MM</td><td>same day and month, year not considered</td><td></td></tr></tbody></table>
 
 
 
 TIME answers are saved in ISO 8601 format i.e `2022-05-12T12:34:45.000`but the date part is not considered for the uniqueness.
 
-|          |                                     |   |
-| -------- | ----------------------------------- | - |
-| HH:mm:ss | same hours, minutes and seconds     |   |
-| hh:mm:ss | same hours, minutes and seconds     |   |
-| HH:mm    | same hours and minutes, any seconds |   |
-| hh:mm    | same hours and minutes, any seconds |   |
-| mm:ss    | same minutes and seconds, any hour  |   |
+<table><thead><tr><th></th><th width="377"></th><th></th></tr></thead><tbody><tr><td>HH:mm:ss</td><td>same hours, minutes and seconds</td><td></td></tr><tr><td>hh:mm:ss</td><td>same hours, minutes and seconds</td><td></td></tr><tr><td>HH:mm</td><td>same hours and minutes, any seconds</td><td></td></tr><tr><td>hh:mm</td><td>same hours and minutes, any seconds</td><td></td></tr><tr><td>mm:ss</td><td>same minutes and seconds, any hour</td><td></td></tr></tbody></table>
 
 
 

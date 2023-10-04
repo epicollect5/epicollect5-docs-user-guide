@@ -66,6 +66,7 @@
   * [Upload Errors](mobile-application/upload-entries/upload-errors.md)
   * [Incomplete Entries](mobile-application/upload-entries/incomplete-entries.md)
   * [Missing required aswers](mobile-application/upload-entries/missing-required-aswers.md)
+  * [Unsync entries](mobile-application/upload-entries/unsync-entries.md)
 * [Entries Limits](mobile-application/entries-limits.md)
 * [Download Entries](mobile-application/download-entries.md)
 * [Delete Entries](mobile-application/delete-entries.md)
