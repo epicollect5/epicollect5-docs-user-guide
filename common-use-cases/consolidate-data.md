@@ -387,3 +387,126 @@ write.csv(merged_data, "merged_data.csv", row.names = FALSE)
 ```
 
 Make sure to replace the file names and column names with your actual data and column names.
+
+### Using PHP
+
+To merge CSV files in PHP based on a common column called `ec5_uuid`, you can use the `fgetcsv()` function to read and process each CSV file, and then write the merged data into a new CSV file. Here's a basic example:
+
+```php
+<?php
+// Open the first CSV file
+$file1 = fopen('file1.csv', 'r');
+
+// Open the second CSV file
+$file2 = fopen('file2.csv', 'r');
+
+// Create an output CSV file
+$outputFile = fopen('merged_data.csv', 'w');
+
+// Read the headers from the first CSV file
+$headers1 = fgetcsv($file1);
+
+// Read the headers from the second CSV file
+$headers2 = fgetcsv($file2);
+
+// Write the merged headers to the output file
+fputcsv($outputFile, array_merge($headers1, $headers2));
+
+// Create an array to store data based on the 'ec5_uuid' column
+$data = array();
+
+// Read and process data from the first CSV file
+while ($row = fgetcsv($file1)) {
+    $data[$row[0]] = array_merge($row, array_fill(0, count($headers2), ''));
+}
+
+// Read and process data from the second CSV file
+while ($row = fgetcsv($file2)) {
+    if (isset($data[$row[0]])) {
+        $data[$row[0]] = array_merge($data[$row[0]], $row);
+    } else {
+        $data[$row[0]] = array_merge(array_fill(0, count($headers1), ''), $row);
+    }
+}
+
+// Write the merged data to the output file
+foreach ($data as $row) {
+    fputcsv($outputFile, $row);
+}
+
+// Close the files
+fclose($file1);
+fclose($file2);
+fclose($outputFile);
+
+echo "Merged data saved to merged_data.csv";
+?>
+```
+
+This PHP script reads two CSV files, combines them based on the 'ec5\_uuid' column, and saves the merged data to a new CSV file. Make sure to replace the file names and column names with your actual data and column names.
+
+### Using Javascript (ES6)
+
+To merge CSV files in ES6 JavaScript based on a common column called`ec5_uuid`, you can use the `fs` module for file operations. You'll also need to use a CSV parsing library like `csv-parser` to handle CSV data. Here's a basic example:
+
+1. First, you need to install the `csv-parser` library if you haven't already. You can do this using npm:
+
+```bash
+npm install csv-parser
+```
+
+2. Now you can create a JavaScript script to merge the CSV files:
+
+```javascript
+const fs = require('fs');
+const csv = require('csv-parser');
+
+// Create an array to store data based on the 'ec5_uuid' column
+const data = {};
+
+// Read and process data from the first CSV file
+fs.createReadStream('file1.csv')
+  .pipe(csv())
+  .on('data', (row) => {
+    data[row.ec5_uuid] = { ...row };
+  })
+  .on('end', () => {
+    // Read and process data from the second CSV file
+    fs.createReadStream('file2.csv')
+      .pipe(csv())
+      .on('data', (row) => {
+        if (data[row.ec5_uuid]) {
+          data[row.ec5_uuid] = { ...data[row.ec5_uuid], ...row };
+        } else {
+          data[row.ec5_uuid] = { ...row };
+        }
+      })
+      .on('end', () => {
+        // Convert the merged data back to an array
+        const mergedData = Object.values(data);
+
+        // Create the output CSV
+        const outputCSV = 'merged_data.csv';
+        fs.writeFileSync(outputCSV, '');
+        fs.appendFileSync(outputCSV, Object.keys(mergedData[0]).join(',') + '\n');
+
+        mergedData.forEach((row) => {
+          fs.appendFileSync(outputCSV, Object.values(row).join(',') + '\n');
+        });
+
+        console.log('Merged data saved to ' + outputCSV);
+      });
+  });
+```
+
+This JavaScript script reads two CSV files, combines them based on the 'ec5\_uuid' column, and saves the merged data to a new CSV file called `merged_data.csv`. Make sure to replace the file and column names with your actual data and column names.
+
+### Using awk (Terminal)
+
+Here is the complete `awk` command that merges two CSV files based on the common column "ec5\_uuid" as the first column:
+
+```bash
+awk -F, 'BEGIN { OFS="," } NR == FNR { if (FNR == 1) { print; next } a[$1] = $0; next } $1 in a { print a[$1], $0 }' file1.csv file2.csv > merged_data.csv
+```
+
+This command will take `file1.csv` and `file2.csv`, which contains CSV data with "ec5\_uuid" as the first column, and merges them based on this common column. The merged data will be saved in a new file named `merged_data.csv`.
