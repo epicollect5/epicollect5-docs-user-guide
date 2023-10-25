@@ -345,3 +345,45 @@ This formula will merge data from the second column of Sheet2 into Sheet3 based 
 Remember to adjust the formula, sheet names, and cell ranges if your data is in different columns or sheets.
 
 After applying the formula, Sheet3 will contain the merged data. You can customize the sheet further, create visualizations, and perform additional data analysis as needed in Apple Numbers.
+
+### Using R
+
+To merge CSV files in R based on a common column called `ec5_uuid`, you can use the `merge()` function or the `dplyr` package. Here's how you can do it with both methods:
+
+**Method 1: Using `merge()` function**
+
+```R
+# Load the data from CSV files
+data1 <- read.csv("file1.csv")
+data2 <- read.csv("file2.csv")
+
+# Merge the data frames based on the common column 'ec5_uuid'
+merged_data <- merge(data1, data2, by = "ec5_uuid", all = TRUE)
+```
+
+In this example, `file1.csv` and `file2.csv` should contain your data, and `merged_data` will be the merged data frame.
+
+**Method 2: Using `dplyr` package**
+
+```R
+# Load the dplyr package
+library(dplyr)
+
+# Load the data from CSV files
+data1 <- read.csv("file1.csv")
+data2 <- read.csv("file2.csv")
+
+# Merge the data frames based on the common column 'ec5_uuid'
+merged_data <- full_join(data1, data2, by = "ec5_uuid")
+```
+
+This method uses the `full_join()` function from the `dplyr` package to perform a full outer join on the common column, which includes all rows from both data frames.
+
+Choose the method that best suits your needs and data structures. After merging the data, you can save it to a new CSV file using the `write.csv()` function:
+
+```R
+# Save the merged data to a new CSV file
+write.csv(merged_data, "merged_data.csv", row.names = FALSE)
+```
+
+Make sure to replace the file names and column names with your actual data and column names.
