@@ -43,13 +43,15 @@ Moreover, users must log in to download entries as `csv` or `json` files.
 
 ### Project Visibility
 
-* **LISTED**: this means your project can be found when searching for a project on the website.&#x20;
-* **HIDDEN**: means only users knowing the URL will be able to access it on the web
+* **LISTED**: This setting makes your project publicly discoverable through the website's search feature.
+* **HIDDEN**: When set to "HIDDEN," the project is accessible only to users who have the project's direct URL. This option provides increased privacy.
 
 {% hint style="warning" %}
-Visibility settings make sense for a PUBLIC project, as a PRIVATE project is already hidden from web searches on the Epicollect5 site.
+Visibility settings are primarily relevant to PUBLIC projects.
 
-On the mobile app, all projects are shown when searching (otherwise it would be impossible to download them), but private projects will show a "lock" icon and will require authentication to be downloaded.
+PRIVATE projects are already hidden from web searches on the Epicollect5 site.
+
+On the mobile app, all projects are visible when searching. However, PRIVATE projects are marked with a "lock" icon, indicating that they require authentication for downloading. This ensures secure access to those projects.
 {% endhint %}
 
 ### Project Category
