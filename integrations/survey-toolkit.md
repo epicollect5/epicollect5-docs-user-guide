@@ -13,5 +13,5 @@ We like this toolkit because it’s free, highly configurable, and easy to use.&
 
 We love that it’s been field-proven for a year or more, and we’d recommend this asa great option for teams that are just getting started with surveying, or otherwise finding issue with their existing surveying platform.
 
-**Learn more at https://enaccess.org/surveytoolkit**
+**Learn more at** [**https://enaccess.org/surveytoolkit**](https://enaccess.org/surveytoolkit)
 
