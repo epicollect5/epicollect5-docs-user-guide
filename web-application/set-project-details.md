@@ -1,6 +1,7 @@
 ---
 description: >-
-  The Project details panel shows basic info about your project details and
+  The project details section enables users to conveniently add or modify
+  essential information regarding their project details and effectively manage
   access control.
 ---
 
