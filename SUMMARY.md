@@ -12,7 +12,7 @@
 
 * [Intro](web-application/web-application.md)
 * [Create a Project](web-application/create-a-project.md)
-* [Edit Project Details](web-application/set-project-details.md)
+* [Project Info & Privacy](web-application/set-project-details.md)
 * [Delete Projects](web-application/delete-projects.md)
 * [View Projects](web-application/view-projects.md)
 * [Search Projects](web-application/search-projects.md)

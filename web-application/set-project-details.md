@@ -1,8 +1,10 @@
 ---
-description: The Project details panel shows basic info about your project.
+description: >-
+  The Project details panel shows basic info about your project details and
+  access control.
 ---
 
-# Edit Project Details
+# Project Info & Privacy
 
 After creating the project, you will be sent to the project details page. Here you can manage all the settings of your project.
 
