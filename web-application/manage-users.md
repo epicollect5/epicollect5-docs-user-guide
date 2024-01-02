@@ -90,9 +90,9 @@ Enter an email of an existing Epicollect5 user and select the role you would lik
 
 ![](../.gitbook/assets/manage-user-2.png)
 
-When you start typing an email, existing Epicollect5 users' emails will be suggested. Once the user logs into Epicollect5, access to the project will be granted based on the role specified **if the email address matches.**
-
-If the user does not exist on the system, you can still add him/her to the project via email.
+{% hint style="info" %}
+When you add a user to a project, the system does not send any notification email to that user. However, once the user logs into Epicollect5, access to the project will be granted based on the role specified **if the email address matches.**
+{% endhint %}
 
 ### Add users in bulk
 
