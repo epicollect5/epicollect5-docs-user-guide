@@ -6,7 +6,7 @@ description: Epicollect5 mobile app is available for Android and iOS.
 
 ### Android
 
-We support phones and tablets on Android 5.1 and onwards.
+We support phones and tablets on Android 5.1 and onwards. However,[​](https://ionicframework.com/docs/reference/browser-support#a-note-on-android-support) starting with Android 5.0, the webview was moved to a separate application that can be updated independently of Android. This means that most Android 5.0+ devices are going to be running a modern version of Chromium. However, there is still a subset of Android devices that are unable to have their webview updated. These webviews are typically stuck at the available version when the device initially shipped, making Epicollect5 incompatible.
 
 [Download it from the Play Store.](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five\&hl=en\_GB)
 
