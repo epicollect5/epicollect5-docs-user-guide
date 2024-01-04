@@ -59,7 +59,9 @@ Epicollect5 embraces industry-standard best practices to protect against unautho
 
 Data are sent over [**HTTPS**](https://en.wikipedia.org/wiki/HTTPS) and its TLS certificate uses SHA-256 with RSA encryption as a signature algorithm.
 
-Epicollect5 mobile app data stored on the device is not encrypted by default but if that extra level of security is needed, any recent Android and iOS device can be encrypted system-wide. [**Read how to do it**](https://gizmodo.com/why-you-should-be-encrypting-your-devices-and-how-to-ea-1798698901).
+Regarding the storage of data within the Epicollect5 mobile application, it's important to note that the app's data resides in the device's private application folder. This folder is exclusively accessible to the Epicollect5 application and is not accessible to other apps.
+
+By default, data stored within the Epicollect5 app is not encrypted. However, for users requiring an additional layer of security, most modern Android and iOS devices offer the option of system-wide encryption. Activating this system-level encryption on the device can provide enhanced security for all stored data, including that within the Epicollect5 app. [**Read how to do it**](https://gizmodo.com/why-you-should-be-encrypting-your-devices-and-how-to-ea-1798698901).
 
 Daily backups of the server are run in case of a system fault.
 
