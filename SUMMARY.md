@@ -7,6 +7,7 @@
 * [Our Community](about/our-community.md)
 * [Privacy Policy](about/privacy-policy.md)
 * [Cookie Policy](about/cookie-policy.md)
+* [News & Papers](about/news-and-papers.md)
 
 ## Web Application
 
