@@ -18,3 +18,11 @@ Whether you're a seasoned researcher, a curious student, or a passionate advocat
 {% embed url="https://azertag.az/xeber/vehsi_quslar_arasinda_qus_qripi_xesteliyi_ile_elaqedar_epizootoloji_monitorinqler_aparilacaq-2914762" %}
 
 {% embed url="https://www.thehindu.com/news/national/kerala/synchronised-survey-records-268-bird-species-in-wayanad/article67796879.ece" %}
+
+{% embed url="https://keepwalestidy.cymru/caru-cymru/report-your-progress/" %}
+
+{% embed url="https://medium.com/@tjt28165/collecting-real-world-data-from-the-field-with-epicollect5-and-python-f488b8f554e0" %}
+
+{% embed url="https://www.jpmer.com/abstractArticleContentBrowse/JPMER/22564/JPJ/fullText" %}
+
+{% embed url="https://himjournals.com/article/articleID=519" %}
