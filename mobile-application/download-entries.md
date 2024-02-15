@@ -1,32 +1,27 @@
 # Download Entries
 
-On Epicollect5 it is possible to download remote entries for each form to the device.
+Within Epicollect5, users have the capability to download remote entries for each form onto their device.&#x20;
 
-This means it is possible to add entries from a device and later on download those entries on another one.
+This functionality enables the addition of entries from one device and later retrieval on another.&#x20;
 
-When downloading entries, you will download all the entries present at that moment on the server, so basically you get a snapshot of the current state of your data collection. Only forms entries are downloaded, branch entries are not. Moreover, media files are **NOT** downloaded.
+When downloading entries, users obtain a snapshot of the current data collection status, encompassing form entries exclusively, but **excluding branch entries, and media files.**
 
-{% hint style="warning" %}
-**On the device**, **by design, it is NOT possible to edit downloaded remote entries directly and re-upload them**.
+{% hint style="info" %}
+**Please note that when utilizing the mobile native apps, it's intentionally not feasible to directly edit downloaded remote entries and subsequently re-upload them..**
 {% endhint %}
 
-You can only add _child_ entries or _branches_ to the remote entries you downloaded. The entries on the servers always "win" over your local entries, so if there is a matching entry on your device (i.e. the entry was originally uploaded from your device) and that entry is synced already, it will get replaced by the remote entry and you will not be able to edit it again from the device.
+By design, direct editing of downloaded remote entries on the device is not possible. However, users can augment these entries by adding **child entries or branches.** This restriction ensures that server-side entries consistently supersede local modifications, **upholding the server as the definitive data source**.
 
-{% hint style="success" %}
-**Why does it work this way?** \
-\
-**To always have the data synced and consistent across devices.** \
-
-
-**The server is the single source of truth.**
+{% hint style="info" %}
+**This approach serves to maintain data synchronization and integrity across devices, with the server serving as the singular source of truth.**
 {% endhint %}
 
-Entries can be edited on the server by CREATOR, MANAGER and CURATOR type of user via the web application. ([**See how**](../web-application/adding-data.md))
+Entries can be edited on the server by CREATOR, MANAGER and CURATOR roles via the web application. ([**See how**](../web-application/adding-data.md))
 
-The web application is responsive and it will work on a mobile device or a tablet as well as long as there is an internet connection.&#x20;
+The responsive nature of the web application facilitates seamless access from mobile devices and tablets, contingent upon an internet connection.&#x20;
 
 {% hint style="success" %}
-**If you need to edit entries from your mobile device, the only way is to use the web application instead of the mobile app.**
+**For editing entries on mobile devices, utilizing the web application stands as the sole viable option in lieu of the mobile app.**
 {% endhint %}
 
 ## Add child entries to downloaded entries
