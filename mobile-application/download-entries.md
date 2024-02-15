@@ -21,7 +21,7 @@ Entries can be edited on the server by CREATOR, MANAGER and CURATOR roles via th
 The responsive nature of the web application facilitates seamless access from mobile devices and tablets, contingent upon an internet connection.&#x20;
 
 {% hint style="success" %}
-**For editing entries on mobile devices, utilizing the web application stands as the sole viable option in lieu of the mobile app.**
+**For editing entries on mobile devices, utilizing the web application stands as the sole viable option instead of the mobile app.**
 {% endhint %}
 
 ## Add child entries to downloaded entries
