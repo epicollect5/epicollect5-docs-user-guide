@@ -35,10 +35,10 @@ To set the uniqueness for a question, select the question and go to the "Advance
 
 ![](../.gitbook/assets/uniqueness-3.png)
 
-The first option is the **form** uniqueness, the second option is the **hierarchy** uniqueness as described.
+The first option is the **form** uniqueness, and the second option is the **hierarchy** uniqueness as described.
 
 {% hint style="info" %}
-The form(s) names will be different based on your project form names.
+The form(s) names will differ based on your project form names.
 {% endhint %}
 
 **The uniqueness constraint is available for the following question types:**
@@ -53,11 +53,9 @@ The form(s) names will be different based on your project form names.
 
 ### Date & Time uniqueness
 
-
-
 The uniqueness of DATE and TIME questions is based on the format selected.&#x20;
 
-DATE answers are saved in ISO 8601 format, without timezone and with the time set to midnight, i.e \``2022-01-15T00:00:00.000`\` therefore the comparison is done only one the date part.
+DATE answers are saved in ISO 8601 format, without timezone and with the time set to midnight, i.e \``2022-01-15T00:00:00.000`\` therefore the comparison is done only on the date part.
 
 <table data-header-hidden><thead><tr><th></th><th width="372"></th><th></th></tr></thead><tbody><tr><td>dd/MM/YYY</td><td>same day, month and year</td><td></td></tr><tr><td>MM/dd/YYYY</td><td>same day, month and year</td><td></td></tr><tr><td>YYYY/MM/dd</td><td>same day, month and year</td><td></td></tr><tr><td>MM/YYYY</td><td>same month and year, day not considered</td><td></td></tr><tr><td>dd/MM</td><td>same day and month, year not considered</td><td></td></tr></tbody></table>
 
