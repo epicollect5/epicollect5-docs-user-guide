@@ -27,4 +27,4 @@ Whether you're a seasoned researcher, a curious student, or a passionate advocat
 
 {% embed url="https://himjournals.com/article/articleID=519" %}
 
-{% embed url="https://enaccess.org/wp-content/uploads/2019/07/Survey_Toolkit_Instruction_Devergy.pdf" %}
+{% embed url="https://oprasevalci.si/pru-cmru/" %}
