@@ -5,9 +5,9 @@
 | Owned by five.epicollect.net |                                                                                                                                                                                                                                    |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | XSRF-TOKEN                   | This token is used to verify that the authenticated user is the one actually making the requests to the application. It protects against [cross site forgery attacks](https://en.wikipedia.org/wiki/Cross-site\_request\_forgery). |
-| epicollect5                  | It is a secure cookie to keep you logged in, it expires after 24 hours since you logged in.                                                                                                                                        |
+| epicollect5                  | It is a secure cookie to keep you logged in, it expires after 72 hours since you logged in.                                                                                                                                        |
 
-## Third party cookies
+## Third-party cookies
 
 | Google Analytics   |                                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
