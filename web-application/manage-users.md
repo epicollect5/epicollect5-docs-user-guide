@@ -13,7 +13,9 @@ The granular access control enables users' roles and responsibilities to be set 
 We DO NOT store any users' credentials, only the name, email, and profile picture (if available) after a user is successfully authenticated with Google.&#x20;
 
 {% hint style="info" %}
-A Google account accepts any type of email, not only Gmail. You can link an existing email to a Google Account. [**Here is how.**](https://support.google.com/accounts/answer/176347?co=GENIE.Platform%3DDesktop\&hl=en) **Unfortunately, with multiple emails, Google will always log you in with the Gmail one**. The best approach would be to create a new Google Account with your **non-Gmail** email,  add that account to your project as a MANAGER user, then transfer the ownership to that account. **Please make sure you can log in with both accounts before transferring the ownership.**
+A Google account accepts any type of email, not only Gmail. You can link an existing email to a Google Account. [**Here is how.**](https://support.google.com/accounts/answer/176347?co=GENIE.Platform%3DDesktop\&hl=en) **Unfortunately, with multiple emails, Google will always log you in with the Gmail one**. The best approach would be to create a new Google Account with your **non-Gmail** email,  add that account to your project as a MANAGER user, and then transfer the ownership to that account.&#x20;
+
+**Please make sure you can log in with both accounts before transferring the ownership.**
 {% endhint %}
 
 ### **Apple Account**&#x20;
@@ -34,25 +36,28 @@ There is also the option to log in only by providing an email.&#x20;
 
 When logging in to the web application, a magic link will be sent to the user inbox.
 
-When logging in to the mobile app, a one-off six digits code is sent instead.
+When logging in to the mobile app, a one-off six-digit code is sent instead.
 
 {% hint style="success" %}
 Any email can be used, not only Google or Apple accounts
 {% endhint %}
 
 {% hint style="warning" %}
-Both the magic link and the one-off code **expire** **after 30 minutes** and can be **used only once.** Once authenticated, each session will last 24 hours.  When the session expires,  a new magic link or one-off code must be requested.
+The one-off code **expires** **after 30 minutes** and can be **used only once.**&#x20;
+
+Once authenticated, each session will last 72 hours. \
+When the session expires,  a new one-off code must be requested.
 {% endhint %}
 
 {% hint style="warning" %}
 Available since version 4.0.0
 {% endhint %}
 
-## Account verification
+## Account Verification
 
 When using multiple providers with the same email, users will be asked to confirm their identity. A six-digit code will be sent to their inbox the first time they try to use the same email with a different provider.
 
-## Profile page
+## Profile Page
 
 Users can view what email they are currently logged in with and what account providers they have verified on their profile page. To access the profile page the users need to click on their name on the top navigation bar.
 
@@ -72,7 +77,7 @@ There are 5 roles available:
 
 ## Project access
 
-If a project has access type '**private**', user access will be based on their roles, as described above, provided they have been successfully authenticated by the server. Viewing, editing, deleting a project, deleting entries on the server will be based on the above roles and requires authentication.
+If a project has access type '**private**', user access will be based on their roles, as described above, provided they have been successfully authenticated by the server. Viewing, editing, deleting a project, and deleting entries on the server will be based on the above roles and require authentication.
 
 If a project has access type '**public**', then any user can view and upload data to that project via the mobile client, without any authentication, but editing and deleting a project (or entries) on the server will be based on the above roles and still requires authentication.
 
@@ -96,7 +101,7 @@ When you add a user to a project, the system does not send any notification emai
 
 ### Add users in bulk
 
-It is possible to add users in bulk uploading a `csv` file of user emails, like the one below.
+It is possible to add users in bulk by uploading a `csv` file of user emails, like the one below.
 
 ![](../.gitbook/assets/manage-users-bulk-1.jpg)
 
@@ -108,7 +113,7 @@ Pick your `csv` file
 
 ![](../.gitbook/assets/manage-users-bulk-3.jpg)
 
-Pick the column which contains the email addresses and select the role to be applied to your new users then click on import.
+Pick the column which contains the email addresses, select the role to be applied to your new users, and then click on import.
 
 ![](../.gitbook/assets/manage-users-bulk-4.jpg)
 
