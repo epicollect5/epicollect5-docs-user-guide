@@ -18,9 +18,9 @@ Data are collected (including GPS and media) using multiple devices and all data
 
 Data can be exported in `csv` and `json` format
 
-The mobile app is available for both Android (6+) and iOS (12+)
+The mobile app is available for both Android (10+) and iOS (13+)
 
-**Epicollect5 is 100% free to use without any limits(\*)**. You can create as many projects and upload as many entries as you like.&#x20;
+**Epicollect5 is 100% free to use without any limits(\*)**. You can create as many projects and upload as many entries as you wish.&#x20;
 
 Epicollect5 is financially supported by the [Wellcome Trust Foundation](https://wellcome.ac.uk/) and we implement open-source technologies to be able to provide the service for free.
 
