@@ -24,7 +24,11 @@ The mobile application is verified by [**Exodus Privacy Project**](https://repor
 
 Starting from version 6.0.0, our mobile applications now include a feature to collect **anonymous** error information. This data collection helps the Epicollect5 Team identify and address bugs effectively, ensuring a smoother user experience for everyone. Please note that **no personal details are collected during this process**. Additionally, we respect your privacy, and users have the option to opt-out at any time from the Settings page if they prefer not to participate.
 
-&#x20;Your feedback and participation in improving our platform are greatly appreciated.
+
+
+{% hint style="success" %}
+Your feedback and participation in improving our platform are greatly appreciated.
+{% endhint %}
 
 #### User Data
 
