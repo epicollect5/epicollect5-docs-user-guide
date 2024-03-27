@@ -14,7 +14,7 @@ Basically tapping that button gives the app the consent to store the user's loca
 
 ### Manual Location
 
-It is possible to enter the latitude and longitude values manually by tapping the edit icon.
+It is possible to enter the latitude and longitude values manually by tapping the menu icon and then Edit.
 
 <figure><img src="../.gitbook/assets/20230518_133418201_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -50,6 +50,16 @@ On the mobile app, the interface will show:
 {% hint style="info" %}
 The interface and features are kept to a minimum to be able to work both online and **offline.**
 {% endhint %}
+
+**Third-party Offline Maps Integrations**&#x20;
+
+Starting from version **6.0.0**, our mobile applications now offer seamless integration with popular mapping apps such as Google Maps, Organic Maps, and Here WeGo. This integration allows users to view locations directly within these apps and conveniently copy latitude and longitude values (in decimal degrees) for use in Epicollect5.
+
+With this new feature, users can leverage the familiar interfaces and robust functionalities of these mapping applications to enhance their experience with Epicollect5. Whether you're navigating through remote areas or pinpointing specific locations, our integration with these offline maps ensures flexibility and accuracy in capturing geographic data.
+
+We're committed to providing our users with intuitive tools and versatile features, and we believe that this integration will streamline your data collection process while maintaining the highest standards of usability and convenience.
+
+<figure><img src="../.gitbook/assets/view-on-map.png" alt=""><figcaption></figcaption></figure>
 
 ### Web Application
 
