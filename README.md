@@ -18,7 +18,13 @@ Data are collected (including GPS and media) using multiple devices and all data
 
 Data can be exported in `csv` and `json` format
 
-The mobile app is available for both Android (10+) and iOS (13+)
+The mobile app is currently available for both Android (10+) and iOS (13+)
+
+{% hint style="info" %}
+Please note that the supported versions of our application may change over time due to requirements imposed by Google and Apple. These requirements may include updates to the minimum API levels for Android or iOS versions supported by Apple devices.
+
+As a result, older versions of our application may become incompatible with the latest operating systems or may no longer receive updates and support. To ensure the best experience and access to the latest features and security enhancements, we recommend regularly updating to the latest version of the application available on the respective app stores.
+{% endhint %}
 
 **Epicollect5 is 100% free to use without any limits(\*)**. You can create as many projects and upload as many entries as you wish.&#x20;
 
