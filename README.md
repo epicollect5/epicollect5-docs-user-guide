@@ -31,9 +31,11 @@ As a result, older versions of our application may become incompatible with the 
 Epicollect5 is financially supported by the [Wellcome Trust Foundation](https://wellcome.ac.uk/) and we implement open-source technologies to be able to provide the service for free.
 
 {% hint style="warning" %}
-(\*)Please be aware a fair usage policy still applies. For example, if you upload 500 videos at 500MB each that will be 250GB of storage, which is too much.&#x20;
+(\*) We kindly remind you of our fair usage policy, which remains in effect.&#x20;
 
-While nothing stops you from doing that, our resources are limited and Epicollect5 is not a free storage solution.
+For instance, uploading 500 videos, each at 500MB, would consume a total of 250GB of storage space.&#x20;
+
+While there are no restrictions preventing you from doing so, it's essential to note that our resources are finite, and Epicollect5 is not designed as a free storage solution.
 {% endhint %}
 
 ## Ready? Go ahead and [create your first project!](web-application/create-a-project.md)
