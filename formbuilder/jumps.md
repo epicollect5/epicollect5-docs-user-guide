@@ -81,3 +81,9 @@ If there is the need to have conditional questions within a group, the paper bas
 {% hint style="info" %}
 If your logic is more complex, try to restructure your form so you will not need to use a jump within a group.
 {% endhint %}
+
+
+
+### Jumps and Branches
+
+Coming soon...
