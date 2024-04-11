@@ -8,7 +8,9 @@ description: >-
 # Consolidate data
 
 {% hint style="info" %}
-Considering the unique requirements of each project, we believe in empowering users to tailor their data consolidation according to their specific needs during the post-processing phase. This approach not only fosters flexibility but also ensures that the resulting data aligns perfectly with the project's objectives and intricacies.
+Considering the unique requirements of each project, we believe in empowering users to tailor their data consolidation according to their specific needs during the post-processing phase.&#x20;
+
+This approach not only fosters flexibility but also ensures that the resulting data aligns perfectly with the project's objectives and intricacies.
 {% endhint %}
 
 ## Epicollect5 identifiers
