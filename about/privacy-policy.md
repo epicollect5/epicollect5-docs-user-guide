@@ -101,6 +101,6 @@ Finally, users have the option to delete contributions to private projects befor
 
 Our primary point of contact for all matters is the Epicollect5 Community at [community.epicollect.net](http://community.epicollect.net/)
 
-If there is a need to discuss a particular request privately, we will provide users with a form link to facilitate this private conversation. Subsequently, the public topic related to the request will be closed to ensure the confidentiality of the discussion.
+If there is a need to discuss a particular request privately, we will provide users with a support email address to facilitate this private conversation. Subsequently, the public topic related to the request will be closed to ensure the confidentiality of the discussion.
 
 \
