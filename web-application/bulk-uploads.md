@@ -91,7 +91,11 @@ Picking a valid file will trigger the upload, one row at a time. A valid`csv`fil
 
 {% hint style="warning" %}
 The csv file **MUST** have an extra**`ec5_uuid`**column, which is used as an internal control flag for entries.
+
+For new entries, this column should remain empty, as only the header is necessary. However, for edits, please ensure that this column contains the UUID of the entry being edited.
 {% endhint %}
+
+
 
 ![EC5 Demo Project csv file example](<../.gitbook/assets/Screenshot 2021-01-21 at 13.27.17.png>)
 
