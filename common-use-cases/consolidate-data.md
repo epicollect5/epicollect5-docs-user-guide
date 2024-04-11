@@ -1,8 +1,8 @@
 ---
 description: >-
-  When you download data from Epicollect5, the system creates a file for each
-  form and for each branch. Epicollect5 unique identifiers are added to the data
-  set to link the data together.
+  When retrieving data from Epicollect5, individual files are generated for each
+  form and branch. To facilitate data linkage, Epicollect5 assigns unique
+  identifiers, integrated into the dataset.
 ---
 
 # Consolidate data
