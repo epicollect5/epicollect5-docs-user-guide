@@ -24,8 +24,6 @@ The mobile application is verified by [**Exodus Privacy Project**](https://repor
 
 Starting from version 6.0.0, our mobile applications now include a feature to collect **anonymous** error information. This data collection helps the Epicollect5 Team identify and address bugs effectively, ensuring a smoother user experience for everyone. Please note that **no personal details are collected during this process**. Additionally, we respect your privacy, and users have the option to opt-out at any time from the Settings page if they prefer not to participate.
 
-
-
 {% hint style="success" %}
 Your feedback and participation in improving our platform are greatly appreciated.
 {% endhint %}
@@ -63,15 +61,23 @@ Digital Ocean services fully comply with GDPR:
 
 [**https://www.digitalocean.com/legal/gdpr**](https://www.digitalocean.com/legal/gdpr/)
 
-Epicollect5 embraces industry-standard best practices to protect against unauthorised access to your data.
+Epicollect5 embraces industry-standard best practices to protect against unauthorised access to your data, including:
 
-Data are sent over [**HTTPS**](https://en.wikipedia.org/wiki/HTTPS) and its TLS certificate uses SHA-256 with RSA encryption as a signature algorithm.
+1. **Authentication and Authorization**: Secure authentication mechanisms such as OAuth and JWT tokens, ensuring that users only have access to the resources they are authorized to access.
+2. **Input Validation**: Validating all inputs from users to prevent injection attacks and other malicious actions. Using parameterized queries for database interactions to prevent SQL injection.
+3. **Data Encryption**: Data are sent over [**HTTPS**](https://en.wikipedia.org/wiki/HTTPS) and its TLS certificate uses SHA-256 with RSA encryption as a signature algorithm.
+4. **Security Headers**: Implementing security headers to mitigate various types of attacks like CSRF attacks, cross-site scripting (XSS), clickjacking, and MIME sniffing.
+5. **Secure Coding Practices**: Follow secure coding practices such as input validation, output encoding, error handling, and proper session management to minimize the risk of security vulnerabilities.
+6. **Patch Management**: Keep all software components up to date with the latest security patches and updates to address known vulnerabilities.
+7. **Least Privilege Principle**: Follow the principle of least privilege, where users and processes are granted only the minimum level of access or permissions necessary to perform their tasks.
+8. **Monitoring and Logging**:  Robust logging and monitoring mechanisms to detect and respond to security incidents in real time.&#x20;
+9. **Backups**: Daily backups of the server are run in case of a system fault.
+
+**Privacy and Data Storage in Epicollect5 Mobile Application(s)**
 
 Regarding the storage of data within the Epicollect5 mobile application, it's important to note that the app's data resides in the device's private application folder. This folder is exclusively accessible to the Epicollect5 application and is not accessible to other apps.
 
 By default, data stored within the Epicollect5 app is not encrypted. However, for users requiring an additional layer of security, most modern Android and iOS devices offer the option of system-wide encryption. Activating this system-level encryption on the device can provide enhanced security for all stored data, including that within the Epicollect5 app. [**Read how to do it**](https://gizmodo.com/why-you-should-be-encrypting-your-devices-and-how-to-ea-1798698901).
-
-Daily backups of the server are run in case of a system fault.
 
 #### Account and Data Deletion
 
