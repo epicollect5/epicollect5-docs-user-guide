@@ -3,7 +3,7 @@
 When you download data from Epicollect5, the system creates a file for each form and for each branch. Epicollect5 unique identifiers are added to the data set to link the data together.
 
 {% hint style="info" %}
-Since each project requirements are different, we leave the data consolidation down to the user in the post-processing of data.
+Considering the unique requirements of each project, we believe in empowering users to tailor their data consolidation according to their specific needs during the post-processing phase. This approach not only fosters flexibility but also ensures that the resulting data aligns perfectly with the project's objectives and intricacies.
 {% endhint %}
 
 ## Epicollect5 identifiers
@@ -12,7 +12,7 @@ Each hierarchy form data set will have a column called "**ec5\_uuid**" with a un
 
 Each branch data set will have a column "**ec5\_branch\_owner\_uuid**" which will reference each "**ec5\_uuid**" of a hierarchy form.
 
-The values (which look like `d559da55-0df3-4121-8db0-5870d4faf038`) are system generated identifiers used to keep the relationships on the data.
+The values (which look like `d559da55-0df3-4121-8db0-5870d4faf038`) are system-generated identifiers used to keep the relationships on the data.
 
 These identifiers are always present on any downloaded data sets and API responses.
 
@@ -21,10 +21,10 @@ These identifiers are always present on any downloaded data sets and API respons
 We will use [Google Sheets](https://www.google.com/sheets/about/) for this example, but the same concept can be applied to [Excel](https://products.office.com/en/excel), [Apple Numbers](https://www.apple.com/lae/numbers/) and similar.
 
 {% hint style="info" %}
-An Excel example using **VLOOKUP** function is shown below.
+An Excel example using the **VLOOKUP** function is shown below.
 {% endhint %}
 
-What follows is just a simple example about how to merge data coming from three files (one hierarchy form and two branches) based on our [EC5 Branches Project ](https://five.epicollect.net/project/ec5-branches-project)example project.
+What follows is just a simple example of how to merge data coming from three files (one hierarchy form and two branches) based on our [EC5 Branches Project ](https://five.epicollect.net/project/ec5-branches-project)example project.
 
 First of all, let's download the data in CSV format for that project and save it somewhere handy. The downloaded .zip will contain 3 CSV files:
 
@@ -32,7 +32,7 @@ First of all, let's download the data in CSV format for that project and save it
 * `branch-1__list-your-family-members.csv`
 * `branch-2__list-your-pets.csv`
 
-We created a new spreadsheet and imported the above mentioned files, one per each sheet tab, doing FILE > IMPORT
+We created a new spreadsheet and imported the above-mentioned files, one per each sheet tab, doing FILE > IMPORT
 
 ![](../.gitbook/assets/consolidate-data-1.jpg)
 
@@ -42,7 +42,7 @@ We use the following settings per each file:
 
 Please make sure you add each file in its own tab sheet. To create a new tab sheet, just click on the "+" button at the bottom left:
 
-We also called our tab sheets "form\_1", "branch\_family\_members", "branch\_pets". This is to make easier to reference them in our formulas.
+We also called our tab sheets "form\_1", "branch\_family\_members", "branch\_pets". This is to make it easier to reference them in our formulas.
 
 ![](../.gitbook/assets/consolidate-data-3.jpg)
 
@@ -58,9 +58,9 @@ On that cell we add this formula: (_if you like to know more about Google Sheets
 
 We wrap everything in `iferror()` to fetch data only if there are some branches for that row, otherwise leave the cell empty.
 
-We use `JOIN("," {QUERY(...)})` to concatenate the family members data found with a comma.
+We use `JOIN("," {QUERY(...)})` to concatenate the family members' data found with a comma.
 
-In the QUERY statement, we first reference the "branch\_family\_members" from column A to F, basically all the columns in the "branch\_family\_members" sheet. On the right side of the QUERY statement, we search for data on column E on that tab sheet (**3\_Family\_member\_name**) where the column A (**ec5\_branch\_owner\_uuid**) matches column A on the form\_1 tab sheet (**ec5\_uuid**)
+In the QUERY statement, we first reference the "branch\_family\_members" from column A to F, basically all the columns in the "branch\_family\_members" sheet. On the right side of the QUERY statement, we search for data on column E on that tab sheet (**3\_Family\_member\_name**) where column A (**ec5\_branch\_owner\_uuid**) matches column A on the form\_1 tab sheet (**ec5\_uuid**)
 
 **The values of "ec5\_branch\_owner\_uuid" and "ec5\_uuid" are the relationship link between the data sets.**
 
