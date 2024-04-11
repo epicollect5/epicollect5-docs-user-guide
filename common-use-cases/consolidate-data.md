@@ -1,6 +1,11 @@
-# Consolidate data
+---
+description: >-
+  When you download data from Epicollect5, the system creates a file for each
+  form and for each branch. Epicollect5 unique identifiers are added to the data
+  set to link the data together.
+---
 
-When you download data from Epicollect5, the system creates a file for each form and for each branch. Epicollect5 unique identifiers are added to the data set to link the data together.
+# Consolidate data
 
 {% hint style="info" %}
 Considering the unique requirements of each project, we believe in empowering users to tailor their data consolidation according to their specific needs during the post-processing phase. This approach not only fosters flexibility but also ensures that the resulting data aligns perfectly with the project's objectives and intricacies.
