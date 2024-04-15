@@ -40,7 +40,9 @@ _You CANNOT have more jump than the total of possible answers you have._
 
 Select the jump destination i.e. the question to go to when the condition is met.&#x20;
 
+{% hint style="info" %}
 By design, you cannot jump to the immediate next question (it would not be a jump, technically), you need to jump at least one question.&#x20;
+{% endhint %}
 
 So if you have questions A, B, C, etc, setting a jump on A will list the next questions starting from C. Question B will not be listed, as it is just next to A.
 
