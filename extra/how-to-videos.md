@@ -8,4 +8,12 @@ description: Epicollect5 videos made by our users
 
 
 
+{% embed url="https://www.youtube.com/watch?v=M6Dj_KxQPKk&t=42s" %}
+
+
+
 {% embed url="https://www.youtube.com/playlist?list=PLceB21nD040q3wmOzS4dHdnH22032NJOM" %}
+
+{% embed url="https://www.youtube.com/watch?v=S9QdYbTiCPc" %}
+
+{% embed url="https://www.youtube.com/watch?v=8rcXzraL1WU" %}
