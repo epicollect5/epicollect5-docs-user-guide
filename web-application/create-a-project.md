@@ -81,5 +81,8 @@ We recommend you leave the project **private** as long as you are building and t
 
 Once you have done this, click the **Create** button to create a project.
 
+See below for some useful video tutorials created by our community.
+
 {% embed url="https://www.youtube.com/watch?v=9NlfySzLdPY" %}
 
+{% embed url="https://www.youtube.com/playlist?list=PLceB21nD040q3wmOzS4dHdnH22032NJOM" %}
