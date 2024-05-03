@@ -83,6 +83,8 @@ If a project has access type '**public**', then any user can view and upload dat
 
 ## Adding users to a project
 
+Users can be added to a project for collaboration.
+
 Users can add other users (with different roles) to a project depending on their user role, see below table:
 
 ![Only higher roles can add or remove lower roles](<../.gitbook/assets/user-add-role (1).png>)
