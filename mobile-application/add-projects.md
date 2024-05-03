@@ -6,7 +6,7 @@ Here's what this process entails:
 
 1. **Manual Project Addition**: Users must add projects to the mobile app manually. This way, users can choose which projects they want to participate in.
 2. **Project Structure Only**: When a user adds a project to the app, only the empty structure of the project is added. This structure includes the project's design, such as the forms and questions that participants will fill out. The app does not sync any existing entries from the project.
-3. **No Project or Entries Syncing**: The app does not automatically sync project data or entries from the server. This means that users will not receive any existing entries or updates from the server when they add a project to the app.
+3. **No Project or Entries Syncing**: The app does not automatically sync project data or entries from the server. This means that users will not receive any existing entries or updates from the server when they add a project to the app. However, if a project is updated and the user is still using an old version, a prompt will be shown when trying to upload entries.
 4. **User Authentication Not Required For Public Projects**: Users can add public projects to the mobile app whether they are logged in or not. This provides flexibility for users who may not have a registered account or want to remain anonymous.
 5. **Focus on Data Collection**: By focusing on adding the project structure rather than syncing data, the app aims to provide a simple and efficient way for users to collect data on the go.
 
