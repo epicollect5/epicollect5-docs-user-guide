@@ -8,6 +8,8 @@ description: Epicollect5 videos made by our users
 
 
 
+{% embed url="https://www.youtube.com/@kurazdata/videos?view=0&sort=dd&shelf_id=2" %}
+
 {% embed url="https://www.youtube.com/watch?v=M6Dj_KxQPKk&t=42s" %}
 
 
