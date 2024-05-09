@@ -15,7 +15,7 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
-{% embed url="https://report.az/ru/zdravookhranenie/uchenye-ustanovili-chto-terapiya-svetom-mozhet-uluchshit-rabotu-mozga-na-molekulyarnom-urovne/" %}
+{% embed url="https://azertag.az/xeber/qus_qripine_qarsi_epizootoloji_monitorinqler_aparilacaq-2987278" %}
 
 {% embed url="https://www.noticiasnet.com.ar/noticias/2024/04/01/151370-patagones-se-toma-en-serio-el-problema-de-la-predacion" %}
 
