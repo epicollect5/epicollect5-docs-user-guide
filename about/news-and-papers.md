@@ -15,6 +15,12 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+
+
+[https://report.az/sehiyye-xeberler/muxtelif-nov-heyvanlar-arasinda-epizootoloji-monitorinqler-kecirilecek/](https://report.az/sehiyye-xeberler/muxtelif-nov-heyvanlar-arasinda-epizootoloji-monitorinqler-kecirilecek/)
+
+[https://www.agricultura.sp.gov.br/pt/b/febre-aftosa-sao-paulo-finaliza-inquerito-epidemiologico-para-comprovar-ausencia-da-doenca-sem-animais-reagentes](https://www.agricultura.sp.gov.br/pt/b/febre-aftosa-sao-paulo-finaliza-inquerito-epidemiologico-para-comprovar-ausencia-da-doenca-sem-animais-reagentes)
+
 {% embed url="https://report.az/sehiyye-xeberler/muxtelif-nov-heyvanlar-arasinda-epizootoloji-monitorinqler-kecirilecek/" %}
 
 {% embed url="https://www.agricultura.sp.gov.br/pt/b/febre-aftosa-sao-paulo-finaliza-inquerito-epidemiologico-para-comprovar-ausencia-da-doenca-sem-animais-reagentes" %}
