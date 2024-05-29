@@ -32,3 +32,9 @@ For the secondary paper, use this citation:
 ```
 Aanensen DM, Huntley DM, Menegazzo M, Powell CI, Spratt BG. (2014) EpiCollect+: linking smartphones to web applications for complex data collection projects. F1000Res. Aug 20;3:199. doi: 10.12688/f1000research.4702.1Copy
 ```
+
+
+
+{% hint style="warning" %}
+Please adhere to the recommended style guide as per your institution's guidelines.
+{% endhint %}
