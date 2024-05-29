@@ -8,6 +8,7 @@
 * [Privacy Policy](about/privacy-policy.md)
 * [Cookie Policy](about/cookie-policy.md)
 * [News & Papers](about/news-and-papers.md)
+* [Epicollect5 Citation](about/epicollect5-citation.md)
 
 ## Web Application
 
