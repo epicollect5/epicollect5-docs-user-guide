@@ -1,8 +1,7 @@
 ---
 description: >-
   Proper citation is crucial for acknowledging the sources of your information
-  and giving credit to the original authors. It also allows others to follow
-  your sources, providing a trail of where your i
+  and giving credit to the original authors.
 ---
 
 # Epicollect5 Citation
@@ -32,8 +31,6 @@ For the secondary paper, use this citation:
 ```
 Aanensen DM, Huntley DM, Menegazzo M, Powell CI, Spratt BG. (2014) EpiCollect+: linking smartphones to web applications for complex data collection projects. F1000Res. Aug 20;3:199. doi: 10.12688/f1000research.4702.1Copy
 ```
-
-
 
 {% hint style="warning" %}
 Please adhere to the recommended style guide as per your institution's guidelines.
