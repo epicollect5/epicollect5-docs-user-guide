@@ -25,9 +25,9 @@ This feature is useful when copying coordinates from third-party apps, like [**O
 <figure><img src="../.gitbook/assets/20230518_133418603_1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Device location tracking cannot be done automatically for privacy reasons.
+For privacy reasons, device location tracking cannot be done automatically.&#x20;
 
-If you ever used Facebook or Instagram, you might have noticed they use the same approach, as when adding a post the location needs to be added separately.
+If you have used Facebook or Instagram, you might have noticed a similar approach; when adding a post, the location needs to be added manually.
 {% endhint %}
 
 ### Required Location
