@@ -24,21 +24,21 @@ This feature is useful when copying coordinates from third-party apps, like [**O
 
 <figure><img src="../.gitbook/assets/20230518_133418603_1.png" alt=""><figcaption></figcaption></figure>
 
-
-
 {% hint style="warning" %}
 Device location tracking cannot be done automatically for privacy reasons.
 
 If you ever used Facebook or Instagram, you might have noticed they use the same approach, as when adding a post the location needs to be added separately.
 {% endhint %}
 
+### Required LOCATION question(s)
+
 {% hint style="danger" %}
 **A location question cannot be set as required**, as users might choose not to provide that information, or the device might lack GPS capabilities (e.g., a low-cost Android tablet). Additionally, obtaining a GPS lock can be challenging for various reasons. In such cases, if the location question is mandatory, the user would be unable to complete the form.
 
 As a workaround, consider creating a GROUP containing both a LOCATION question and a required TEXT question. The TEXT question can prompt users to manually copy and paste the location values (latitude and longitude) from the LOCATION question.
-
-<img src="../.gitbook/assets/Screenshot 2024-05-30 at 11.42.03.png" alt="" data-size="original">
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-30 at 11.42.03.png" alt="" width="282"><figcaption><p>Forcing users to provide a location</p></figcaption></figure>
 
 ### Mobile app
 
