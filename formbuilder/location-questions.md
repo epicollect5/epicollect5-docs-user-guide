@@ -38,7 +38,7 @@ If you ever used Facebook or Instagram, you might have noticed they use the same
 As a workaround, consider creating a GROUP containing both a LOCATION question and a required TEXT question. The TEXT question can prompt users to manually copy and paste the location values (latitude and longitude) from the LOCATION question.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-05-30 at 11.42.03.png" alt="" width="282"><figcaption><p>Forcing users to provide a location</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/20240530_115230493_1.png" alt=""><figcaption><p>Forcing users to provide location details</p></figcaption></figure>
 
 ### Mobile app
 
