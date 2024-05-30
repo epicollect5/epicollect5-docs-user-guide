@@ -33,9 +33,11 @@ If you ever used Facebook or Instagram, you might have noticed they use the same
 {% endhint %}
 
 {% hint style="danger" %}
-**A location question cannot be required**: a user might not want to answer that, or the device might lack GPS capabilities (for example a cheap Android tablet).
+**A location question cannot be set as required**, as users might choose not to provide that information, or the device might lack GPS capabilities (e.g., a low-cost Android tablet). Additionally, obtaining a GPS lock can be challenging for various reasons. In such cases, if the location question is mandatory, the user would be unable to complete the form.
 
-Moreover, often getting a GPS lock is not possible for a number of reasons. If that happens and the location question was required, the user would not be able to complete the form.
+As a workaround, consider creating a GROUP containing both a LOCATION question and a required TEXT question. The TEXT question can prompt users to manually copy and paste the location values (latitude and longitude) from the LOCATION question.
+
+<img src="../.gitbook/assets/Screenshot 2024-05-30 at 11.42.03.png" alt="" data-size="original">
 {% endhint %}
 
 ### Mobile app
