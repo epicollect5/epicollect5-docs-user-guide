@@ -30,7 +30,7 @@ Device location tracking cannot be done automatically for privacy reasons.
 If you ever used Facebook or Instagram, you might have noticed they use the same approach, as when adding a post the location needs to be added separately.
 {% endhint %}
 
-### Required LOCATION question(s)
+### Required Location
 
 {% hint style="danger" %}
 **A location question cannot be set as required**, as users might choose not to provide that information, or the device might lack GPS capabilities (e.g., a low-cost Android tablet). Additionally, obtaining a GPS lock can be challenging for various reasons. In such cases, if the location question is mandatory, the user would be unable to complete the form.
