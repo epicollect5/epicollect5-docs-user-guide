@@ -45,7 +45,7 @@
 * [Rename Forms](formbuilder/rename-forms.md)
 * [Print Forms](formbuilder/print-form.md)
 * [Search](formbuilder/search.md)
-* [Jumps](formbuilder/jumps.md)
+* [Jumps (If-Else)](formbuilder/jumps.md)
 * [Branches](formbuilder/branches.md)
 * [Groups](formbuilder/groups.md)
 * [Title](formbuilder/title.md)
