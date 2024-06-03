@@ -113,7 +113,11 @@ To correctly add possible answers to an existing list, and therefore preserve ex
 
 <figure><img src="../.gitbook/assets/append-csv.jpg" alt=""><figcaption><p>Replace vs append possible answers</p></figcaption></figure>
 
-As a rule of thumb, we highly recommend taking a backup of your data before making changes to an existing project. Backing up your data ensures that you have a safety net in case anything goes wrong during the update process. This is particularly important when dealing with complex forms and datasets, as even small changes can sometimes lead to unexpected issues or data loss.
+As a rule of thumb, we highly recommend taking a backup of your data before making changes to an existing project.&#x20;
+
+{% hint style="info" %}
+Backing up your data ensures that you have a safety net in case anything goes wrong during the update process. This is particularly important when dealing with complex forms and datasets, as even small changes can sometimes lead to unexpected issues or data loss.
+{% endhint %}
 
 ## Export possible answers
 
