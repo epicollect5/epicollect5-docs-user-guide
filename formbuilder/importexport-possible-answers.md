@@ -54,6 +54,65 @@ The import button is disabled until you select a column.
 
 The list is imported successfully!
 
+### Replace vs Append
+
+When a list of possible answers is **replaced**, all previous references to that list are **removed** since they no longer exist.
+
+Behind the scenes, each possible answer is associated with a unique identifier (`answer_ref`). For example, the original list might look like this:
+
+```
+[
+    {
+        "answer": "yes",
+        "answer_ref": "58d92c2b50435"
+    },
+    {
+        "answer": "no",
+        "answer_ref": "58d92c2b50436"
+    },
+    {
+        "answer": "n/a",
+        "answer_ref": "58d92c2b50437"
+    }
+]
+```
+
+When  the list is replaced, it might change to:
+
+```
+[
+    {
+        "answer": "yes",
+        "answer_ref": "58d92c2b50439"
+    },
+    {
+        "answer": "no",
+        "answer_ref": "58d92c2b50438"
+    },
+    {
+        "answer": "n/a",
+        "answer_ref": "58d92c2b50432"
+    },
+    {
+        "answer": "Another option",
+        "answer_ref": "5ad92c2b50432"
+    }
+]
+
+```
+
+Even though the possible answers may look the same to the user, the unique identifiers (`answer_ref`) are different. This means there is no longer any reference linking the previous "**yes**" response to the new "**yes**" response. The system considers those to be two completely different responses when looking at the `anwers_ref` identifiers (`58d92c2b50435`, `58d92c2b50439`). The `answer_ref` `58d92c2b50435` cannot be found anymore, so all those responses are gone.
+
+{% hint style="info" %}
+This principle applies to any software in general. For example, if you replaced a folder with another folder of the same name on your PC, you wouldn't expect to find the previous content in the new folder, despite the folder having the same name.
+{% endhint %}
+
+To correctly add possible answers to an existing list, and therefore preserve existing responses, Epicollect5 provides the option to **append** possible answers to an existing list when importing the possible answers from a csv file.
+
+<figure><img src="../.gitbook/assets/append-csv.jpg" alt=""><figcaption><p>Replace vs append possible answers</p></figcaption></figure>
+
+As a rule of thumb, we highly recommend taking a backup of your data before making changes to an existing project.
+
 ## Export possible answers
 
 If you have a question with a list of possible answers you need to export, for example, to re-use it across multiple projects, click on the "Export CSV" option in the context menu:
