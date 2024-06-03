@@ -56,7 +56,7 @@ The list is imported successfully!
 
 ### Replace vs Append
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 When a list of possible answers is **replaced**, all previous references to that list are **removed** since they no longer exist.
 {% endhint %}
 
