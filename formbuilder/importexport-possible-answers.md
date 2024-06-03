@@ -56,7 +56,9 @@ The list is imported successfully!
 
 ### Replace vs Append
 
+{% hint style="warning" %}
 When a list of possible answers is **replaced**, all previous references to that list are **removed** since they no longer exist.
+{% endhint %}
 
 Behind the scenes, each possible answer is associated with a unique identifier (`answer_ref`). For example, the original list might look like this:
 
