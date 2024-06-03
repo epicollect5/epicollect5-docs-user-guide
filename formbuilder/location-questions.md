@@ -40,6 +40,42 @@ As a workaround, consider creating a GROUP containing both a LOCATION question a
 
 <figure><img src="../.gitbook/assets/20240530_115230493_1.png" alt=""><figcaption><p>Forcing users to provide location details</p></figcaption></figure>
 
+You can use the following **regex** pattern to validate the TEXT answers:
+
+```regex
+^[-+]?([1-8]?\d(\.\d{1,6})?|90(\.0{1,6})?),\s*[-+]?(180(\.0{1,6})?|((1[0-7]\d)|(\d{1,2}))(\.\d{1,6})?)$
+```
+
+This pattern ensures the following:
+
+1. Latitude ranges from -90 to 90 with up to six decimal places.
+2. Longitude ranges from -180 to 180 with up to six decimal places.
+3. The latitude and longitude are separated by a comma and optional whitespace.
+
+#### Explanation:
+
+* `^` and `$` assert the position at the start and end of the string, respectively.
+* `[-+]?` optionally matches a leading `-` or `+` sign.
+* `([1-8]?\d(\.\d{1,6})?|90(\.0{1,6})?)` matches latitude:
+  * `[1-8]?\d` matches numbers from 0 to 89.
+  * `(\.\d{1,6})?` optionally matches up to six decimal places.
+  * `90(\.0{1,6})?` matches the special case of 90 degrees with up to six decimal places.
+* `,\s*` matches a comma followed by optional whitespace.
+* `[-+]?` optionally matches a leading `-` or `+` sign.
+* `(180(\.0{1,6})?|((1[0-7]\d)|(\d{1,2}))(\.\d{1,6})?)` matches longitude:
+  * `180(\.0{1,6})?` matches the special case of 180 degrees with up to six decimal places.
+  * `((1[0-7]\d)|(\d{1,2}))` matches numbers from 0 to 179.
+  * `(\.\d{1,6})?` optionally matches up to six decimal places.
+
+#### Examples:
+
+* Valid: `45.123456, -93.123456`
+* Valid: `90, 180`
+* Invalid: `91, 180` (latitude out of range)
+* Invalid: `45.1234567, -93.123456` (more than six decimal places)
+
+This regex should work well for validating latitude and longitude in decimal degrees with up to six decimal places.
+
 ### Mobile app
 
 On the mobile app, the interface will show:
