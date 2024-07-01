@@ -10,7 +10,7 @@ Please note that the supported versions of our application may change over time 
 As a result, older versions of our application may become incompatible with the latest operating systems or may no longer receive updates and support. To ensure the best experience and access to the latest features and security enhancements, we recommend regularly updating to the latest version of the application available on the respective app stores.
 {% endhint %}
 
-**The mobile app is currently available for both Android (10+) and iOS (13+)**
+**The mobile app is currently available for both Android (10+) and iOS (14+)**
 
 ### Android
 
