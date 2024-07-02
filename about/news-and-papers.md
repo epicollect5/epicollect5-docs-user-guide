@@ -15,6 +15,10 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+
+
+{% embed url="https://www.sciencedirect.com/book/9780443156656/open-electronic-data-capture-tools-for-medical-and-biomedical-research-and-medical-allied-professionals" %}
+
 {% embed url="https://report.az/sehiyye-xeberler/muxtelif-nov-heyvanlar-arasinda-epizootoloji-monitorinqler-kecirilecek/" %}
 
 {% embed url="https://azertag.az/xeber/qus_qripine_qarsi_epizootoloji_monitorinqler_aparilacaq-2987278" %}
