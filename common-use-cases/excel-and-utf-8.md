@@ -1,15 +1,18 @@
 ---
 description: >-
-  Microsoft Excel is unable to properly display UTF-8 compliant CSV files when
-  they contain non-English characters.
+  Microsoft Excel may struggle to properly display UTF-8 compliant CSV files
+  when they contain non-English characters. However, this issue is not related
+  to Epicollect5.
 ---
 
 # Excel and UTF-8
 
-The workaround is to import the Epicollect5 csv files as a UTF-8 origin. Let's see how!
+For a solution, you can import the Epicollect5 CSV files as a UTF-8 origin.&#x20;
+
+Here’s how you can do it:
 
 {% hint style="info" %}
-The following example was done using a Mac. If your are on Windows or Linux, the procedure might differ.
+The following example was done using a Mac. If you are on Windows or Linux, the procedure might differ.
 {% endhint %}
 
 Open up Excel and import your `csv` file:
