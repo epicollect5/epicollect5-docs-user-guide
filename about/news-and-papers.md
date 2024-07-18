@@ -15,7 +15,7 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
-
+{% embed url="https://www.bbc.com/news/articles/c87rpdp61g4o" %}
 
 {% embed url="https://m.farms.com/news/scouting-and-reporting-tar-spot-of-corn-in-pennsylvania-212846.aspx" %}
 
