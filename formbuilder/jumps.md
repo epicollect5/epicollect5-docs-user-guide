@@ -2,7 +2,7 @@
 description: Conditional logic on your form(s).
 ---
 
-# Jumps
+# Jumps (If-Else)
 
 Jumps allow a questionnaire to follow a conditional flow based on the user's answers. **It is possible to only jump forward**, to one of the next questions, not backward.
 
@@ -41,8 +41,16 @@ _You CANNOT have more jump than the total of possible answers you have._
 Select the jump destination i.e. the question to go to when the condition is met.&#x20;
 
 {% hint style="info" %}
-By design, you cannot jump to the immediate next question (it would not be a jump, technically), you need to jump at least one question.&#x20;
+By design, you cannot jump to the immediate next question (it would not be a jump, technically), you need to jump at least one question.
+
+In Epicollect5, the design principles dictate that you cannot set a jump to the immediate next question. This is because a jump, by definition, implies skipping over at least one question to reach a subsequent one. To ensure clarity and proper functionality within your survey or data collection form, any jump must bypass at least one question in between the origin and the destination.
+
+This design choice helps maintain the logical flow and structure of your questionnaire, preventing potential confusion or redundancy that could arise from setting a jump to the very next question.&#x20;
+
+By adhering to this rule, you can create more coherent and efficiently navigable surveys.
 {% endhint %}
+
+
 
 So if you have questions A, B, C, etc, setting a jump on A will list the next questions starting from C. Question B will not be listed, as it is just next to A.
 
