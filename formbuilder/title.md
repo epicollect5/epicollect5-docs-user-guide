@@ -38,3 +38,9 @@ Titles serve multiple purposes, including enhancing entry visibility when viewin
 To designate a question as the title for your entries, simply select the desired question in the form builder and enable the corresponding option in the right panel. This straightforward process ensures that your entries are easily identifiable and organized, improving the overall user experience when navigating through entries on Epicollect5.
 
 ![](../.gitbook/assets/title-on-map-2.png)
+
+{% hint style="warning" %}
+Titles for entries already collected before the title gets set will not automatically update to reflect the new title configuration.&#x20;
+
+Instead, these entries retain their original, auto-generated unique identifier as their title. As a result, any changes made to the title setting do not propagate retroactively to previously entered data.
+{% endhint %}
