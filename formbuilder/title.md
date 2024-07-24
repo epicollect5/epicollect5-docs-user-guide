@@ -39,6 +39,10 @@ To designate a question as the title for your entries, simply select the desired
 
 ![](../.gitbook/assets/title-on-map-2.png)
 
+
+
+### Title values on existing entries
+
 {% hint style="warning" %}
 Titles for entries already collected before the title gets set will not automatically update to reflect the new title configuration.&#x20;
 
