@@ -43,4 +43,6 @@ To designate a question as the title for your entries, simply select the desired
 Titles for entries already collected before the title gets set will not automatically update to reflect the new title configuration.&#x20;
 
 Instead, these entries retain their original, auto-generated unique identifier as their title. As a result, any changes made to the title setting do not propagate retroactively to previously entered data.
+
+To force an existing entry to get the new TITLE value, each existing entry need to be edited and saved individually.
 {% endhint %}
