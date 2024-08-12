@@ -58,6 +58,7 @@
 ## Mobile Application
 
 * [Platforms and Media](mobile-application/mobile-application.md)
+* [Mobile App Authentication](mobile-application/mobile-app-authentication.md)
 * [Add Projects](mobile-application/add-projects.md)
 * [Add Entries (Single Form)](mobile-application/add-an-entry.md)
 * [Add Entries (Multiple Forms)](mobile-application/add-child-entries.md)
@@ -80,7 +81,6 @@
 * [Filter Entries](mobile-application/filter-entries.md)
 * [Beta updates (Android)](mobile-application/beta-program.md)
 * [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
-* [Mobile App Authentication](mobile-application/mobile-app-authentication.md)
 
 ## Developers
 
