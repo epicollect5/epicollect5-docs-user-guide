@@ -80,6 +80,7 @@
 * [Filter Entries](mobile-application/filter-entries.md)
 * [Beta updates (Android)](mobile-application/beta-program.md)
 * [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
+* [Mobile App Authentication](mobile-application/mobile-app-authentication.md)
 
 ## Developers
 
