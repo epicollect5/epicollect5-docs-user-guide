@@ -59,6 +59,7 @@
 
 * [Platforms and Media](mobile-application/mobile-application.md)
 * [Mobile App Authentication](mobile-application/mobile-app-authentication.md)
+* [Mobile App Permissions](mobile-application/mobile-app-permissions.md)
 * [Add Projects](mobile-application/add-projects.md)
 * [Add Entries (Single Form)](mobile-application/add-an-entry.md)
 * [Add Entries (Multiple Forms)](mobile-application/add-child-entries.md)
