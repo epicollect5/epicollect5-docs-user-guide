@@ -20,6 +20,10 @@ To ensure that Epicollect5 operates smoothly and reliably, we recommend that you
 * **Disable Auto-Removal of Permissions**: Some devices have a setting that automatically removes permissions if an app hasn’t been used for a certain period. Please ensure this setting is turned off for Epicollect5. This will prevent the app from losing necessary permissions unexpectedly, ensuring that it remains fully functional whenever you need it.
 * **Disable Battery Optimization**: Many devices have battery optimization settings that can restrict the background activity of apps. For Epicollect5 to function correctly, especially during tasks like photo-taking or barcode scanning, make sure to disable any battery optimization settings that could interfere with its operation. This will help maintain the app's performance and prevent it from being closed or restricted by the system.
 
+More info:
+
+{% embed url="https://dontkillmyapp.com/" %}
+
 These permissions and settings are crucial for Epicollect5 to function as a comprehensive data collection tool, offering you the flexibility and reliability needed for successful field research. Rest assured, each permission is used solely to enhance the app's performance and to support your data collection activities.
 
 
