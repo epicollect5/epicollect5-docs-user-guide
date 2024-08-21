@@ -21,3 +21,7 @@ To ensure that Epicollect5 operates smoothly and reliably, we recommend that you
 * **Disable Battery Optimization**: Many devices have battery optimization settings that can restrict the background activity of apps. For Epicollect5 to function correctly, especially during tasks like photo-taking or barcode scanning, make sure to disable any battery optimization settings that could interfere with its operation. This will help maintain the app's performance and prevent it from being closed or restricted by the system.
 
 These permissions and settings are crucial for Epicollect5 to function as a comprehensive data collection tool, offering you the flexibility and reliability needed for successful field research. Rest assured, each permission is used solely to enhance the app's performance and to support your data collection activities.
+
+
+
+<figure><img src="../.gitbook/assets/permissions.jpg" alt="" width="375"><figcaption><p>Epicollect5 app permissions on a Samsung Galaxy A33, Android 14.</p></figcaption></figure>
