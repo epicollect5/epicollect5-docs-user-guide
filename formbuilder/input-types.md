@@ -82,11 +82,27 @@ Questions within a group will be displayed on the same device screen. [**More in
 
 ## More on Date & Time questions
 
-TIME questions display a time picker. The time collected is the time selected, no timezone data is attached to it. This means if you select 17.34, it will be saved as 17.34 no matter what timezone you are currently located in. **This is done on purpose**. For a timezone-dependent timestamp, we automatically add a "Created At" UTC (or ZULU) timestamp to each entry when saved.
+When users interact with "TIME" questions in a form or application, they are prompted to select a specific time using a time picker. The time that is captured is exactly what the user selects, such as 17:34 (or 5:34 PM). It's important to note that this time is saved as-is, without any reference to the user's current timezone. For instance:
+
+* If a user in New York selects 17:34, it will be recorded as 17:34.
+* If another user in Tokyo selects 17:34, it will also be recorded as 17:34.
+
+The lack of timezone data means the time is treated as a simple point in the day, without context about where the user is geographically. This design is intentional. It ensures that the recorded time is consistent and unaffected by any timezone differences or changes, such as Daylight Saving Time. The time recorded is purely the time the user interacted with, with no assumptions or adjustments made for their location.
+
+**Timezone-Dependent Timestamp**
+
+To accommodate scenarios where knowing the exact moment of data entry is critical (including the user's timezone), the system automatically adds a "Created At" timestamp to each entry. This timestamp is captured in UTC (Coordinated Universal Time), also known as Zulu time, which is a standard time format unaffected by time zones. For example:
+
+* If a user in New York saves an entry at 12:34 PM local time, it will be recorded with a "Created At" timestamp of 16:34 UTC.
+* A user in Tokyo saving an entry at 12:34 PM local time will have a "Created At" timestamp of 03:34 UTC on the following day.
+
+This "Created At" timestamp ensures that, regardless of where or when the user is, there is a precise, universally comparable record of when the entry was made. This is crucial for data consistency, especially when aggregating data from multiple users across different time zones.
 
 These "Created At" timestamps get downloaded with the rest of the data from the web application. [**More on downloading data.** ](../web-application/downloading-data.md)
 
-DATE questions behave exactly like time questions.
+DATE questions behave exactly like TIME questions. When a user selects a date, that date is saved exactly as chosen, without any timezone data attached. For instance, selecting March 12 will be recorded as March 12, regardless of whether the user is in New York, Tokyo, or any other location. Just like with time entries, the absence of timezone data means the date is consistent and remains unchanged regardless of where the user is when they make the selection.\
+\
+In essence, "TIME" and "DATE" questions are designed to capture user input as a direct and unmodified point in time or a specific day. Meanwhile, the "Created At" timestamp, saved in UTC, provides the precise moment of data entry, ensuring that all entries can be accurately compared and analyzed across different time zones. This dual system maintains both user-specific time/date information and a standardized timestamp for comprehensive data analysis.
 
 ## Angle brackets and other symbols
 
