@@ -20,23 +20,23 @@ A question that allows only numbers, will use a phone keyboard layout on the mob
 
 ### Date
 
-A question to enter a date, it will use a date picker on the mobile device. The value stored is timezone independent.
+A question to enter a date, it will use a date picker on the mobile device. The value stored is timezone-independent. [More info](input-types.md#more-on-date-and-time-questions).
 
 ### Time
 
-A question to enter the time, it will use a date picker on the mobile device. The value stored is timezone independent
+A question to enter the time, it will use a date picker on the mobile device. The value stored is timezone-independent. [More info](input-types.md#more-on-date-and-time-questions).
 
 ### Radio
 
-Multiple choices question, it will list all the possible answers immediately. Only one answer can be chosen. Maximum number of possible answers is 300, max length per possible answer is 150 chars.
+Multiple-choice question, it will list all the possible answers immediately. Only one answer can be chosen. Maximum number of possible answers is 300, max length per possible answer is 150 chars.
 
 ### Dropdown
 
-Multiple choices question, it will show all the possible answers on a popup. Maximum number of possible answers is 300, max length per possible answer is 150 chars.
+Multiple-choice question, it will show all the possible answers on a popup. Maximum number of possible answers is 300, max length per possible answer is 150 chars.
 
 ### Checkbox
 
-Multiple choices question, it will list all the possible answers immediately. Multiple answers can be chosen. Maximum number of possible answers is 300, max length per possible answer is 150 chars.
+Multiple-choice question, it will list all the possible answers immediately. Multiple answers can be chosen. Maximum number of possible answers is 300, max length per possible answer is 150 chars.
 
 ### Search
 
@@ -48,11 +48,11 @@ A big box to enter text on multiple lines. It accepts answers up to 1000 chars
 
 ### Readme
 
-A question that does not require any answer, useful to show hints or tips to users while completing the questionnaire or at the beginning of it as an introductory text. Maximum 1000 characters.
+A question that does not require any answer, is useful to show hints or tips to users while completing the questionnaire or at the beginning of it as an introductory text. Maximum 1000 characters.
 
 ### Location
 
-Geographic data, the answer will be the latitude and longitude provided by the device hardware in Decimal Degrees (DD) format, like the ones you find on Google Maps. Accuracy is also captured (the best value is usually 4/5 meters depending on the device). Both latitude and longitude values are rounded to 6 decimal places, providing a precision up to 11.1 cm. UTM values are also generated when exporting the data.
+For geographic data, the answer will be the latitude and longitude provided by the device hardware in Decimal Degrees (DD) format, like the ones you find on Google Maps. Accuracy is also captured (the best value is usually 4/5 meters depending on the device). Both latitude and longitude values are rounded to 6 decimal places, providing a precision of up to 11.1 cm. UTM values are also generated when exporting the data.
 
 [**More info on LOCATION questions.**](location-questions.md)
 
@@ -74,7 +74,7 @@ Uses a barcode scanner to get the answer ([**Supported barcodes**](../common-use
 
 ### Branch
 
-A dynamic list of entries, useful for questions like "List your family members". [**More info.**](branches.md)
+A dynamic list of entries, is useful for questions like "List your family members". [**More info.**](branches.md)
 
 ### Group
 
@@ -106,6 +106,15 @@ In essence, "TIME" and "DATE" questions are designed to capture user input as a 
 
 ## Angle brackets and other symbols
 
-For security reasons, we do not accept the `<` and `>` keyboard symbols as part of a question or answer. In the formbuilder, they are replaced by their identical unicode symbols.
+For security reasons, we do not accept the `<` and `>` keyboard symbols as part of a question or answer. In the formbuilder, they are replaced by their identical Unicode symbols.
+
+* **Security Risks**: Angle brackets are often used in HTML tags, which can introduce security vulnerabilities such as Cross-Site Scripting (XSS). XSS occurs when malicious scripts are injected into web pages, allowing attackers to steal data, manipulate content, or perform other malicious actions.
+* **Unicode Substitution**: To prevent these risks, any `<` and `>` symbols inputted by users are automatically replaced with their equivalent Unicode representations. This ensures that these characters are treated as plain text rather than executable code. The Unicode representations look identical to the original symbols but are handled differently by the system, preventing them from being interpreted as HTML or other code.
+  * For example, `<` is replaced with `\u003C` and `>` with `\u003E`.
 
 We also do not accept [**emojis.**](https://en.wikipedia.org/wiki/Emoji)
+
+* **Data Integrity**: Emojis, while popular and widely used in informal communication, can cause issues in data processing and storage, especially if the system is not configured to handle Unicode characters properly. Emojis can also lead to inconsistent display across different platforms and devices.
+* **Standardization**: To maintain consistency and avoid potential encoding problems, emojis are not accepted as input. Instead, users are encouraged to use plain text that the system can reliably process.
+
+By enforcing these rules on special characters and emojis, the form builder maintains a secure and stable environment for data collection and processing. While this may limit some expressive input options, the trade-off is a safer, more reliable system that can effectively handle user data across various platforms and devices.
