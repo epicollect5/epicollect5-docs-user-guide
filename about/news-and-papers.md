@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://azertag.az/xeber/iri_ve_xirdabuynuzlu_heyvanlarin_saxlandigi_teserrufatlarda_monitorinqler_kechirilecek-3145954" %}
+
 {% embed url="https://ecozen.gr/2024/08/erevna-tis-ellinikis-ornithologikis-etaireias-mipos-eidate-mavropetriti/" %}
 
 {% embed url="https://www.bbc.com/news/articles/c87rpdp61g4o" %}
