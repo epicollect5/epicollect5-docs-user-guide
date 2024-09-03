@@ -36,7 +36,7 @@
 ## Formbuilder
 
 * [Intro](formbuilder/build-your-questionnaire.md)
-* [Languages](formbuilder/languages.md)
+* [Languages and Translations](formbuilder/languages-and-translations.md)
 * [Question Types](formbuilder/input-types.md)
 * [Location Questions](formbuilder/location-questions.md)
 * [Add Questions](formbuilder/add-inputs.md)
