@@ -15,6 +15,6 @@ If you are using a different language from the ones above, the mobile app questi
 
 If you are willing to provide a missing translation for the mobile app, [l**et us know**](https://spectrum.chat/epicollect5)**.**
 
-The language files to translate are hosted [**here**](https://gist.github.com/mirko77/452fd368eae1382edd2c73d0ca043917)**.**
+The language files to translate are hosted [**here.**](https://github.com/epicollect5/epicollect5-language-files/tree/main)
 {% endhint %}
 
