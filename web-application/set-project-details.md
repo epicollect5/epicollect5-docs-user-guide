@@ -22,8 +22,8 @@ If you make any changes, confirm them by clicking "update", otherwise close the 
 {% hint style="info" %}
 **Project Description Requirements:**
 
-* **Full Description:** Must be between 3 and 1000 character limits.
-* **Short Description:** Must be between 15 and 100 character limits.
+* **Description:** Must be between 3 and 1000 character limits.
+* **Small Description:** Must be between 15 and 100 character limits.
 
 **Project Logo Requirements:**
 
