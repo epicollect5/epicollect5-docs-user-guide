@@ -23,9 +23,9 @@ If you are using a language other than the ones listed above, please note the fo
 
 #### Contributing Translations
 
-If you notice that your preferred language is not yet supported in the mobile app or if you would like to contribute translations for a missing language, we welcome your contributions! Please let us know if you're interested in providing translations, and we will guide you through the process.
+If you notice that your preferred language is not yet supported in the mobile app or if you would like to contribute translations for a missing language, we welcome your contributions!&#x20;
 
 #### Where to Find Language Files
 
-To access and translate the language files for the mobile app, [**please visit this repository**](https://github.com/epicollect5/epicollect5-language-files). The files are organized and available for you to translate into your desired language.
+To access and translate the language files for the mobile app, [**please visit this repository**](https://github.com/epicollect5/epicollect5-language-files). The files are organized and available for you to translate into your desired language, instructions are provided.
 
