@@ -27,5 +27,5 @@ If you notice that your preferred language is not yet supported in the mobile ap
 
 #### Where to Find Language Files
 
-To access and translate the language files for the mobile app, [**please visit this repository**](https://github.com/epicollect5/epicollect5-language-files). The files are organized and available for you to translate into your desired language, instructions are provided.
+To access and translate the language files for the mobile app, [**please visit this repository**](https://github.com/epicollect5/epicollect5-language-files). The files are organized and available for you to translate into your desired language, and instructions are provided.
 
