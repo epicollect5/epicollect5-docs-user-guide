@@ -19,6 +19,19 @@ Clicking the edit button (pen icon) will show the panel below, giving you the ch
 
 If you make any changes, confirm them by clicking "update", otherwise close the edit panel with the X button.
 
+{% hint style="info" %}
+**Project Description Requirements:**
+
+* **Full Description:** Must be between 3 and 1000 character limits.
+* **Short Description:** Must be between 15 and 100 character limits.
+
+**Project Logo Requirements:**
+
+* **Maximum Resolution:** 4096 x 4096 pixels
+* **Maximum File Size:** 5MB
+* **Accepted Formats:** PNG, JPG, or GIF
+{% endhint %}
+
 ![The Project Details panel when open](../.gitbook/assets/edit-project-details-basic-settings.png)
 
 ### Project Settings
