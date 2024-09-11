@@ -52,7 +52,7 @@ When the session expires,  a new one-off code must be requested.
 {% hint style="warning" %}
 To prevent abuse of our services, a rate limit is implemented.
 
-a
+
 
 A single IP address is restricted to sending a maximum of 5 authentication requests every 30 minutes when the email authentication flow is used.
 
