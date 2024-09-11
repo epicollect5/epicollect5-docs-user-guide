@@ -50,12 +50,20 @@ When the session expires,  a new one-off code must be requested.
 {% endhint %}
 
 {% hint style="warning" %}
-Available since version 4.0.0
+To prevent abuse of our services, a rate limit is implemented.
+
+a
+
+A single IP address is restricted to sending a maximum of 5 authentication requests every 30 minutes when the email authentication flow is used.
+
+This approach helps to control the load on the system, prevent denial of service (DoS) attacks, and ensure fair usage across all users.
+
+This limit does not apply to the Google and Apple authentication flows.
 {% endhint %}
 
 ## Account Verification
 
-When using multiple providers with the same email, users will be asked to confirm their identity. A six-digit code will be sent to their inbox the first time they try to use the same email with a different provider.
+When using multiple providers with the same email, users will be asked to confirm their identity. A six-digit code will be sent to their inbox the first time they try to use the same email with a different provider. (e.g., first with an email-only login and then with Google).
 
 ## Profile Page
 
@@ -75,13 +83,13 @@ There are 5 roles available:
 | COLLECTOR | A project collector has basic access to the project, including viewing and uploading only their own data via the mobile client/web. This means COLLECTOR A cannot access entries uploaded by COLLECTOR B, and vice versa. A collector cannot make any changes to the project.    |
 | VIEWER    | A project viewer gets _**READ ONLY**_ access to a project. Viewers can view all the data collected by any other user but they cannot make any changes to the data or access any of the project settings.                                                                         |
 
-## Project access
+## Project Access
 
 If a project has access type '**private**', user access will be based on their roles, as described above, provided they have been successfully authenticated by the server. Viewing, editing, deleting a project, and deleting entries on the server will be based on the above roles and require authentication.
 
 If a project has access type '**public**', then any user can view and upload data to that project via the mobile client, without any authentication, but editing and deleting a project (or entries) on the server will be based on the above roles and still requires authentication.
 
-## Adding users to a project
+## Adding Users to a Project
 
 Users can be added to a project for collaboration.
 
