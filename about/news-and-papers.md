@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://goolband.com/picsart-android-application-free-download-6675" %}
+
 {% embed url="https://radarpalembang.disway.id/read/651562/pkm-dosen-fk-muhammadiyah-palembang-penggunaan-teknologi-pemetaan-mencegah-dbd-di-kelurahan-payaraman-timur" %}
 
 {% embed url="https://azertag.az/xeber/iri_ve_xirdabuynuzlu_heyvanlarin_saxlandigi_teserrufatlarda_monitorinqler_kechirilecek-3145954" %}
