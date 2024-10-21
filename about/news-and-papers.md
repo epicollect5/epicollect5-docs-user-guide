@@ -11,9 +11,15 @@ Whether it's in the realm of healthcare, environmental research, social sciences
 
 Each article and paper included in this collection provides valuable insights into how researchers and organizations leverage Epicollect5 to address real-world challenges, innovate solutions, and drive meaningful change. From large-scale epidemiological studies to community-driven conservation efforts, the breadth and depth of projects featured here underscore the adaptability and effectiveness of Epicollect5 in diverse contexts.
 
-We invite you to explore this collection to discover the breadth of applications and the depth of impact that Epicollect5 has made in research, academia, and beyond.&#x20;
+We invite you to explore this collection to discover the breadth of applications and the depth of impact that Epicollect5 has made in research, academia, and beyond.
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
+
+
+
+{% embed url="https://geoconfluences.ens-lyon.fr/informations-scientifiques/a-la-une/carte-a-la-une/epicollect" %}
+
+{% embed url="https://report.az/sehiyye-xeberler/baliqciliq-sahesindeki-muessiselerde-epizootoloji-monitorinqler-kecirilecek/" %}
 
 {% embed url="https://goolband.com/picsart-android-application-free-download-6675" %}
 
