@@ -20,5 +20,5 @@ We've received several reports of users encountering an error labelled **"Code 1
 <figure><img src="../.gitbook/assets/Error Code 1.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 \
-Community discussion ->\
+Community discussion, feel free to contribute ->\
 [https://community.epicollect.net/t/mobile-app-error-code-1/886](https://community.epicollect.net/t/mobile-app-error-code-1/886)
