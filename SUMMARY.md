@@ -114,3 +114,4 @@
 * [Demo Projects](extra/demo-projects.md)
 * [FAQ](extra/faq.md)
 * [How-to Videos](extra/how-to-videos.md)
+* [Known Issues](extra/known-issues.md)
