@@ -22,3 +22,21 @@ We've received several reports of users encountering an error labelled **"Code 1
 \
 Community discussion, feel free to contribute ->\
 [https://community.epicollect.net/t/mobile-app-error-code-1/886](https://community.epicollect.net/t/mobile-app-error-code-1/886)
+
+
+
+### Dark Mode
+
+Currently, Epicollect5 does not support a native dark mode, but we understand that it is a highly desired feature. We are actively considering enhancements like this for future updates to improve the user experience.
+
+If you are using an Android device, there is an option to enable "Force Dark Mode" within the Developer Settings, which could help achieve a darker interface across apps. To try this, you can access the setting by navigating to Developer Settings on your device. Here’s a helpful guide on how to enable it ->
+
+{% embed url="https://www.nextpit.com/force-apps-use-dark-mode-android" %}
+
+Additionally, it’s worth noting that Android 15 is expected to make this dark mode option more widely available to all users without requiring developer settings. You can read more about this upcoming feature ->
+
+{% embed url="https://www.androidauthority.com/android-15-make-all-apps-dark-3437447/" %}
+
+If you are using an iPhone, you might try this approach ->
+
+{% embed url="https://www.howtogeek.com/692271/how-to-force-dark-mode-in-any-iphone-app-with-smart-invert/" %}
