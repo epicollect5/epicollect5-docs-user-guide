@@ -37,6 +37,21 @@ Additionally, it’s worth noting that Android 15 is expected to make this dark 
 
 {% embed url="https://www.androidauthority.com/android-15-make-all-apps-dark-3437447/" %}
 
+<div>
+
+<figure><img src="../.gitbook/assets/Screenshot_20241030_151029_Epicollect5.jpg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot_20241030_151011_Epicollect5.jpg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot_20241030_150959_Epicollect5.jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 If you are using an iPhone, you might try this approach ->
 
 {% embed url="https://www.howtogeek.com/692271/how-to-force-dark-mode-in-any-iphone-app-with-smart-invert/" %}
+
