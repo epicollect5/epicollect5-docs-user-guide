@@ -1,3 +1,7 @@
+---
+description: Reference responses from a parent form while collecting data.
+---
+
 # Referencing Parent Form Responses
 
 In Epicollect5, you can reference responses from a parent form while collecting data in a child form by setting the title attribute in the desired parent form question. \
