@@ -6,24 +6,32 @@ description: >-
 
 # Add & Edit Entries
 
-### Add or edit entries for single form projects
+### Add or edit entries for single-form projects
 
-Let's have look at our [**EC5 DEMO PROJECT**](https://five.epicollect.net/project/ec5-demo-project/data)**.** The project is **public**, so anyone can add entries via the web **as long as they are logged in**.&#x20;
+Let's have a look at our [**EC5 DEMO PROJECT**](https://five.epicollect.net/project/ec5-demo-project/data)**.** The project is **public**, so anyone can add entries via the web **as long as they are logged in**.
 
-It also has got a single form called **Form 1**.
+{% hint style="warning" %}
+**Login Required**: Users must log in to add entries via the web. This requirement ensures accountability and security by verifying the identity of the person making the entry. It helps maintain data integrity by preventing anonymous or malicious entries.
+
+**Reason for Login**: Authentication via the web is essential because it allows the system to track who is adding data, providing a layer of security and control over the entries. This is crucial for maintaining the reliability and accuracy of the collected data.
+{% endhint %}
+
+
+
+The project has a single form called **Form 1**.
 
 **(**[**More on project roles**](set-project-details.md)**)**
 
-A public project accepts entries from users who are not involved in the project closely i.e they do not have any **role** for the project:
+A public project accepts entries from users who are not involved in the project closely i.e they do not have any **role** in the project:
 
 ![](../.gitbook/assets/dv-add-entries-1.png)
 
-Any public user can add an entry using the "_Add Form 1_" button on the top right.
+Any public logged in user can add an entry using the "_Add Form 1_" button on the top right.
 
 As the EC5 Demo Project is created by Oxford University staff, a public user CANNOT edit or delete other users' entries though.
 
 {% hint style="warning" %}
-Notice the delete and edit buttons are disabled.&#x20;
+Notice the delete and edit buttons are disabled.
 
 If the user **OWNS** the entry though, those buttons will be enabled for that entry. More on this later.
 {% endhint %}
@@ -36,7 +44,7 @@ Like the mobile app, you fill in the questions until you reach the end of the fo
 
 ![](../.gitbook/assets/dv-add-entries-3.png)
 
-Now you can see the entry just added. Notice the edit and delete buttons are now enabled: **the user owns the entry**, so he has got the right to delete it or make amendments.
+Now you can see the entry just added. Notice the edit and delete buttons are now enabled: **the user owns the entry**, so he has the right to delete it or make amendments.
 
 If you were either a creator, manager, or curator for a project, you would see this:
 
@@ -46,17 +54,17 @@ The edit and delete buttons are enabled for **ALL** the entries as you have perm
 
 For a **private** project, the same rules apply, but users who do not have access to the project will not be able to access it.
 
-### Add or edit entries for multiple forms projects
+### Add or edit entries for multiple-forms projects
 
 If your project consists of many linked forms, you can add entries to the first form exactly as above.
 
-For child forms, things are a bit different. Epicollect5 links forms in a hierarchy structure ([**how to link forms**](../formbuilder/multiple-forms.md)). This means when adding a child form you have to select a parent entry first.
+For child forms, things are a bit different. Epicollect5 links the forms in a hierarchy structure ([**how to link forms**](../formbuilder/multiple-forms.md)). This means when adding a child form you have to select a parent entry first.
 
 On our EC5 Hierarchy project, we have a structure like CLASS > PUPIL > TEST.
 
-Adding a CLASS entry is exactly as explained above for a single form project. To add a PUPIL entry you have to select a CLASS entry first. Just find the CLASS entry you want to add a PUPIL for and click on the "+" button on that entry row. (Remember, you need to be logged in to see that button)
+Adding a CLASS entry is exactly as explained above for a single-form project. To add a PUPIL entry you have to select a CLASS entry first. Just find the CLASS entry you want to add a PUPIL for and click on the "+" button on that entry row. (Remember, you need to be logged in to see that button)
 
-The data editor will open to the PUPIL form to add an entry.
+The data editor will open the PUPIL form to add an entry.
 
 ![](../.gitbook/assets/dv-view-child-entries-1.png)
 
