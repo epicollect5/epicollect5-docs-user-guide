@@ -1,7 +1,8 @@
 ---
 description: >-
-  Learn about manual project selection, local data storage, manual uploads, and
-  referencing downloaded entries to maintain data integrity.
+  Learn about manual project selection, device data storage, manual uploads, and
+  referencing downloaded entries to maintain data integrity when using the
+  Epicollect5 platform.
 ---
 
 # Projects and Entries Syncing
