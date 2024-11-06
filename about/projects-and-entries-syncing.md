@@ -10,7 +10,7 @@ description: >-
 
 Epicollect5 web app and mobile apps do not auto-sync projects automatically.&#x20;
 
-{% hint style="info" %}
+{% hint style="warning" %}
 When you log in to the web app and create your projects, **those projects do not appear automatically on the mobile app after you authenticate**. Instead, projects to be used on the mobile apps can be cherry-picked according to the user's needs. For more information, refer to the [Add Projects](../mobile-application/add-projects.md) section.
 {% endhint %}
 
@@ -25,7 +25,7 @@ When you log in to the web app and create your projects, **those projects do not
 
 When it comes to the entries collected via the apps, the same principle applies.&#x20;
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Entries and related media are collected and saved locally, even offline, and **must be manually uploaded to the server**. This process ensures flexibility and control over the data transfer.
 {% endhint %}
 
@@ -49,7 +49,7 @@ This approach ensures that data collection is as seamless and efficient as possi
 
 Entries can be downloaded from the server to the mobile app when needed.&#x20;
 
-{% hint style="info" %}
+{% hint style="warning" %}
 While these downloaded entries are not editable by design, they serve as valuable references for adding related child entries or branch entries. This approach ensures data consistency and integrity across the system.
 {% endhint %}
 
