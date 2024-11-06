@@ -3,6 +3,11 @@ description: >-
   Learn about manual project selection, device data storage, manual uploads, and
   referencing downloaded entries to maintain data integrity when using the
   Epicollect5 platform.
+cover: >-
+  ../.gitbook/assets/DALL·E 2024-11-06 18.58.54 - A cover image for a guide on
+  using the Epicollect5 platform, focusing on topics like manual project
+  selection, device data storage, manual uploads, an.webp
+coverY: 0
 ---
 
 # Projects and Entries Syncing
