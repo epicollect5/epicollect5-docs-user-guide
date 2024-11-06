@@ -50,7 +50,7 @@ This approach ensures that data collection is as seamless and efficient as possi
 Entries can be downloaded from the server to the mobile app when needed.&#x20;
 
 {% hint style="warning" %}
-While these downloaded entries are not editable by design, they serve as valuable references for adding related child entries or branch entries. This approach ensures data consistency and integrity across the system.
+While these downloaded entries are not editable by design, they serve as valuable references for adding related child entries or branch entries. This approach ensures data consistency and integrity across the system. Moreover, media files and branch entries do not get downloaded since they are not needed.
 {% endhint %}
 
 **Key Points**:
@@ -58,6 +58,7 @@ While these downloaded entries are not editable by design, they serve as valuabl
 * **Download Capability**: Entries can be downloaded from the server to the mobile app for reference purposes.
 * **Non-Editable**: Downloaded entries are intentionally non-editable to maintain the integrity of the original data.
 * **Reference Use**: These entries can be used to add related child entries or branch entries, facilitating better data linkage and context.
+* **Download Only What is Needed**: Media files and branch entries are not required and are excluded from the download process. By doing so, we ensure that only the most pertinent data is retrieved, which not only increases download speeds but also helps to reduce data usage and associated costs.
 
 **Why Auto-Syncing is Unnecessary**:
 
