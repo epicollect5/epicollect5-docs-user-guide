@@ -4,6 +4,7 @@
 
 ## About
 
+* [Projects and Entries Syncing](about/projects-and-entries-syncing.md)
 * [Our Community](about/our-community.md)
 * [Privacy Policy](about/privacy-policy.md)
 * [Cookie Policy](about/cookie-policy.md)
