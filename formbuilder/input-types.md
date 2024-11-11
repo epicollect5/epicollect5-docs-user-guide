@@ -12,7 +12,7 @@ A simple text question. It accepts answers up to 255 chars.
 
 A question that allows only numbers (integer or decimal).
 
-&#x20;It will use a numeric keyboard layout on the mobile device. Integer by default, decimal can be selected in the formbuilder "Advanced" tab for that question. On some devices, the full keyboard is shown for decimal questions. It accepts answers up to 255 chars.
+It will use a numeric keyboard layout on the mobile device. Integer by default, decimal can be selected in the formbuilder "Advanced" tab for that question. On some devices, the full keyboard is shown for decimal questions. It accepts answers up to 255 chars.
 
 ### Phone
 
@@ -56,7 +56,7 @@ For geographic data, the answer will be the latitude and longitude provided by t
 
 [**More info on LOCATION questions.**](location-questions.md)
 
-### Photo&#x20;
+### Photo
 
 An image taken with the camera, or an image file picked by the one stored on the device.
 
@@ -98,11 +98,19 @@ To accommodate scenarios where knowing the exact moment of data entry is critica
 
 This "Created At" timestamp ensures that, regardless of where or when the user is, there is a precise, universally comparable record of when the entry was made. This is crucial for data consistency, especially when aggregating data from multiple users across different time zones.
 
-These "Created At" timestamps get downloaded with the rest of the data from the web application. [**More on downloading data.** ](../web-application/downloading-data.md)
+These "Created At" timestamps get downloaded with the rest of the data from the web application. [**More on downloading data.**](../web-application/downloading-data.md)
 
 DATE questions behave exactly like TIME questions. When a user selects a date, that date is saved exactly as chosen, without any timezone data attached. For instance, selecting March 12 will be recorded as March 12, regardless of whether the user is in New York, Tokyo, or any other location. Just like with time entries, the absence of timezone data means the date is consistent and remains unchanged regardless of where the user is when they make the selection.\
 \
 In essence, "TIME" and "DATE" questions are designed to capture user input as a direct and unmodified point in time or a specific day. Meanwhile, the "Created At" timestamp, saved in UTC, provides the precise moment of data entry, ensuring that all entries can be accurately compared and analyzed across different time zones. This dual system maintains both user-specific time/date information and a standardized timestamp for comprehensive data analysis.
+
+**Constraints on DATE and TIME Questions**
+
+Currently, the date and time picker does not provide a way to set constraints on the selected date or time. However, the system automatically generates a `created_at` timestamp when an entry is initially saved on the device. Additionally, a `uploaded_at` timestamp is set when the entry is uploaded or updated at any time. This is because updates function as a re-upload, overriding the existing entry.&#x20;
+
+These timestamps help track the creation and modification history of each entry accurately, even without manual date and time constraints.
+
+`created_at` and `uploaded_at` timestamps are always available when downloading your dataset or exporting your entries using the Epicollect5 API.
 
 ## Angle brackets and other symbols
 
