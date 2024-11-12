@@ -25,7 +25,7 @@ This feature is useful when copying coordinates from third-party apps, like [**O
 <figure><img src="../.gitbook/assets/20230518_133418603_1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-For privacy reasons, device location tracking cannot be done automatically.&#x20;
+For privacy reasons, device location tracking cannot be done automatically.
 
 If you have used Facebook or Instagram, you might have noticed a similar approach; when adding a post, the location needs to be added manually.
 {% endhint %}
@@ -86,10 +86,10 @@ On the mobile app, the interface will show:
 | Accuracy               | **Meters**, refers to how close the device's calculated position is from the truth, expressed as a radius. Consumer smartphones devices can get a maximum accuracy of 3 or 4 meters. |
 
 {% hint style="info" %}
-The interface and features are kept to a minimum to be able to work both online and **offline.**
+The interface and features are kept to a minimum so that they can work both online and **offline.**
 {% endhint %}
 
-**Third-party Offline Maps Integrations**&#x20;
+### **Third-party Offline Maps Integrations**
 
 Starting from version **6.0.0**, our mobile applications now offer seamless integration with popular mapping apps such as Google Maps, Organic Maps, and Here WeGo. This integration allows users to view locations directly within these apps and conveniently copy latitude and longitude values (in decimal degrees) for use in Epicollect5.
 
@@ -119,8 +119,6 @@ Latitude and longitude values are shown as **signed degrees format**, with 6 dec
 ### Exported location data
 
 When exporting your datasets, by downloading a `csv` or `json` file and by using the API endpoints, location data are provided in both signed degrees format and UTM.
-
-
 
 ### Reverse Geocoding
 

@@ -54,7 +54,7 @@ A question that does not require any answer, is useful to show hints or tips to 
 
 For geographic data, the answer will be the latitude and longitude provided by the device hardware in Decimal Degrees (DD) format, like the ones you find on Google Maps. Accuracy is also captured (the best value is usually 4/5 meters depending on the device). Both latitude and longitude values are rounded to 6 decimal places, providing a precision of up to 11.1 cm. UTM values are also generated when exporting the data.
 
-[**More info on LOCATION questions.**](location-questions.md)
+[**More info on LOCATION questions.**](../mobile-application/location-questions.md)
 
 ### Photo
 

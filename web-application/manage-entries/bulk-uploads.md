@@ -264,7 +264,7 @@ Answers to LOCATION questions can be uploaded in bulk only in **signed degrees f
 The uploaded `csv`file must have valid data in each of those three columns, see below example taken from [**EC5 Demo Project**](https://five.epicollect.net/project/ec5-demo-project).
 
 {% hint style="success" %}
-If location data are not available, those columns can be left empty. It will still be a valid entry as LOCATION questions **cannot be required.** [**More on LOCATION questions**](../../formbuilder/location-questions.md)**.**
+If location data are not available, those columns can be left empty. It will still be a valid entry as LOCATION questions **cannot be required.** [**More on LOCATION questions**](../../mobile-application/location-questions.md)**.**
 {% endhint %}
 
 ![](../../.gitbook/assets/bulk-uploads-38.jpg)
