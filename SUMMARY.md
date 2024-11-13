@@ -60,6 +60,7 @@
 
 ## Mobile Application
 
+* [Intro](mobile-application/intro.md)
 * [Platforms and Media](mobile-application/mobile-application.md)
 * [Mobile App Authentication](mobile-application/mobile-app-authentication.md)
 * [Mobile App Permissions](mobile-application/mobile-app-permissions.md)
