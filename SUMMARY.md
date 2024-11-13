@@ -96,6 +96,7 @@
 ## Integrations
 
 * [Google Maps](integrations/google-maps.md)
+* [Google Earth](integrations/google-earth.md)
 * [Microreact](integrations/microreact.md)
 * [Survey Toolkit](integrations/survey-toolkit.md)
 * [Google Sheets](integrations/google-sheets.md)
