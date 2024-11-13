@@ -1,24 +1,24 @@
 # Download Entries
 
-Within Epicollect5, users have the capability to download remote entries for each form onto their device.&#x20;
+Within Epicollect5, users have the capability to download remote entries for each form onto their device.
 
-This functionality enables the addition of entries from one device and later retrieval on another.&#x20;
+This functionality enables the addition of entries from one device and later retrieval on another.
 
 When downloading entries, users obtain a snapshot of the current data collection status, encompassing form entries exclusively, but **excluding branch entries, and media files.**
 
-{% hint style="info" %}
-**Please note that when utilizing the mobile native apps, it's intentionally not feasible to directly edit downloaded remote entries and subsequently re-upload them..**
+{% hint style="warning" %}
+**Please note that when utilizing the mobile native apps, it's intentionally not feasible to directly edit downloaded remote entries and subsequently re-upload them.**
 {% endhint %}
 
 By design, direct editing of downloaded remote entries on the device is not possible. However, users can augment these entries by adding **child entries or branches.** This restriction ensures that server-side entries consistently supersede local modifications, **upholding the server as the definitive data source**.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **This approach serves to maintain data synchronization and integrity across devices, with the server serving as the singular source of truth.**
 {% endhint %}
 
 Entries can be edited on the server by CREATOR, MANAGER and CURATOR roles via the web application. ([**See how**](../web-application/adding-data.md))
 
-The responsive nature of the web application facilitates seamless access from mobile devices and tablets, contingent upon an internet connection.&#x20;
+The responsive nature of the web application facilitates seamless access from mobile devices and tablets, contingent upon an internet connection.
 
 {% hint style="success" %}
 **For editing entries on mobile devices, utilizing the web application stands as the sole viable option instead of the mobile app.**
@@ -42,7 +42,7 @@ You will be prompted to confirm the download. This is to remove any remote entri
 
 <figure><img src="../.gitbook/assets/20230502_105142246_1.png" alt=""><figcaption></figcaption></figure>
 
-After all the CLASS entries are downloaded, the PUPIL button is then enabled.&#x20;
+After all the CLASS entries are downloaded, the PUPIL button is then enabled.
 
 Tap PUPIL to download all the entries for the PUPIL form.
 
@@ -82,11 +82,8 @@ After you add a branch entry, you need to SAVE it before you can upload it. Obvi
 
 <figure><img src="../.gitbook/assets/20230502_105214484_1.png" alt=""><figcaption></figcaption></figure>
 
-
-
-After you save the branch entry, you can upload it. &#x20;
+After you save the branch entry, you can upload it.
 
 Notice the total of branch entries changed to "1 Entry"
 
 <figure><img src="../.gitbook/assets/20230502_105215471_1.png" alt=""><figcaption></figcaption></figure>
-
