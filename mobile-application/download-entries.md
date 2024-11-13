@@ -13,7 +13,7 @@ When downloading entries, users obtain a snapshot of the current data collection
 By design, direct editing of downloaded remote entries on the device is not possible. However, users can augment these entries by adding **child entries or branches.** This restriction ensures that server-side entries consistently supersede local modifications, **upholding the server as the definitive data source**.
 
 {% hint style="warning" %}
-**This approach serves to maintain data synchronization and integrity across devices, with the server serving as the singular source of truth.**
+**This approach maintains data synchronization and integrity across devices, with the server serving as the singular source of truth.**
 {% endhint %}
 
 Entries can be edited on the server by CREATOR, MANAGER and CURATOR roles via the web application. ([**See how**](../web-application/adding-data.md))
