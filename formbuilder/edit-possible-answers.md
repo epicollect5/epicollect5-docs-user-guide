@@ -18,6 +18,56 @@ If you delete a possible answer and you have some entries already collected, you
 
 For example, if you have a question with YES and NO as possible answers, you collected some data and later you decided to delete the NO possible answer, all your previous NO responses will be empty but you still have all your YES responses.
 
+### Restoring Deleted Possible Answers
+
+It is **not possible** to restore responses tied to a deleted possible answer. When you delete a possible answer in Epicollect5, all responses linked to that answer are permanently lost. Adding a new possible answer with the same text will not recover the lost responses.
+
+**Why Does This Happen?**&#x20;
+
+Behind the scenes, each possible answer is associated with a unique identifier (`answer_ref`). For example, your original list might look like this:
+
+```json
+[
+    {
+        "answer": "yes",
+        "answer_ref": "58d92c2b50435"
+    },
+    {
+        "answer": "no",
+        "answer_ref": "58d92c2b50436"
+    },
+    {
+        "answer": "n/a",
+        "answer_ref": "58d92c2b50437"
+    }
+]
+```
+
+When you remove the "yes" possible answer, and re-add it again, the list will look like this:
+
+```json
+[
+    {
+        "answer": "yes",
+        "answer_ref": "58d92c2b50439"
+    },
+    {
+        "answer": "no",
+        "answer_ref": "58d92c2b50436"
+    },
+    {
+        "answer": "n/a",
+        "answer_ref": "58d92c2b50437"
+    }
+]
+
+```
+
+Even though the possible answers may look the same to the user, the unique identifiers (`answer_ref`) are different. This means there is no longer any reference linking the previous “**yes**” response to the new “**yes**” response. The system considers those to be two completely different responses when looking at the `anwers_ref` identifiers (`58d92c2b50435` vs `58d92c2b50439`).\
+The `answer_ref` `58d92c2b50435` cannot be found anymore, so all those responses are gone.
+
+This principle applies to any software in general. For example, if you delete a folder and then later create a new one with the same name on your PC, you wouldn’t expect to find the previous content in the new folder, despite the folder having the same name.
+
 ### Sorting possible answers
 
 You can re-order the possible answers by drag and drop using the handle next to each one of them.
