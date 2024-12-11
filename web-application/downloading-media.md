@@ -5,7 +5,7 @@ If your project is **public**, a direct URL for each media file is included in t
 To **view media files** from a private project, log in to the **Dataviewer**. You can browse, preview, and download individual media files (photos, audio, videos) using your web browser. [**See Viewing entries**](viewing-data.md)**.**
 
 {% hint style="warning" %}
-We are aware that bulk downloading can streamline workflows and have added this feature to our **development roadmap** for future updates.
+We are aware that bulk downloading can streamline workflows and have added this feature to our development roadmap for future updates.
 {% endhint %}
 
 **For developers:** If you're comfortable with coding, you can **automate media retrieval** using our official API. Detailed documentation on fetching media files is available here:  [**Epicollect API - Get Media**](https://developers.epicollect.net/media/get-media)
