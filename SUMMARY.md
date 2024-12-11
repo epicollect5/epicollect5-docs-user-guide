@@ -31,6 +31,7 @@
 * [Manage Entries](web-application/manage-entries-1.md)
 * [Data Mapping](web-application/mapping-data.md)
 * [Downloading Data](web-application/downloading-data.md)
+* [Downloading Media](web-application/downloading-media.md)
 * [Metadata](web-application/metadata.md)
 * [Clone Project](web-application/clone-project.md)
 * [Rename Projects](web-application/rename-projects.md)
