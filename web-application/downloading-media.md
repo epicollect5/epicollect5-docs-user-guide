@@ -1,6 +1,7 @@
 # Downloading Media
 
-If your project is **public**, a direct URL for each media file is included in the CSV file, enabling easy download and access. However, if your project is **private**, only the file name is provided, as there are no public URLs available for privacy reasons.
+If your project is **public**, a direct URL for each media file is included in the `csv` or `JSON` file generated when data are exported, enabling easy download and access.  [**See Downloading Data**](downloading-data.md)\
+However, if your project is **private**, only the file name is provided, as there are no public URLs available for privacy reasons.
 
 To **view media files** from a private project, log in to the **Dataviewer**. You can browse, preview, and download individual media files (photos, audio, videos) using your web browser. [**See Viewing entries**](viewing-data.md)**.**
 
