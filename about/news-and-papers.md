@@ -15,7 +15,7 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
-
+{% embed url="https://azertag.az/xeber/dekabrin_16_dan_20_dek_qus_qripi_xesteliyine_qarsi_epizootoloji_monitorinqler_kechirilecek-3322767" %}
 
 {% embed url="https://geoconfluences.ens-lyon.fr/informations-scientifiques/a-la-une/carte-a-la-une/epicollect" %}
 
