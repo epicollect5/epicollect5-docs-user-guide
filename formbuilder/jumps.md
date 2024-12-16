@@ -38,19 +38,17 @@ _You CANNOT have more jump than the total of possible answers you have._
 
 ## Go to
 
-Select the jump destination i.e. the question to go to when the condition is met.&#x20;
+Select the jump destination i.e. the question to go to when the condition is met.
 
 {% hint style="info" %}
 By design, you cannot jump to the immediate next question (it would not be a jump, technically), you need to jump at least one question.
 
 In Epicollect5, the design principles dictate that you cannot set a jump to the immediate next question. This is because a jump, by definition, implies skipping over at least one question to reach a subsequent one. To ensure clarity and proper functionality within your survey or data collection form, any jump must bypass at least one question in between the origin and the destination.
 
-This design choice helps maintain the logical flow and structure of your questionnaire, preventing potential confusion or redundancy that could arise from setting a jump to the very next question.&#x20;
+This design choice helps maintain the logical flow and structure of your questionnaire, preventing potential confusion or redundancy that could arise from setting a jump to the very next question.
 
 By adhering to this rule, you can create more coherent and efficiently navigable surveys.
 {% endhint %}
-
-
 
 So if you have questions A, B, C, etc, setting a jump on A will list the next questions starting from C. Question B will not be listed, as it is just next to A.
 
@@ -72,27 +70,35 @@ Jumps can be used in many circumstances to give great flexibility when defining 
 
 The logic described above is for RADIO, DROPDOWN, and CHECKBOX.
 
-All the other questions will allow you to only enter a single simple "always" jump if needed:
+For all other question types, only a single, straightforward "always" jump can be applied if needed.
 
 ![](../.gitbook/assets/jumps-2.png)
 
-The reason behind that is to make it possible to jump from one question to another regardless of the user inputs.
+This design ensures that jumps remain functional regardless of user input.
 
-Useful when a question is the destination of a jump, but all the following questions are the destination of other previous jumps the user might have skipped.
+It is particularly useful when a question serves as the destination of a jump, while subsequent questions are linked to other jumps the user might have skipped.
 
-This situation is quite common when many jumps are set and you want to keep the proper questionnaire flow.
+Such scenarios commonly occur when multiple jumps are configured, helping maintain the intended questionnaire flow while avoiding interruptions in the user experience.
 
 ## Jumps and Groups
 
-By design, when using [Groups](groups.md), it is possible to apply only a jump "always" on the whole group, not any jumps on any questions nested in that group. This makes a lot of sense. A group is a set of related questions displayed at the same time as they would appear on a paper- based form. Jumps are a tool to hide questions from the users when they are not supposed to answer them.
+By design, when using [Groups](groups.md), it is possible to apply only a jump "always" on the whole group, not any jumps on any questions nested in that group. This makes a lot of sense. A group is a set of related questions displayed at the same time as they would appear on a paper-based form. Jumps are a tool to hide questions from the users when they are not supposed to answer them.
 
-If there is the need to have conditional questions within a group, the paper based approach will work. Something like: "If you answered B to previous question, tap on Next to go to the next section." Also, you could use README question types to offer even more instructions to the user.
+If there is a need to have conditional questions within a group, the paper-based approach will work. Something like: "If you answered B to the previous question, tap on Next to go to the next section." Also, you could use README question types to offer even more instructions to the user.
 
 {% hint style="info" %}
 If your logic is more complex, try to restructure your form so you will not need to use a jump within a group.
 {% endhint %}
 
+### Other, please specify
 
+Jumps can handle scenarios where additional input from the user is required.&#x20;
+
+A common example is offering an "Other" option in a multiple-choice question. When the user selects "Other," they can be prompted to provide a specific answer by typing it in a text or numeric field.
+
+This approach enhances flexibility by allowing users to provide custom responses that might not fit predefined options, ensuring more comprehensive data collection.
+
+For practical implementation details, see the examples -> [**Other, please specify**](../common-use-cases/specify-answer-with-jump.md)&#x20;
 
 ### Jumps and Branches
 
