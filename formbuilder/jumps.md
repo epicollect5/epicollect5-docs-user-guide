@@ -54,7 +54,7 @@ So if you have questions A, B, C, etc, setting a jump on A will list the next qu
 
 To reach the end of the questionnaire, just select "_End of form_".
 
-For practical implementation details, see the examples ->&#x20;
+For practical implementation details, see the [**Jumps 101 example**](../common-use-cases/jumps-101.md)**.**
 
 ## **Multiple jumps**
 
