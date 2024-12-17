@@ -2,7 +2,7 @@
 description: Example Implementation of Jumps in the Epicollect5 Platform
 ---
 
-# Jumps Example
+# Jumps 101
 
 We created a playground project called [**EC5 Jumps 101**](https://five.epicollect.net/project/ec5-jumps-101) for anyone to explore and experiment with jumps logic. The form structure is straightforward, asking for a person’s **Name** and **Sex**. We designed the form to display a different follow-up question based on the selected sex or skip follow-ups entirely if the user prefers not to disclose that information.
 

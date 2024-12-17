@@ -4,7 +4,15 @@ description: Conditional logic on your form(s).
 
 # Jumps (If-Else)
 
-Jumps allow a questionnaire to follow a conditional flow based on the user's answers. **It is possible to only jump forward**, to one of the next questions, not backward. Moreover, **at least one question must be jumped**
+{% hint style="info" %}
+For practical implementation details, see the [**Jumps 101 example**](../common-use-cases/jumps-example.md) and [**Other, please specify**](jumps.md#other-please-specify)**.**
+{% endhint %}
+
+Jumps allow a questionnaire to follow a conditional flow based on the user's answers.
+
+{% hint style="warning" %}
+&#x20;**It is possible to only jump forward**, to one of the next questions, not backward. Moreover, **at least one question must be jumped**
+{% endhint %}
 
 ![](../.gitbook/assets/jumps-1.png)
 
@@ -54,7 +62,7 @@ So if you have questions A, B, C, etc, setting a jump on A will list the next qu
 
 To reach the end of the questionnaire, just select "_End of form_".
 
-For practical implementation details, see the [**Jumps 101 example**](../common-use-cases/jumps-101.md)**.**
+For practical implementation details, see the [**Jumps 101 example**](../common-use-cases/jumps-example.md)**.**
 
 ## **Multiple jumps**
 
