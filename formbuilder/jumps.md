@@ -4,7 +4,7 @@ description: Conditional logic on your form(s).
 
 # Jumps (If-Else)
 
-Jumps allow a questionnaire to follow a conditional flow based on the user's answers. **It is possible to only jump forward**, to one of the next questions, not backward.
+Jumps allow a questionnaire to follow a conditional flow based on the user's answers. **It is possible to only jump forward**, to one of the next questions, not backward. Moreover, **at least one question must be jumped**
 
 ![](../.gitbook/assets/jumps-1.png)
 
@@ -36,11 +36,11 @@ Pick the answer that will trigger the jump from the list of possible answers.
 
 _You CANNOT have more jump than the total of possible answers you have._
 
-## Go to
+## Go To
 
 Select the jump destination i.e. the question to go to when the condition is met.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 By design, you cannot jump to the immediate next question (it would not be a jump, technically), you need to jump at least one question.
 
 In Epicollect5, the design principles dictate that you cannot set a jump to the immediate next question. This is because a jump, by definition, implies skipping over at least one question to reach a subsequent one. To ensure clarity and proper functionality within your survey or data collection form, any jump must bypass at least one question in between the origin and the destination.
@@ -54,9 +54,11 @@ So if you have questions A, B, C, etc, setting a jump on A will list the next qu
 
 To reach the end of the questionnaire, just select "_End of form_".
 
+For practical implementation details, see the examples ->&#x20;
+
 ## **Multiple jumps**
 
-You can of course add more than one jump clause. However, **please be careful to make sure you do not add conflicting jump clauses to a field**. If that is the case, the jumps will follow the order from top to bottom i.e. **in the case of more than one condition met, the first jump from the top will win.**
+You can of course add more than one jump clause. However, **please be careful not to add conflicting jump clauses to a field**. If that is the case, the jumps will follow the order from top to bottom i.e. **in the case of more than one condition met, the first jump from the top will win.**
 
 For example, you may have a drop-down with five items, and you would like to specify that if a user selects item one, they jump to question five, but if they select item three they jump to question ten. All other choices would proceed normally within the form.
 

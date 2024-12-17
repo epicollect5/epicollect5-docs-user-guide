@@ -9,7 +9,7 @@ This feature ensures that when you fill out a child form, the response from the 
 \
 This helps in maintaining context and ensuring accuracy in data collection, streamlining the process of gathering comprehensive and linked data sets.\
 \
-For example, try the [**EC5 Title as reference**](https://five.epicollect.net/project/ec5-title-as-reference) project on the mobile app**.**
+For example, try the [**EC5 Title as reference**](https://five.epicollect.net/project/ec5-title-as-reference) project on the mobile ap&#x70;**.**
 
 
 

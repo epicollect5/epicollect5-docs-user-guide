@@ -107,6 +107,7 @@
 
 * [Matrix Style Questions](common-use-cases/matrix.md)
 * [Consolidate data](common-use-cases/consolidate-data.md)
+* [Jumps Example](common-use-cases/jumps-example.md)
 * [Other, Please Specify](common-use-cases/specify-answer-with-jump.md)
 * [Non-Hierarchical Forms](common-use-cases/non-hierarchical-forms.md)
 * [Users Working Groups](common-use-cases/users-working-groups.md)
