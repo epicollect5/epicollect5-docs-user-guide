@@ -1,10 +1,14 @@
+---
+description: Handling "Other, Please Specify" in Epicollect5 Forms
+---
+
 # Other, Please Specify
 
 A very common scenario when converting a paper-based form to Epicollect5 is as follows:
 
 ![](../.gitbook/assets/other-1.jpg)
 
-When using a question type having a list of possible answers (like RADIO, DROPDOWN or CHECKBOX) sometimes you would like to collect an open answer when the user pick "Other" from the list of available possible answers. Let's have a look at a couple of possible implementations.
+When converting paper-based forms to Epicollect5, a common requirement is collecting an open-ended answer when a user selects **"Other"** from a list of possible answers. This can be easily implemented using the platform's features. Let’s explore two effective approaches:
 
 ## 1 - Using Jumps
 
@@ -37,9 +41,9 @@ Here is how it will look on a device:
 | ![](../.gitbook/assets/other-5.png) | It will be similar to a paper based form |
 
 {% hint style="info" %}
-Regardless of the approach used, the final data on the Epicollect5 server and the exported `csv` files will be spread over two columns, one for the main question and one for the "Other" question.&#x20;
+Regardless of the approach used, the final data on the Epicollect5 server and the exported `csv` files will be spread over two columns, one for the main question and one for the "Other" question.
 
-To consolidate the data, it is pretty easy to merge columns in Google Sheets, Excel or similar in the post-processing.&#x20;
+To consolidate the data, it is pretty easy to merge columns in Google Sheets, Excel or similar in the post-processing.
 
 [**For Google Sheets see here**](https://support.google.com/docs/answer/9060449?hl=en\&co=GENIE.Platform%3DDesktop#zippy=%2Cmerge-rows-or-columns).
 
