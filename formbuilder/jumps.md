@@ -11,42 +11,35 @@ For practical implementation details, see [**Jumps 101**](../common-use-cases/ju
 Jumps allow a questionnaire to follow a conditional flow based on the user's answers.
 
 {% hint style="warning" %}
-&#x20;**It is possible to only jump forward**, to one of the next questions, not backward. Moreover, **at least one question must be jumped**
+**It is possible to only jump forward**, to one of the next questions, not backward.&#x20;
+
+Moreover, **at least one question must be jumped.**
 {% endhint %}
 
-![](../.gitbook/assets/jumps-1.png)
+<figure><img src="../.gitbook/assets/jumps-44.jpg" alt=""><figcaption><p>Select the question and clikc on the jumps (IF - ELSE) tab</p></figcaption></figure>
 
 ## When
 
-Four conditions can be set:
+One out of four conditions can be set
 
-_**answer IS**_
+<figure><img src="../.gitbook/assets/jumps-11.jpg" alt=""><figcaption></figcaption></figure>
 
-For example, within question one, jump to question five if the user selects value two.
-
-_**answer**_**\*\*** IS NOT\*\*
-
-For example, within question one, jump to question five if the user does not select value two.
-
-**no answer is given**
-
-For example, If a user does not select a value for question one, jump to question five
-
-**always**
-
-For example, If a user selects any answer, jump to question five.
-
-Useful when you want to skip questions regardless of the user input to keep the flow going.
+* _no answer given -_ When no answer is given by the user
+* _answer is_ -  When the answer matches
+* answer is NOT - When the answer does not match
+* always - Jump regardless of user choice
 
 ## Answer
 
 Pick the answer that will trigger the jump from the list of possible answers.
 
-_You CANNOT have more jump than the total of possible answers you have._
+<figure><img src="../.gitbook/assets/jumps22.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Go To
 
 Select the jump destination i.e. the question to go to when the condition is met.
+
+<figure><img src="../.gitbook/assets/jumps33.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 By design, you cannot jump to the immediate next question (it would not be a jump, technically), you need to jump at least one question.
