@@ -5,7 +5,7 @@ description: Conditional logic on your form(s).
 # Jumps (If-Else)
 
 {% hint style="info" %}
-For practical implementation details, see the [**Jumps 101 example**](../common-use-cases/jumps-example.md) and [**Other, please specify**](jumps.md#other-please-specify)**.**
+For practical implementation details, see [**Jumps 101**](../common-use-cases/jumps-example.md) and [**Other, please specify**](jumps.md#other-please-specify) example&#x73;**.**
 {% endhint %}
 
 Jumps allow a questionnaire to follow a conditional flow based on the user's answers.
