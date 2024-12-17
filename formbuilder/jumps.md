@@ -16,7 +16,7 @@ Jumps allow a questionnaire to follow a conditional flow based on the user's ans
 Moreover, **at least one question must be jumped.**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/jumps-44.jpg" alt=""><figcaption><p>Select the question and clikc on the jumps (IF - ELSE) tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/jumps-44.jpg" alt=""><figcaption><p>Select the question and click on the jumps (IF - ELSE) tab</p></figcaption></figure>
 
 ## When
 
