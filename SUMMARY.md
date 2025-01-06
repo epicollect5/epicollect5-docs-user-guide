@@ -26,6 +26,7 @@
   * [Entries Limits](web-application/manage-entries/entries-limits.md)
   * [Entries Bulk Deletion](web-application/manage-entries/entries-bulk-deletion.md)
   * [Entries Bulk Uploads](web-application/manage-entries/bulk-uploads.md)
+  * [Entries Ownership & Metadata](web-application/manage-entries/entries-ownership-and-metadata.md)
 * [Manage Users](web-application/manage-users.md)
 * [Transfer Ownership](web-application/transfer-ownership.md)
 * [Manage Entries](web-application/manage-entries-1.md)
