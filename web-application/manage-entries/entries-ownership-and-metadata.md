@@ -22,6 +22,8 @@ description: >-
   * The absence of email information ensures that contributors' privacy is maintained, as public project data are accessible to anyone.
   * This means that entries from public projects cannot be linked to specific users or email addresses.
 
+[**More info about metadata**](../metadata.md)**.**
+
 ***
 
 #### **3. Transition from Public to Private**
