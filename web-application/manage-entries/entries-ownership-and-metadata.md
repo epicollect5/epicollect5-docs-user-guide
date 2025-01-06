@@ -1,12 +1,12 @@
 ---
 description: >-
   In Epicollect5, understanding the metadata associated with entries, especially
-  the email field, is important when managing ownership and privacy settings
+  the email field, is important when managing ownership and privacy settings.
 ---
 
 # Entries Ownership & Metadata
 
-#### **1. Metadata for Private Projects**
+**1. Metadata for Private Projects**
 
 * **Private Projects**:\
   When a project is set to **private**, the system collects the email address used by the contributor to authenticate when submitting data, per each entry submitted.
@@ -21,8 +21,6 @@ description: >-
   In contrast, for public projects, the **email field is not collected or exposed** in the metadata.
   * The absence of email information ensures that contributors' privacy is maintained, as public project data are accessible to anyone.
   * This means that entries from public projects cannot be linked to specific users or email addresses.
-
-[**More info about metadata**](../metadata.md)**.**
 
 ***
 
@@ -43,3 +41,5 @@ description: >-
    Public projects prioritize user privacy by not collecting personal identifiers like email addresses, making them suitable for use cases where anonymity is preferred.
 3. **Project Configuration**:\
    It is important to carefully plan whether a project should be private or public at its inception. Transitioning a project from public to private may create a gap in metadata consistency, as older entries will lack email data.
+
+#### [**More info about metadata**](../metadata.md)
