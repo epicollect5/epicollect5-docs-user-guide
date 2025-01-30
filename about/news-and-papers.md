@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://gualeguaychu.gov.ar/noticia/25834-la-municipalidad-realizo-un-relevamiento-socioeconomico-en-el-barrio-los-espinillos" %}
+
 {% embed url="https://noticiascoopercom.co/alcaldia-de-soledad-lanza-la-app-epicollect5-para-combatir-el-dengue/" %}
 
 {% embed url="https://azertag.az/ru/xeber/nachinayutsya_ocherednye_epizootologicheskie_monitoringi_po_ptichemu_grippu-3369475" %}
