@@ -1,27 +1,25 @@
-# Delete Projects
+# Delete Projects (Web)
 
-Deleting a project will delete the project from the system and all its data.
+Deleting a project will permanently remove it from the system along with all its associated data. Please proceed with caution.&#x20;
 
 {% hint style="danger" %}
-Be careful as this action cannot be undone! Be sure to backup your data first!
+Be careful as this action cannot be undone! Be sure to back up your data first!
 {% endhint %}
 
-To delete a project, you first need to set its status as TRASH
+To delete a project, you must first set its status as **TRASH**.
 
-![](../.gitbook/assets/delete-project-1.png)
+<figure><img src="../.gitbook/assets/delete-projects-1.jpg" alt=""><figcaption><p>Set project status as TRASH</p></figcaption></figure>
 
-Then just click on "DELETE".
+Then click on "**DELETE**".
 
-{% hint style="info" %}
-Only the user with the role of **CREATOR** has the rights to perform that action
+{% hint style="warning" %}
+Only the user with the role of **CREATOR** has the right to perform the delete action.
 {% endhint %}
 
-![](../.gitbook/assets/delete-project-2.png)
+<figure><img src="../.gitbook/assets/delete-projects-2.jpg" alt=""><figcaption><p>Click the DELETE button to proceed</p></figcaption></figure>
 
-For confirmation, you will be asked to type in the project name
+To confirm the deletion, you will be asked to enter the project name.
 
-![](../.gitbook/assets/delete-project-3.png)
+Once the project name matches exactly, the delete button on the right will be enabled, allowing you to proceed with the final deletion.
 
-When the project name matches exactly, the delete button on the right will be enable and the project will be finally deleted.
-
-![](../.gitbook/assets/delete-project-4.png)
+<figure><img src="../.gitbook/assets/delete-projects-3.jpg" alt=""><figcaption><p>Type the project name to enable the DELETE button</p></figcaption></figure>
