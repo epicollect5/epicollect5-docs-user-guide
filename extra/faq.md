@@ -6,7 +6,7 @@ We decided to keep the _epicollect_ branding after the success of the previous v
 
 > **HTML5**, as most often nowadays used, means ”applications developed on top of the web client technology **stack**”. The web client technology **stack** includes three open standardized technologies supported by the browser engines: HTML, CSS and JavaScript
 
-![](../.gitbook/assets/HTML\_Logo.png)
+![](../.gitbook/assets/HTML_Logo.png)
 
 ## What happens if I set the project _access_ from public to private when the survey already started and I have already users in the field collecting data? <a href="#public-to-private" id="public-to-private"></a>
 
@@ -48,7 +48,7 @@ The same goes for accessing the data on the server, they wil have to login to vi
 
 **Epicollect5 is 100% free to use without any limits**. You can create as many projects as you like and upload as many entries as you like, from as many devices as you like.
 
-Epicollect5 has been financially supported by the [Wellcome Trust Foundation](https://wellcome.ac.uk/) for more than a decade and we implement open source technologies to be able to provide the service for free.
+Epicollect5 is financially supported by the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) and we implement open-source technologies to provide the service for free.
 
 For security reasons, we do not accept the `<` and `>` chars as part of a question or answer. We suggest you use "greater than" or "smaller than" instead, or whatever fits you best. As an alternative, you can use [**Unicode symbols**](https://www.piliapp.com/symbol/#math) like we did in our [**EC5 Angle Brackets**](https://five.epicollect.net/project/ec5-angle-brackets) project.
 
@@ -64,8 +64,6 @@ This is an iOS 11 feature, "smart" quotes vs "straight" quotes.
 
 Smart quotes can be disabled using Settings ->General ->Keyboards ->turn off Smart Punctuation.
 
-
-
 ## Why all my projects disappeared?
 
 When you log in to Epicollect5 using your Google Account, we link each project you create to your Google Account email you are using at that time.
@@ -74,7 +72,7 @@ When you log in to Epicollect5 using your Google Account, we link each project y
 A Google Account email can be anything, not just Gmail!
 {% endhint %}
 
-&#x20;Let's say you are using a Google Account with the email _**john@doe.com**_. All your projects will be linked to that email. If later on, you decide, for any reason, to add a Gmail address to your existing Google Account (for example _johndoe@gmail.com_), your new Gmail address will become the default when you log in. All the projects created with the email _**john@doe.com**_ will not be visible to you anymore.
+Let's say you are using a Google Account with the email _**john@doe.com**_. All your projects will be linked to that email. If later on, you decide, for any reason, to add a Gmail address to your existing Google Account (for example _johndoe@gmail.com_), your new Gmail address will become the default when you log in. All the projects created with the email _**john@doe.com**_ will not be visible to you anymore.
 
 {% hint style="warning" %}
 Using the Gmail address as the default for authentication is a Google decision which is completely out of our control, please read [https://support.google.com/accounts/thread/64168414?hl=en](https://support.google.com/accounts/thread/64168414?hl=en)
