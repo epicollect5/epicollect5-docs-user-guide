@@ -24,7 +24,7 @@ As a result, older versions of our application may become incompatible with the 
 
 **Epicollect5 is 100% free to use without any limits(\*)**. You can create as many projects and upload as many entries as you wish.
 
-Epicollect5 is financially supported by the [Wellcome Trust Foundation](https://wellcome.ac.uk/) and we implement open-source technologies to be able to provide the service for free.
+Epicollect5 is financially supported by the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) and we implement open-source technologies to provide the service for free.
 
 {% hint style="warning" %}
 (\*) We kindly remind you of our fair usage policy, which remains in effect.
