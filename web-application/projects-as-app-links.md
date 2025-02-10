@@ -33,12 +33,16 @@ App Links in Epicollect5 are always **publicly accessible**, meaning the link it
 * **Private Projects**: If a project is private, only members of the project (those with the appropriate permissions) will be able to load and access it via the App Link or QR code. Non-members will be unable to view or interact with the project.
 
 {% hint style="warning" %}
-**Why are App Links public?**\
+**Why are App Links public?**
+
 App Links must be publicly accessible to function properly. If they were private, attempting to open the link for a private project would likely result in a **404 error** (page not found). By making the App Link public, it ensures the link works seamlessly while still enforcing the project's privacy settings.
 
 **What information is exposed?**\
 Only the **project name** is exposed through the App Link. No other project details, data, or metadata are shared, ensuring the privacy and security of the data.\
 \
-**Alignment with Mobile App Project Search**\
-This behaviour aligns with the **project search functionality in the Epicollect5 mobile app**, where private projects are still displayed in search results but only the project name is shown. Any attempt by a non-member to load a private project—whether through an App Link, QR code, or search result—will fail, maintaining the privacy and security of the project.
+**Alignment with Mobile App Project Search**
+
+This is not a new change—project names have always been visible through the Epicollect5 mobile app’s search feature where private projects still appear in search results, but only the project name is shown. Any attempt by a non-member to load a private project—whether through an App Link, QR code, or search—will fail, maintaining the privacy and security of the project.
+
+The App Link simply provides a more convenient way to access projects without manual searching. Even if someone guesses or reconstructs an App Link, they still need the correct permissions to load and access the project.
 {% endhint %}
