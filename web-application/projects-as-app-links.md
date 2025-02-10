@@ -20,8 +20,8 @@ For App Links to work the device must have the app installed. If the app is not 
 
 Project creators in Epicollect5 have the flexibility to control whether the **App Link** is visible on the project's home page. If they choose to enable this feature, an additional button will appear on the project page. When users click (or tap, if accessing via a mobile device) this button, it will display two convenient options:
 
-1. **A link to tap**: This is a direct App Link that, when tapped, opens the Epicollect5 app on your Android or iOS device and automatically loads the project.
-2. **A QR code to scan**: This QR code can be scanned using your device's camera or a QR code scanner, which will also open the Epicollect5 app and load the project seamlessly.
+1. **A link to tap**: This is a direct App Link that, when tapped, opens the Epicollect5 app on the Android or iOS device and automatically loads the project.
+2. **A QR code to scan**: This QR code can be scanned using the device's camera or a QR code scanner, which will also open the Epicollect5 app and load the project seamlessly.
 
 This feature is designed to make it easier for users to access and work with projects on their mobile devices, while giving project creators control over how the App Link is shared and displayed.
 
@@ -37,7 +37,7 @@ App Links in Epicollect5 are always **publicly accessible**, meaning the link it
 App Links must be publicly accessible to function properly. If they were private, attempting to open the link for a private project would likely result in a **404 error** (page not found). By making the App Link public, it ensures the link works seamlessly while still enforcing the project's privacy settings.
 
 **What information is exposed?**\
-Only the **project name** is exposed through the App Link. No other project details, data, or metadata are shared, ensuring the privacy and security of your data.\
+Only the **project name** is exposed through the App Link. No other project details, data, or metadata are shared, ensuring the privacy and security of the data.\
 \
 **Alignment with Mobile App Project Search**\
 This behaviour aligns with the **project search functionality in the Epicollect5 mobile app**, where private projects are still displayed in search results but only the project name is shown. Any attempt by a non-member to load a private project—whether through an App Link, QR code, or search result—will fail, maintaining the privacy and security of the project.
