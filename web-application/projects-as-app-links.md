@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Projects as App Links
 
 ### Projects App Links
