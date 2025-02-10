@@ -38,6 +38,7 @@
 * [Rename Projects](web-application/rename-projects.md)
 * [Import & Export Projects](web-application/import-and-export-projects.md)
 * [Web Link to Add Entries](web-application/web-link-to-add-entries.md)
+* [Projects as App Links](web-application/projects-as-app-links.md)
 
 ## Formbuilder
 
