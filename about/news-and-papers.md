@@ -15,6 +15,12 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://fa7.naxapi.com/nd.go.th/dnm_file/project/1738204952825_6262_center.pdf" %}
+
+{% embed url="https://azertag.az/xeber/naxchivanda_qus_qripine_qarsi_epizootoloji_monitorinqler_aparilir-3417127" %}
+
+{% embed url="https://www.eluniverso.com/noticias/informes/ecu-polinizadores-la-campana-para-recopilar-datos-sobre-muertes-de-abejas-en-ecuador-nota/" %}
+
 {% embed url="https://gualeguaychu.gov.ar/noticia/25834-la-municipalidad-realizo-un-relevamiento-socioeconomico-en-el-barrio-los-espinillos" %}
 
 {% embed url="https://noticiascoopercom.co/alcaldia-de-soledad-lanza-la-app-epicollect5-para-combatir-el-dengue/" %}
