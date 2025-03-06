@@ -50,6 +50,7 @@
 * [Linking Forms](formbuilder/multiple-forms.md)
 * [Rename Forms](formbuilder/rename-forms.md)
 * [Print Forms](formbuilder/print-form.md)
+* [Remove Forms](formbuilder/remove-forms.md)
 * [Search](formbuilder/search.md)
 * [Jumps (If-Else)](formbuilder/jumps.md)
 * [Branches](formbuilder/branches.md)
