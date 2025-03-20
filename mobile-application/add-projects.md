@@ -1,6 +1,10 @@
 # Add Projects
 
-On the Epicollect5 mobile application, the process of adding projects is handled manually.&#x20;
+{% hint style="warning" %}
+**Projects must be created beforehand using the web application at** [five.epicollect.net](https://five.epicollect.net/). [Learn More](../web-application/create-a-project.md)
+{% endhint %}
+
+After creating projects in the web application and preparing to collect entries, you must manually add them to the Epicollect5 mobile application.
 
 Here's what this process entails:
 
@@ -18,19 +22,13 @@ Here's what this process entails:
 
 Overall, this approach provides users with a clear and controlled experience when participating in projects using the Epicollect5 app. It allows users to focus on data collection while maintaining their privacy and autonomy in choosing projects.
 
-
-
-To add a project, tap the **+ ADD PROJECT** button at the top right corner of the **PROJECTS** page.&#x20;
+To add a project, tap the **+ ADD PROJECT** button at the top right corner of the **PROJECTS** page.
 
 {% hint style="info" %}
-&#x20;An internet connection is required to be able to search and add projects.
+An internet connection is required to be able to search and add projects.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/20230412_185446860_1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/20230412_185446860_1.png" alt=""><figcaption></figcaption></figure></div>
 
 You will be presented with the **ADD PROJECT** page, where you can search for a project by typing its name.
 
