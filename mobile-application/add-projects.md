@@ -1,7 +1,9 @@
 # Add Projects
 
 {% hint style="warning" %}
-**Projects must be created beforehand using the web application at** [five.epicollect.net](https://five.epicollect.net/). [Learn More](../web-application/create-a-project.md)
+**Projects must be created beforehand using the web application at** [five.epicollect.net](https://five.epicollect.net/)**.**&#x20;
+
+[**Learn More**](../web-application/create-a-project.md)
 {% endhint %}
 
 After creating projects in the web application and preparing to collect entries, you must manually add them to the Epicollect5 mobile application.
