@@ -1,7 +1,7 @@
 # Add Projects
 
 {% hint style="warning" %}
-**Projects must be created beforehand using the web application at** [five.epicollect.net](https://five.epicollect.net/)**.**&#x20;
+**Projects must be created beforehand using our web application.**
 
 [**Learn More**](../web-application/create-a-project.md)
 {% endhint %}
