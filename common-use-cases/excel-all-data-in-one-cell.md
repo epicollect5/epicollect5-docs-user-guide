@@ -1,4 +1,4 @@
-# Excel all data in one cell
+# Excel All Data in One Cell
 
 If all data is appearing in a single cell in Excel when you open a CSV file, here’s how to fix it:
 

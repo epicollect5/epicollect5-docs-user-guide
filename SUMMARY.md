@@ -115,7 +115,7 @@
 * [Non-Hierarchical Forms](common-use-cases/non-hierarchical-forms.md)
 * [Users Working Groups](common-use-cases/users-working-groups.md)
 * [Excel and UTF-8](common-use-cases/excel-and-utf-8.md)
-* [Excel all data in one cell](common-use-cases/excel-all-data-in-one-cell.md)
+* [Excel All Data in One Cell](common-use-cases/excel-all-data-in-one-cell.md)
 * [Barcodes](common-use-cases/barcodes.md)
 * [Child Forms vs Branches](common-use-cases/child-forms-vs-branches.md)
 * [Dependent Dropdowns](common-use-cases/dependent-dropdowns.md)
