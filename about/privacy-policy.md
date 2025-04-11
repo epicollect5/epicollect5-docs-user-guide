@@ -14,7 +14,7 @@ Users can log in to Epicollect5 using:
 * Apple Account
 * Email
 
-The only piece of information kept in the system is the user email for basic project user management.&#x20;
+The only piece of information kept in the system is the user email for basic project user management.
 
 Whether you want to use your personal email or another email just for Epicollect5 is up to you.
 
@@ -70,7 +70,7 @@ Epicollect5 embraces industry-standard best practices to protect against unautho
 5. **Secure Coding Practices**: Follow secure coding practices such as input validation, output encoding, error handling, and proper session management to minimize the risk of security vulnerabilities.
 6. **Patch Management**: Keep all software components up to date with the latest security patches and updates to address known vulnerabilities.
 7. **Least Privilege Principle**: Follow the principle of least privilege, where users and processes are granted only the minimum level of access or permissions necessary to perform their tasks.
-8. **Monitoring and Logging**:  Robust logging and monitoring mechanisms to detect and respond to security incidents in real time.&#x20;
+8. **Monitoring and Logging**: Robust logging and monitoring mechanisms to detect and respond to security incidents in real time.
 9. **Backups**: Daily backups of the server are run in case of a system fault.
 
 **Privacy and Data Storage in Epicollect5 Mobile Application(s)**
@@ -97,10 +97,15 @@ Furthermore, users with a VIEWER role will be removed from any project. Since VI
 
 Finally, users have the option to delete contributions to private projects before proceeding with their account deletion. However, it's important to note that this process is manual, and each entry must be deleted individually. This is a deliberate choice to prevent unintended data loss and mistakes. By taking this approach, users have better control over their data and can carefully manage their contributions before proceeding with the account deletion.
 
+{% hint style="danger" %}
+We understand the importance of the data you collected. However, please note that account deletions are **automated and final**. Once a deletion request is submitted and processed, **all associated data is permanently removed** under data protection laws and our privacy policy.\
+By law, we are **not permitted to retain or recover user data** after such a request has been completed.​
+{% endhint %}
+
 #### Contact Us
 
 Our primary point of contact for all matters is the Epicollect5 Community at [community.epicollect.net](http://community.epicollect.net/)
 
 If there is a need to discuss a particular request privately, we will provide users with a support email address to facilitate this private conversation. Subsequently, the public topic related to the request will be closed to ensure the confidentiality of the discussion.
 
-\
+\\
