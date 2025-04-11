@@ -107,5 +107,3 @@ By law, we are **not permitted to retain or recover user data** after such a req
 Our primary point of contact for all matters is the Epicollect5 Community at [community.epicollect.net](http://community.epicollect.net/)
 
 If there is a need to discuss a particular request privately, we will provide users with a support email address to facilitate this private conversation. Subsequently, the public topic related to the request will be closed to ensure the confidentiality of the discussion.
-
-\\
