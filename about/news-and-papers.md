@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://www.youtube.com/@NorthSomersetBatSurvey" %}
+
 {% embed url="https://azertag.az/xeber/naxchivanda_qus_qripi_ile_bagli_epizootoloji_monitorinqler_kechirilib-3448187?__cf_chl_tk=Ie4ZefruJ4wu83nVkjN8klBdEZoA_O6EEH4c2pKX8Dw-1741274262-1.0.1.1-S.VCkJsOpZXtanVZNyrCrtlIahmCPIdS0RFrURv8CHk" %}
 
 {% embed url="https://fa7.naxapi.com/nd.go.th/dnm_file/project/1738204952825_6262_center.pdf" %}
