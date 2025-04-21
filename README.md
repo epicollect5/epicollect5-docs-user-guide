@@ -4,7 +4,7 @@ description: Free and easy-to-use mobile data-gathering platform.
 
 # What is Epicollect5
 
-[**Epicollect5**](https://five.epicollect.net/) is a mobile & web application for free and easy data collection developed by the [**CGPS Team**](https://www.pathogensurveillance.net/our-software/)**.**
+[**Epicollect5**](https://five.epicollect.net/) is a mobile & web application for free and easy data collection developed by the [**CGPS Team**](https://www.pathogensurveillance.net/our-software/) based at the [**Oxford University Big Data Institute**](https://www.bdi.ox.ac.uk/)**.**
 
 It provides both web and mobile applications for the generation of forms (questionnaires) and freely hosted project websites for data collection.
 
@@ -27,7 +27,7 @@ As a result, older versions of our application may become incompatible with the 
 Epicollect5 is financially supported by the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) and we implement open-source technologies to provide the service for free.
 
 {% hint style="warning" %}
-Please note that Epicollect5 is developed by Oxford University, not by a commercial tech company, and is provided as a free service on an “as-is” basis, without any guarantees. \
+Please note that Epicollect5 is developed by a small team of Oxford University researchers, not by a commercial tech company, and is provided as a free service on an “as-is” basis, without any guarantees. \
 For mission-critical projects where occasional disruptions, bugs, performance limitations, or missing features could pose significant challenges, we recommend considering alternatives such as [KoboToolbox](https://www.kobotoolbox.org/) or [ODK](https://getodk.org/), which may better suit your needs.
 {% endhint %}
 
