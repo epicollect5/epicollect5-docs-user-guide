@@ -27,8 +27,8 @@ As a result, older versions of our application may become incompatible with the 
 Epicollect5 is financially supported by the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) and we implement open-source technologies to provide the service for free.
 
 {% hint style="warning" %}
-Please note that Epicollect5 is developed by a small team of Oxford University researchers, not by a commercial tech company, and is provided as a free service on an “as-is” basis, without any guarantees. \
-For mission-critical projects where occasional disruptions, bugs, performance limitations, or missing features could pose significant challenges, we recommend considering alternatives such as [KoboToolbox](https://www.kobotoolbox.org/) or [ODK](https://getodk.org/), which may better suit your needs.
+Please note that Epicollect5 is developed by a small team of Oxford University researchers, not by a commercial tech company, and is provided as a free service on an “as-is” basis, without any guarantees.\
+For mission-critical projects where occasional disruptions, bugs, performance limitations, or missing features could pose significant challenges, we recommend considering alternatives such as [KoboToolbox](https://www.kobotoolbox.org/), [ODK](https://getodk.org/), or [Google Forms](https://workspace.google.com/products/forms/), which may better suit your needs.
 {% endhint %}
 
 {% hint style="warning" %}
