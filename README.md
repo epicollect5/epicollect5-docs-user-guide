@@ -27,6 +27,11 @@ As a result, older versions of our application may become incompatible with the 
 Epicollect5 is financially supported by the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) and we implement open-source technologies to provide the service for free.
 
 {% hint style="warning" %}
+Please note that Epicollect5 is developed by Oxford University, not by a commercial tech company, and is provided as a free service on an “as-is” basis, without any guarantees. \
+For mission-critical projects where occasional disruptions, bugs, performance limitations, or missing features could pose significant challenges, we recommend considering alternatives such as [KoboToolbox](https://www.kobotoolbox.org/) or [ODK](https://getodk.org/), which may better suit your needs.
+{% endhint %}
+
+{% hint style="warning" %}
 (\*) We kindly remind you of our fair usage policy, which remains in effect.
 
 For instance, uploading 500 videos, each at 500MB, would consume a total of 250GB of storage space.
