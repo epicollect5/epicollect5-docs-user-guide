@@ -3,7 +3,6 @@ description: >-
   Permanently delete all project entries. Only Creators can perform this action.
   The project must be locked, and deletion applies to one project at a time.
   Data is not recoverable—backup first!
-hidden: true
 ---
 
 # Entries Bulk Deletion
