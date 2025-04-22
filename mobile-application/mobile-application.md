@@ -10,15 +10,15 @@ Please note that the supported versions of our application may change over time 
 As a result, older versions of our application may become incompatible with the latest operating systems or may no longer receive updates and support. To ensure the best experience and access to the latest features and security enhancements, we recommend regularly updating to the latest version of the application available on the respective app stores.
 {% endhint %}
 
-**The mobile app is currently available for both Android (10+) and iOS (14+)**
+**The mobile app is currently available for both Android (10+) and iOS (16+)**
 
 ### Android
 
 We support phones and tablets on Android 10 and onwards.
 
-[Download it from the Play Store.](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five\&hl=en\_GB)\
+[Download it from the Play Store.](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five\&hl=en_GB)\
 \
-If Epicollect5 does not work for you and gets stuck at the splash screen, you can try to update Chrome and the WebView as explained [**at this link**](https://supportcommunity.zebra.com/s/article/000021792?language=en\_US)**.**
+If Epicollect5 does not work for you and gets stuck at the splash screen, you can try to update Chrome and the WebView as explained [**at this link**](https://supportcommunity.zebra.com/s/article/000021792?language=en_US)**.**
 
 You could also try to install an older version [**from this link.**](https://epicollect5-data-collection.en.aptoide.com/versions)
 
@@ -28,7 +28,7 @@ We do not support older versions of our app, apps sideloaded or running on roote
 
 ### iOS
 
-We support iPhones and iPads with iOS 14+.
+We support iPhones and iPads with iOS 16+.
 
 [Download it from the App Store.](https://itunes.apple.com/us/app/epicollect5/id1183858199?mt=8)
 
@@ -65,4 +65,3 @@ Video files are stored as `.mp4` files, coded as **h.264 on iOS**, and on **Andr
 The maximum file size is 500MB.
 
 {% embed url="https://www.youtube.com/watch?v=LuUxflsMn1E" %}
-
