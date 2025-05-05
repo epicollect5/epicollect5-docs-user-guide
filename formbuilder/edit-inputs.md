@@ -33,7 +33,9 @@ A question can be deleted by clicking on the delete button:
 ![](../.gitbook/assets/edit-questions-1.jpg)
 
 {% hint style="danger" %}
-**Be aware: deleting a question will also delete the data associated with it if any).**
+**Warning:** Deleting a question in Epicollect5 is a _destructive_ action. This means that **any data associated with that question will also be permanently deleted**.
+
+A question in Epicollect5 acts as a **container for responses**. When you delete a question, all data entries (responses) linked to it are also removed from the project database.
 {% endhint %}
 
 If it happens you make changes by mistake, do not worry. Just do **NOT** save, but click on the **UNDO** button instead:
