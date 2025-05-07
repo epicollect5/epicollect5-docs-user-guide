@@ -59,7 +59,7 @@ Here is a table design that illustrates the **"before" and "after"** effect of d
 | Bob     | 28  | 1997-06-12    | USA     |
 | Charlie | 35  | 1989-09-01    | Canada  |
 
-⚠️ **All data related to the deleted "Sex" question is permanently removed**, including the column itself.
+⚠️ **All data related to the deleted "Sex" question is permanently removed**, including the column itself. Before deleting any question in **Epicollect5**, especially one that may contain valuable data, it's highly recommended to back up your entries.
 
 ### Undo Changes
 
