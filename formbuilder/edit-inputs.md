@@ -35,8 +35,33 @@ A question can be deleted by clicking on the delete button:
 {% hint style="danger" %}
 **Warning:** Deleting a question in Epicollect5 is a _destructive_ action. This means that **any data associated with that question will also be permanently deleted**.
 
-A question in Epicollect5 acts as a **container for responses**. When you delete a question, all data entries (responses) linked to it are also removed from the project database.
+A question in Epicollect5 acts as a **container for answers**. When you delete a question, all the answers to that question are also removed from the project database.
 {% endhint %}
+
+Here is a table design that illustrates the **"before" and "after"** effect of deleting a question in **Epicollect5**.
+
+#### ✅ **Before deleting the Question "Sex", the project data looks like the following:**
+
+| Name    | Age | Date of Birth | Country | **Sex**    |
+| ------- | --- | ------------- | ------- | ---------- |
+| Alice   | 30  | 1995-02-10    | UK      | **Female** |
+| Bob     | 28  | 1997-06-12    | USA     | **Male**   |
+| Charlie | 35  | 1989-09-01    | Canada  | **N/A**    |
+|         |     |               |         |            |
+
+📝 The column **"Sex"** contains answer data collected from users. It references the "**Sex**" question of the form.
+
+#### ❌ **After Deleting the Question "Sex"**
+
+| Name    | Age | Date of Birth | Country |
+| ------- | --- | ------------- | ------- |
+| Alice   | 30  | 1995-02-10    | UK      |
+| Bob     | 28  | 1997-06-12    | USA     |
+| Charlie | 35  | 1989-09-01    | Canada  |
+
+⚠️ **All data related to the deleted "Sex" question is permanently removed**, including the column itself.
+
+### Undo Changes
 
 If it happens you make changes by mistake, do not worry. Just do **NOT** save, but click on the **UNDO** button instead:
 
