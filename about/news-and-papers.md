@@ -15,6 +15,12 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+
+
+{% embed url="https://anglingtrust.net/wp-content/uploads/2025/04/EWQMN-Epicollect5-Guide.pdf" %}
+
+{% embed url="https://www.radio-odeon.com/novice/bela-krajina-v-akciji-pru-cmru-skupaj-za-cmrlje/" %}
+
 {% embed url="https://asianews.network/bhutans-white-bellied-heron-population-ticks-up-offering-hope/" %}
 
 {% embed url="https://media.az/society/v-nahchyvane-proveli-ocherednoj-monitoring-po-profilaktike-ptichego-grippa" %}
