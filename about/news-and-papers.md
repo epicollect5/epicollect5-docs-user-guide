@@ -15,7 +15,7 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
-
+{% embed url="https://anglingtrust.net/get-involved/anglers-against-pollution/wqmn-estuaries/" %}
 
 {% embed url="https://www.radio-odeon.com/novice/bela-krajina-v-akciji-pru-cmru-skupaj-za-cmrlje/" %}
 
