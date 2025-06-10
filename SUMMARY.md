@@ -81,7 +81,7 @@
   * [Unsync entries](mobile-application/upload-entries/unsync-entries.md)
 * [Entries Limits](mobile-application/entries-limits.md)
 * [Download Entries](mobile-application/download-entries.md)
-* [Delete Entries](mobile-application/delete-entries.md)
+* [Delete Entries (App)](mobile-application/delete-entries.md)
 * [Delete Projects (App)](mobile-application/delete-project-mobile-app.md)
 * [Location Questions](mobile-application/location-questions.md)
 * [Add Bookmarks](mobile-application/add-bookmarks.md)
