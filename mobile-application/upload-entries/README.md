@@ -46,3 +46,34 @@ If there are media files to upload (photos, videos, and audio), it is possible t
 
 <figure><img src="../../.gitbook/assets/20230417_154952902_1.png" alt=""><figcaption></figcaption></figure>
 
+### Why **Media Files Are Uploaded Separately?**
+
+1. **User Choice & Flexibility**
+   * Users may have **slow or unstable internet**, making it inefficient to upload large media files alongside form data.
+   * In some cases, **mobile data is expensive**—users may prefer uploading media later on Wi-Fi.
+   * Separating media uploads allows users to **submit critical data first** and add media when convenient.
+2. **System Consistency & Validation**
+   * Media files (photos, audio, video) often require the **existing entry (container)** to link to.
+   * The **text/data portion must be validated first** (e.g., uniqueness, min or max, location values) before associating media.
+   * Prevents orphaned media files (uploaded files with no linked entry).
+3. **Technical & Performance Reasons**
+   * Media files are **larger and slower to upload** compared to text/data.
+   * Uploading them separately **reduces server load** and avoids timeouts.
+   * Easier **error handling**—if media upload fails, the main data remains intact.
+
+#### **Workflow Example**
+
+1. **Users submit entries** (text, selections).
+2. **The server validates and saves** the entry, generating a unique ID (e.g., `entry_123`).
+3. **Users upload media**, which gets attached to `entry_123`.
+4. **System confirms** all uploads are complete.
+
+#### **Edge Cases & Considerations**
+
+* **Weak Internet**: Users can retry media uploads without resubmitting the entire form.
+* **Cost Sensitivity**: Users with limited data can skip or defer large uploads.
+* **Validation Dependency**: Media require a validated entry on the server.
+
+{% hint style="warning" %}
+By separating media uploads, the system balances **user experience**, **reliability**, and **efficiency**.
+{% endhint %}
