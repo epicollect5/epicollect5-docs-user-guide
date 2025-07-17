@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://www.diariohuarpe.com/nota/como-registrar-atropellamientos-de-fauna-silvestre-en-san-juan-con-epicollect5-202571111390" %}
+
 {% embed url="https://bakivaxti.az/ru/posts/detail/azerbaycanin-64-rayonunda-seroloji-monitorinq-kecirilecek-1752061488" %}
 
 {% embed url="https://anglingtrust.net/get-involved/anglers-against-pollution/wqmn-estuaries/" %}
