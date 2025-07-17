@@ -89,3 +89,25 @@ To gain access to the projects you created with a different email, you can:
 Epicollect5 is a data collection tool primarily designed for general-purpose surveys and research projects. However, it is **not HIPAA-compliant** and should not be used for collecting or storing Protected Health Information (PHI) under HIPAA regulations.
 
 If you require a HIPAA-compliant data collection solution, you may need to explore alternative platforms specifically designed for healthcare and PHI security, such as **RedCap, OpenClinica, or Qualtrics (with HIPAA compliance features enabled)**.
+
+### Exif Metadata
+
+#### 📸 About Exif Metadata in Uploaded Photos
+
+While **Epicollect5 does not strip or modify Exif metadata** from uploaded photos, the presence of Exif data (such as GPS coordinates, bearing, timestamp, and camera details) is **entirely dependent on the device, operating system, and the method of photo capture or upload**.
+
+For example, some platforms — particularly **iOS** — may automatically **remove or limit Exif metadata** when sharing or uploading images, especially for privacy reasons. Additionally, some third-party camera apps or image editing tools may strip metadata by default.
+
+Because of this variability, Exif data should not be relied upon as a consistent source of information across all user submissions.
+
+#### ✅ Best Practices:
+
+* Use a **Location** question in your form to explicitly and reliably capture GPS coordinates (latitude, longitude, and accuracy).&#x20;
+* Add specific questions for:
+  * **Bearing or direction** (if relevant to your data collection)
+  * **Timestamp** (if exact capture time is important)
+  * **Camera or device details**, if needed for your analysis
+  * **Additional context** from third-party devices (e.g., GPS trackers, drones, wearables)
+
+Collecting such data through structured questions ensures reliability, consistency, and cross-platform compatibility, regardless of whether Exif data is present in uploaded media.
+
