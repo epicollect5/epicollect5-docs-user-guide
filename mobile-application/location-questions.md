@@ -112,7 +112,7 @@ You could:
 * Find your current location and drag the marker where you want.
 * Change map tiles to your preferences.
 
-![](../.gitbook/assets/Screen\_Shot\_2019-10-18\_at\_11\_18\_25.jpg)
+![](../.gitbook/assets/Screen_Shot_2019-10-18_at_11_18_25.jpg)
 
 Latitude and longitude values are shown as **signed degrees format**, with 6 decimal places to pinpoint a location within 11cm.
 
@@ -133,3 +133,10 @@ A GPS lock can be obtained even when offline. Epicollect5 will try to read the l
 If the device is offline, the satellite lock is slower and will not work indoors. Therefore, be sure to place the device outdoors, under a clear sky, and not close to any magnetic fields. Buildings, mountains and trees can stop satellite signals. Then try again until you get a lock.
 
 To diagnose problems with your device’s GPS, we recommend the app [**GPS Status and Toolbox**](https://mobiwia.com/gpsstatus/), available for both Android and iOS.
+
+### About Location and Bearing Data in Epicollect5
+
+When using a **Location** question in Epicollect5, the app records **latitude**, **longitude**, and **accuracy** using the device's GPS. However, **bearing (or heading/direction)** is **not included**, even if the device provides it.
+
+This is because bearing data from mobile devices is often **inconsistent**, **unavailable when stationary**, or affected by **sensor limitations** and **privacy restrictions**. Some platforms (like iOS) may return `null` or unreliable values unless the device is actively moving and equipped with the necessary sensors. To maintain data quality and consistency, **Epicollect5 does not include bearing in the location data collected**.
+
