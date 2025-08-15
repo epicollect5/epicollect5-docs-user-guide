@@ -1,4 +1,8 @@
-# Add Entries (Multiple Forms)
+---
+description: Add entries to a project that consists of multiple forms using the mobile app
+---
+
+# Add Entries - Mobile (Multiple Forms)
 
 On multiple forms projects, like our [**EC5 HIERARCHY PROJECT**](https://five.epicollect.net/project/ec5-hierarchy-project), the data collection follows a hierarchy structure. It is exactly like using folders on your computer. We usually create a parent folder and inside it one or more subfolders and so on. A parent folder can contain multiple subfolders. It is not possible to create a subfolder without a parent folder.
 
@@ -6,9 +10,9 @@ In the sample project, we set up three linked forms: **CLASS > PUPIL > TEST**.
 
 **(**[**See linking forms**](../formbuilder/multiple-forms.md)**).**
 
-The main idea is to add a list of **CLASS** entries and add **PUPIL** entries to each **CLASS** entry. Afterwards**,** we want to add **TEST** entries to each **PUPIL** entry.
+The main idea is to add a list of **CLASS** entries and add **PUPIL** entries to each **CLASS** entry. Afterwards\*\*,\*\* we want to add **TEST** entries to each **PUPIL** entry.
 
-Look below, we added a **CLASS** entry named "_History_" to the **EC5 HIERARCHY PROJECT**.&#x20;
+Look below, we added a **CLASS** entry named "_History_" to the **EC5 HIERARCHY PROJECT**.
 
 **(**[**More on adding an entry**](add-an-entry.md)**).**
 

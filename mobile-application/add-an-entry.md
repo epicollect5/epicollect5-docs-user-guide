@@ -1,10 +1,10 @@
 ---
-description: Add entries to a project that consists of a single form.
+description: Add entries to a project that consists of a single form using the mobile app
 ---
 
-# Add Entries (Single Form)
+# Add Entries - Mobile (Single Form)
 
-&#x20;To begin adding entries, tap on your project on the **PROJECTS** list home page.
+To begin adding entries, tap on your project on the **PROJECTS** list home page.
 
 <figure><img src="../.gitbook/assets/20230413_123159521_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ This will begin the process of adding an entry, by answering each question on th
 
 <figure><img src="../.gitbook/assets/20230413_123200377_1.png" alt=""><figcaption></figcaption></figure>
 
-A progress indicator at the top show you how far through each form you are.&#x20;
+A progress indicator at the top show you how far through each form you are.
 
 You can use the **NEXT** and **PREVIOUS** buttons to navigate back and forth.
 
@@ -29,9 +29,9 @@ If you decide to quit your entry early, you can choose to save your incomplete e
 <figure><img src="../.gitbook/assets/20230413_123201196_1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Incomplete entries cannot be uploaded.&#x20;
+Incomplete entries cannot be uploaded.
 
-Only fully completed entries can be synced with the server.&#x20;
+Only fully completed entries can be synced with the server.
 
 In order to complete an entry, you must reach the end of the form.
 {% endhint %}
