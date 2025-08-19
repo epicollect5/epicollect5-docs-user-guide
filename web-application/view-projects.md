@@ -18,12 +18,18 @@ Going to your project homepage, this is how it would look like:
 
 ![](../.gitbook/assets/view-project-2.png)
 
-At a glance you can see:
+At a glance, you can see:
 
 * Your project logo
-* Your project small description
-* Total of entries collected
+* Your project's small description
+* Approximated total of entries collected\*
 * Date of last entry uploaded
-* Your project full description
+* Your project's full description
 
-To view your data, click on "View Data". [More on Viewing data.](viewing-data.md)
+{% hint style="warning" %}
+The "**≈" (tilde) sign** shown on the project homepage indicates that the entry count is **approximate**. This is intentional, as showing an exact number on the homepage for every project would place unnecessary load on the system.&#x20;
+
+For the **precise count of entries**, please check the **Data Viewer**, which always displays the actual number of records uploaded at the top right.
+{% endhint %}
+
+To view your data, click on "View Data". [More on viewing data.](viewing-data.md)
