@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://indianexpress.com/article/cities/pune/pune-environment-conscious-residents-map-water-levels-simple-device-phone-10201319/" %}
+
 {% embed url="https://bvsms.saude.gov.br/guias-alimentares-praticas-alimentares-saudaveis-dieta-saudavel-inqueritos-alimentares-consumo-alimentar/" %}
 
 {% embed url="https://www.diariohuarpe.com/nota/como-registrar-atropellamientos-de-fauna-silvestre-en-san-juan-con-epicollect5-202571111390" %}
