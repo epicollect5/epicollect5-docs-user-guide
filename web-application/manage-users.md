@@ -10,51 +10,47 @@ The granular access control enables users' roles and responsibilities to be set 
 
 ### Google Account
 
-We DO NOT store any users' credentials, only the name, email, and profile picture (if available) after a user is successfully authenticated with Google.&#x20;
+We DO NOT store any users' credentials, only the name, email, and profile picture (if available) after a user is successfully authenticated with Google.
 
 {% hint style="info" %}
-A Google account accepts any type of email, not only Gmail. You can link an existing email to a Google Account. [**Here is how.**](https://support.google.com/accounts/answer/176347?co=GENIE.Platform%3DDesktop\&hl=en) **Unfortunately, with multiple emails, Google will always log you in with the Gmail one**. The best approach would be to create a new Google Account with your **non-Gmail** email,  add that account to your project as a MANAGER user, and then transfer the ownership to that account.&#x20;
+A Google account accepts any type of email, not only Gmail. You can link an existing email to a Google Account. [**Here is how.**](https://support.google.com/accounts/answer/176347?co=GENIE.Platform%3DDesktop\&hl=en) **Unfortunately, with multiple emails, Google will always log you in with the Gmail one**. The best approach would be to create a new Google Account with your **non-Gmail** email, add that account to your project as a MANAGER user, and then transfer the ownership to that account.
 
 **Please make sure you can log in with both accounts before transferring the ownership.**
 {% endhint %}
 
-### **Apple Account**&#x20;
+### **Apple Account**
 
-On supported iOS devices (running iOS 13+) users have the option to sign in with Apple.
+On supported iOS devices (running iOS 13+), users have the option to sign in with Apple.
 
 {% hint style="info" %}
 Available since version 4.0.0
 {% endhint %}
 
 {% hint style="warning" %}
-Please be careful when signing in for the first time. The user email is the unique identifier within the Epicollect5 platform so it is usually recommended you share your personal email when logging in instead of using the one provided by Apple.
+Please be careful when signing in for the first time. The user email is the unique identifier within the Epicollect5 platform; therefore, it is usually recommended that you share your personal email when logging in instead of using the one provided by Apple.
 {% endhint %}
 
 ### Email
 
-There is also the option to log in only by providing an email.&#x20;
+There is also the option to log in by providing an email.
 
-When logging in to the web application, a magic link will be sent to the user inbox.
-
-When logging in to the mobile app, a one-off six-digit code is sent instead.
+&#x20;A one-off six-digit code is sent to that email's inbox.
 
 {% hint style="success" %}
 Any email can be used, not only Google or Apple accounts
 {% endhint %}
 
 {% hint style="warning" %}
-The one-off code **expires** **after 30 minutes** and can be **used only once.**&#x20;
+The one-off code **expires** **after 30 minutes** and can be **used only once.**
 
-Once authenticated, each session will last 72 hours. \
-When the session expires,  a new one-off code must be requested.
+Once authenticated, each session will last 7 days.\
+When the session expires, a new one-off code must be requested.
 {% endhint %}
 
 {% hint style="warning" %}
 To prevent abuse of our services, a rate limit is implemented.
 
-
-
-A single IP address is restricted to sending a maximum of 5 authentication requests every 30 minutes when the email authentication flow is used.
+A single IP address is restricted to sending a maximum of 10 authentication requests every 30 minutes when the email authentication flow is used.
 
 This approach helps to control the load on the system, prevent denial of service (DoS) attacks, and ensure fair usage across all users.
 
@@ -67,7 +63,7 @@ When using multiple providers with the same email, users will be asked to confir
 
 ## Profile Page
 
-Users can view what email they are currently logged in with and what account providers they have verified on their profile page. To access the profile page the users need to click on their name on the top navigation bar.
+Users can view which email they are currently logged in with and which account providers they have verified on their profile page. To access the profile page, users need to click on their name on the top navigation bar.
 
 ![](../.gitbook/assets/profile-page.jpg)
 
@@ -85,7 +81,7 @@ There are 5 roles available:
 
 ## Project Access
 
-If a project has access type '**private**', user access will be based on their roles, as described above, provided they have been successfully authenticated by the server. Viewing, editing, deleting a project, and deleting entries on the server will be based on the above roles and require authentication.
+If a project has access type '**private**', user access will be based on their roles, as described above, provided they have been successfully authenticated by the server. Viewing, editing, and deleting a project, and deleting entries on the server, will be based on the above roles and require authentication.
 
 If a project has access type '**public**', then any user can view and upload data to that project via the mobile client, without any authentication, but editing and deleting a project (or entries) on the server will be based on the above roles and still requires authentication.
 
@@ -93,11 +89,11 @@ If a project has access type '**public**', then any user can view and upload dat
 
 Users can be added to a project for collaboration.
 
-Users can add other users (with different roles) to a project depending on their user role, see below table:
+Users can add other users (with different roles) to a project depending on their user role, see the table below:
 
 ![Only higher roles can add or remove lower roles](<../.gitbook/assets/user-add-role (1).png>)
 
-To add a user to a project, on the project details page click on "Manage Users". Users are divided by roles, and to add one just click on "Add User" on the right.
+To add a user to a project, on the project details page, click on "Manage Users". Users are divided by roles, and to add one, just click on "Add User" on the right.
 
 ![](../.gitbook/assets/manage-user-1.png)
 
@@ -133,9 +129,9 @@ Your users are now imported.
 
 ### Switch user roles
 
-At any time you can upgrade or downgrade user roles and capabilities.
+At any time, you can upgrade or downgrade user roles and capabilities.
 
-Find the user you would like to upgrade, for example from COLLECTOR to CURATOR and click the "Switch Role" button.
+Find the user you would like to upgrade, for example, from COLLECTOR to CURATOR and click the "Switch Role" button.
 
 ![](../.gitbook/assets/manage-users-bulk-7.jpg)
 
@@ -147,13 +143,13 @@ The user is now a CURATOR
 
 Users can be removed in bulk by role.
 
-For example, to remove all the COLLECTOR users go to the "Collectors" tab and open the context menu on the right.
+For example, to remove all the COLLECTOR users, go to the "Collectors" tab and open the context menu on the right.
 
 ![](../.gitbook/assets/manage-users-bulk-9.jpg)
 
 ### Export users
 
-Users can be exported as a `zip` file containing the user emails as one `csv`file per each role and a global one with all the users regardless of the role.
+Users can be exported as a `zip` file containing the user emails as one `csv`file for each role and a global one with all the users, regardless of the role.
 
 ![](../.gitbook/assets/manage-users-bulk-10.jpg)
 
