@@ -45,9 +45,11 @@ When you use Epicollect5, CGPS is the Data Processor and you are the Data Contro
 
 If you make a project public, ALL project data you have collected will be visible to anyone on the internet. Please ensure that you are not breaking any Data Protections laws that may apply. CGPS cannot be held responsible for data published by users.
 
-#### Reasonable Use and Data Retention
+#### R**easonable Use and Data Retention**
 
-The service is provided at no cost to you, however, we incur costs for managing and processing the data. We reserve the right to delete excessively large or dormant data sets after a period of time, however, we will attempt to contact you by email before doing so.
+Epicollect5 is provided at no cost to users; however, we incur costs for managing and processing data. We monitor our system automatically, and projects that generate unusually high activity may be flagged. When this occurs, we may contact the project managers to request clarification. **No project data is accessed by us during this process.**
+
+We reserve the right to delete excessively large or dormant datasets after a period of time. Before doing so, we will make reasonable efforts to contact the project managers via email.
 
 #### Protecting Your Data
 
