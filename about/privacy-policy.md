@@ -2,7 +2,7 @@
 
 This statement explains how the [**Centre for Genomic Pathogen Surveillance**](https://www.pathogensurveillance.net/) (**CGPS**) uses the personal information we collect from you when you visit the Epicollect5 website.
 
-By visiting the Epicollect5 website you are consenting to our use of your information in this way.
+By visiting the Epicollect5 website, you are consenting to our use of your information in this way.
 
 We may make changes to this statement so please check from time to time for any updates.
 
@@ -14,7 +14,7 @@ Users can log in to Epicollect5 using:
 * Apple Account
 * Email
 
-The only piece of information kept in the system is the user email for basic project user management.
+The only piece of information kept in the system is the user's email for basic project user management.
 
 Whether you want to use your personal email or another email just for Epicollect5 is up to you.
 
@@ -36,14 +36,14 @@ Technically speaking, each user owns all of the content added to Epicollect5; th
 
 #### Personal Data and Your Responsibilities
 
-CGPS is based in the UK and operates under the UK General Data Protection Regulation (“UK GDPR”). You may be in a different legal jurisdiction so must ensure that you follow UK GDPR as well as your own local laws. For more information on UK GDPR please see [Information Commissioner's Office (ICO)](https://ico.org.uk/).
+CGPS is based in the UK and operates under the UK General Data Protection Regulation (“UK GDPR”). You may be in a different legal jurisdiction, so you must ensure that you follow UK GDPR as well as your own local laws. For more information on UK GDPR please see [Information Commissioner's Office (ICO)](https://ico.org.uk/).
 
 When you use Epicollect5, CGPS is the Data Processor and you are the Data Controller, as you have control over the data you collect and CGPS only acts on your instructions.
 
 \
 **Publication of Data**
 
-If you make a project public, ALL project data you have collected will be visible to anyone on the internet. Please ensure that you are not breaking any Data Protections laws that may apply. CGPS cannot be held responsible for data published by users.
+If you make a project public, ALL project data you have collected will be visible to anyone on the internet. Please ensure that you are not breaking any Data Protection laws that may apply. CGPS cannot be held responsible for data published by users.
 
 #### R**easonable Use and Data Retention**
 
