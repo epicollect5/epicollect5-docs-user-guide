@@ -6,16 +6,20 @@ description: Upload entries from CSV files.
 
 ### Intro
 
-On Epicollect5 It is possible to add entries to a project by uploading a `csv` file where each row is a valid entry for that project. This is particularly handy for those projects where the collection of data could be done by filling in a spreadsheet, for example.
+On Epicollect5, it is possible to add entries to a project by uploading a `csv` file where each row is a valid entry for that project. This is particularly handy for those projects where the collection of data could be done by filling in a spreadsheet, for example.
 
 Other use cases might be performing a bulk edit of existing entries or copying some entries from a master project to a cloned one.
 
-{% hint style="warning" %}
-To avoid any abuse of the bulk upload feature, `csv` files are limited to **1MB** in size, and bulk uploads are cut to **150 rows per file**. This is done to avoid the creation of any redundant data on our systems.
+{% hint style="danger" %}
+To avoid any abuse of the bulk upload feature, `csv` files are limited to **1MB** in size, and bulk uploads are cut to **150 rows per file**. This is done to avoid the creation of any redundant data on our systems.\
+\
+Epicollect5 is primarily a platform to collect, aggregate, and export data. **Bulk upload via CSV is intended for completing datasets**, for example, when data was collected on paper or in Excel, and contributors want to add it to the platform.&#x20;
+
+However, uploading tens of thousands of CSV entries that are already available on your side is unusual and will be flagged by our monitoring system.
 {% endhint %}
 
-{% hint style="info" %}
-Bulk uploads are available only for some question types, check the table below.
+{% hint style="danger" %}
+Bulk uploads are available only for some question types; check the table below.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -155,7 +159,7 @@ The csv file **MUST** have an extra\*\*`ec5_branch_uuid`\*\*column, which is use
 
 By using the bulk upload feature it is possible to perform bulk edits on the entries already uploaded. This can be done by downloading the entries which need to be amended, perform the edits with your favorite text editor (like Excel or Google Sheets), then re-upload the entries.
 
-Each entry created on the Epicollect5 platform is given a universal identifier, a [**uuid**](https://en.wikipedia.org/wiki/Universally\_unique\_identifier), like `87dc71ea-1323-47ae-8acb-6002c66f08fd`. When entries are downloaded, all the identifiers are added to the exported dataset along with other metadata (See [**metadata**](../metadata.md)). When uploading entries in bulk, by providing these identifiers in the`csv`file, the system will look for a match. If a match is found and the user has the permissions to edit that entry, the existing entry will be updated.
+Each entry created on the Epicollect5 platform is given a universal identifier, a [**uuid**](https://en.wikipedia.org/wiki/Universally_unique_identifier), like `87dc71ea-1323-47ae-8acb-6002c66f08fd`. When entries are downloaded, all the identifiers are added to the exported dataset along with other metadata (See [**metadata**](../metadata.md)). When uploading entries in bulk, by providing these identifiers in the`csv`file, the system will look for a match. If a match is found and the user has the permissions to edit that entry, the existing entry will be updated.
 
 For example, we have a project called People, with a single form PERSON asking just for the person's name. We have just a few entries and we would like to replace all the "Johnny" with "John".
 
