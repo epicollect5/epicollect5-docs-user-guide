@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://oxu.az/cemiyyet/azerbaycanda-qus-qripi-ile-bagli-monitorinq-aparilacaq-tarix-aciqlandi" %}
+
 {% embed url="https://news.milli.az/health/1302014.html" %}
 
 {% embed url="https://www.kompasiana.com/muthia6849/69031c66c925c45e8b7de0d2/ketika-data-berubah-jadi-peta-inovasi-digital-dinas-kesehatan-banjarnegara-untuk-memantau-tuberkulosis" %}
