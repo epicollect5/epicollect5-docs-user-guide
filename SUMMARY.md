@@ -121,6 +121,10 @@
 * [Dependent Dropdowns](common-use-cases/dependent-dropdowns.md)
 * [Referencing Parent Form Responses](common-use-cases/referencing-parent-form-responses.md)
 
+***
+
+* [Converting UTC Timestamps to Local Time](converting-utc-timestamps-to-local-time.md)
+
 ## Extra
 
 * [Useful Links](extra/useful-links.md)
