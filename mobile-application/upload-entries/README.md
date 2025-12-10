@@ -53,7 +53,7 @@ If there are media files to upload (photos, videos, and audio), it is possible t
    * In some cases, **mobile data is expensive**—users may prefer uploading media later on Wi-Fi.
    * Separating media uploads allows users to **submit critical data first** and add media when convenient.
 2. **System Consistency & Validation**
-   * Media files (photos, audio, video) often require the **existing entry (container)** to link to.
+   * Media files (photos, audio, video) always require the **existing entry (container)** to link to.
    * The **text/data portion must be validated first** (e.g., uniqueness, min or max, location values) before associating media.
    * Prevents orphaned media files (uploaded files with no linked entry).
 3. **Technical & Performance Reasons**
