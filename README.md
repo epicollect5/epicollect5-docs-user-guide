@@ -12,7 +12,7 @@ Projects are created by using the web application at [**five.epicollect.net**](h
 
 Data are collected (including GPS and media) using multiple devices and all data can be viewed on a central server (via map, tables, and charts).
 
-Data can be exported in `csv` and `json` format
+Data can be exported in CSV and JSON format
 
 The mobile app is currently available for both Android (10+) and iOS (15+)
 
@@ -36,7 +36,7 @@ For mission-critical projects where occasional disruptions, bugs, performance li
 
 For instance, uploading 500 videos, each at 500MB, would consume a total of 250GB of storage space.
 
-While there are no restrictions preventing you from doing so, it's essential to note that our resources are finite, and Epicollect5 is not designed as a free storage solution.
+While there are no restrictions preventing you from doing so, it's essential to note that our resources are finite, and Epicollect5 is not designed as a free storage solution
 {% endhint %}
 
 ## Ready? Go ahead and [create your first project!](web-application/create-a-project.md)
