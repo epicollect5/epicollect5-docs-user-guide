@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://sisanjuan.gob.ar/23-ambiente/2026-01-17/65850-ambiente-solicita-bajar-la-velocidad-en-rutas-para-proteger-la-fauna-silvestre" %}
+
 {% embed url="https://agroempresario.com/publicacion/80359/mas-de-un-millon-de-litros-de-agua-se-entregaron-en-comunidades-originarias-del-norte-provincial/" %}
 
 {% embed url="https://kupang.tribunnews.com/provinsi-ntt/943741/pemkab-sumba-timur-raih-pos-kupang-award-2025-berkat-inovasi-gas-vektoria-lawan-malaria" %}
