@@ -40,3 +40,5 @@ While there are no restrictions preventing you from doing so, it's essential to 
 {% endhint %}
 
 ## Ready? Go ahead and [create your first project!](web-application/create-a-project.md)
+
+{% embed url="https://www.youtube.com/watch?v=QCbkEoP5dvg" %}
