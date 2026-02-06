@@ -36,14 +36,14 @@ We support iPhones and iPads with iOS 16+.
 
 ### Photos
 
-Photos taken/imported to Epicollect5 will be resized to a resolution of **1024 x 768 px** (landscape or portrait, **aspect ratio 4:3**). They will saved in `.jpg` format.
+Photos taken/imported to Epicollect5 will be resized to a resolution of **1024 x 768 px** (landscape or portrait, **aspect ratio 4:3**). They will be saved in `.jpg` format.
 
-When using the web application, accepted formats are `jpeg,jpg,png` but the resulting image will be resized and saved as `jpg.`
+When using the web application, the accepted formats are `jpeg,jpg,png` , but the resulting image will be resized and saved as `jpg.`
 
-We found this size to be reasonable for data collection purposes, it is stable across devices with low memory/specs and easily viewable via the web application. Due to modern devices taking pictures at crazy resolutions and with file sizes up to 20MB we had to come up with a consistent solution.
+We found this size to be reasonable for data collection purposes; it is stable across devices with low memory/specs and easily viewable via the web application. Due to modern devices taking pictures at crazy resolutions and with file sizes up to 20MB, we had to come up with a consistent solution.
 
 {% hint style="info" %}
-If you want the original, full-size image we recommend taking the photos outside of Epicollect5 and then importing them in Epicollect5 using the image picker when adding an entry. That way the original photo is saved in the device gallery app.
+If you want the original, full-size image, we recommend taking the photos outside of Epicollect5 and then importing them into Epicollect5 using the image picker when adding an entry. That way, the original photo is saved in the device gallery app.
 {% endhint %}
 
 As a side note, the popular app [Instagram](https://www.instagram.com/?hl=en) does use a similar approach.
@@ -52,15 +52,21 @@ As technology evolves, we might raise the resolution limits at some point in the
 
 ### Audio
 
-Audio files are stored as.`mp4` on Android and `.wav` on iOS.
+Audio files are recorded as MP4, mono channel at \~64Kbs.
 
 They are coded as **AAC** with **44100hz** audio sampling.
 
 The maximum file size is 100MB.
 
+{% hint style="warning" %}
+Currently, **.wav** files are accepted but not encoded when uploading audio files via the web uploader.
+{% endhint %}
+
 ### Video
 
-Video files are stored as `.mp4` files, coded as **h.264 on iOS**, and on **Android it depends on the platform and device**, but it is sent always as a `mp4` file.
+Video files are stored as MP4.
+
+They are coded as **AAC** and capped at **720p** resolutio&#x6E;**.**
 
 The maximum file size is 500MB.
 
