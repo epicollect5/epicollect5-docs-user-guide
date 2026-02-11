@@ -10,7 +10,9 @@ Please note that the supported versions of our application may change over time 
 As a result, older versions of our application may become incompatible with the latest operating systems or may no longer receive updates and support. To ensure the best experience and access to the latest features and security enhancements, we recommend regularly updating to the latest version of the application available on the respective app stores.
 {% endhint %}
 
-**The mobile app is currently available for both Android (10+) and iOS (16+)**
+{% hint style="warning" %}
+**The mobile app is currently available for both Android (10+) and iOS (16+).**
+{% endhint %}
 
 ### Android
 
@@ -71,3 +73,18 @@ They are coded as **AAC** and capped at **720p** resolutio&#x6E;**.**
 The maximum file size is 500MB.
 
 {% embed url="https://www.youtube.com/watch?v=LuUxflsMn1E" %}
+
+### Media Storage and Privacy
+
+#### Private Internal Storage
+
+To ensure data integrity and security, Epicollect5 does not store media in public directories. Instead, all media files are saved directly into the app’s private internal storage.
+
+* Data Integrity: This prevents third-party apps (such as automated gallery cleaners or cloud-sync tools) from moving, renaming, or deleting your files before they are successfully uploaded to the server.
+* Privacy & Security: By utilising private folders, your collected media remains inaccessible to other apps on the device, adhering to mobile development best practices for data protection.
+
+#### Manual File Access
+
+Under standard operating conditions, these files are not visible via default file explorers or gallery apps.
+
+> Note on Rooted Devices: While media could theoretically be accessed manually on "rooted" (Android) or "jailbroken" (iOS) devices, we strongly discourage this practice. Modifying device permissions in this manner can compromise the security of your data, void device warranties, and may lead to stability issues within the Epicollect5 framework.
