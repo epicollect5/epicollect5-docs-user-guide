@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://www.etvbharat.com/amp/hi/state/bandhavgarh-national-park-vulture-census-resumes-many-spotted-on-first-day-madhya-pradesh-news-mps26022004620" %}
+
 {% embed url="https://www.instagram.com/reel/DUs5YEuEvTN/" %}
 
 {% embed url="https://vestnik.svet24.si/novice/kmetijstvo/cmrlji-monitoring-1879995" %}
