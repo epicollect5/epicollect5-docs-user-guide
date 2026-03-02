@@ -28,3 +28,7 @@ If the data separator is incorrect, Excel may not split data properly.
 2. Click **File** → **Open** → **Browse**.
 3. Select **All Files (\*.\*)** and open your CSV.
 4. Follow the **Text Import Wizard** and set the delimiter.
+
+{% embed url="https://www.youtube.com/watch?v=n57Z7UUY2Eo" %}
+
+{% embed url="https://www.youtube.com/watch?v=3J5RIs8z0_A" %}
