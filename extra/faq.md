@@ -66,23 +66,29 @@ Smart quotes can be disabled using Settings ->General ->Keyboards ->turn off Sma
 
 ## Why have all my projects disappeared?
 
-When you log in to Epicollect5 using your Google Account, we link each project you create to your Google Account email you are using at that time.
+When you log in to Epicollect5 using an authentication provider of your choice, we link each project you create to the email you are using at that time.
 
-{% hint style="info" %}
-A Google Account email can be anything, not just Gmail!
-{% endhint %}
+**If you log in and see no projects, this could be because:**
 
-Let's say you are using a Google Account with the email _**john@doe.com**_. All your projects will be linked to that email. If later on, you decide, for any reason, to add a Gmail address to your existing Google Account (for example, _johndoe@gmail.com_), your new Gmail address will become the default when you log in. All the projects created with the email _**john@doe.com**_ will not be visible to you anymore.
+* **You might be using a different email** - Check which email address you're currently signed in with. Your projects are linked to a specific email, so using a different one will show an empty dashboard.
+* **Google Account selection** - If you have multiple Google Accounts, you may have accidentally picked the wrong one during sign-in. Try signing out and signing back in, making sure to select the correct account.
+* **Apple Account selection** - If you have multiple Apple Accounts, you may have accidentally picked the wrong one during sign-in. Try signing out and signing back in, making sure to select the correct account.
+* **Google's default email switching** - If you've added a new email to your existing Google Account, Google may now be using that as your default. This means you're signed in with the same Google Account, but a different email address, so your projects won't appear. More on this below.
+
+***
 
 {% hint style="warning" %}
+**Google's default email switching explained**
+
+Let's say you are using a Google Account with the email john@doe.com. All your projects will be linked to that email. If later on, you decide, for any reason, to add a Gmail address to your existing Google Account (for example, johndoe@gmail.com), your new Gmail address will become the default when you log in. All the projects created with the email john@doe.com will not be visible to you anymore.
+
 Using the Gmail address as the default for authentication is a Google decision which is completely out of our control. Please read [https://support.google.com/accounts/thread/64168414?hl=en](https://support.google.com/accounts/thread/64168414?hl=en)
-{% endhint %}
 
 To gain access to the projects you created with a different email, you can:
 
-* Remove your Gmail address so that your old email (_**john@doe.com**_) will become the default again. Please read [https://support.google.com/mail/answer/61177](https://support.google.com/mail/answer/61177)
+* Remove your Gmail address so that your old email (john@doe.com) will become the default again. Please read [https://support.google.com/mail/answer/61177](https://support.google.com/mail/answer/61177)
 * Ask your collaborators to add you back to those projects with your new Gmail address.
-* If none of the above is possible, contact us.
+{% endhint %}
 
 ### HIPAA
 
