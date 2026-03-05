@@ -13,7 +13,9 @@ Each article and paper included in this collection provides valuable insights in
 
 We invite you to explore this collection to discover the breadth of applications and the depth of impact that Epicollect5 has made in research, academia, and beyond.
 
-Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
+Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.<br>
+
+{% embed url="https://www.linkedin.com/posts/dr-soumik-ghosh-2901141a5_research-epicollect5-dataentry-activity-7432782293158641665-9T42" %}
 
 {% embed url="https://www.etvbharat.com/amp/hi/state/bandhavgarh-national-park-vulture-census-resumes-many-spotted-on-first-day-madhya-pradesh-news-mps26022004620" %}
 
