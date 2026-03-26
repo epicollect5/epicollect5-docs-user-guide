@@ -89,7 +89,7 @@
 * [Share Media Files](mobile-application/export-photos.md)
 * [Adjust Font Size](mobile-application/adjust-font-size.md)
 * [Filter Entries](mobile-application/filter-entries.md)
-* [Beta updates (Android)](mobile-application/beta-program.md)
+* [Beta Updates](mobile-application/beta-program.md)
 * [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
 
 ## Developers
