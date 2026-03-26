@@ -1,6 +1,8 @@
 # Beta Updates
 
-We’ve added **two new options** to the Epicollect5 mobile app, currently available in **public beta releases** for both Android and iOS. These features give you more flexibility in managing and exporting your project data and media.
+We’ve added **two new options** to the Epicollect5 mobile app, currently available in **public beta releases** for both Android and iOS. These features give you more flexibility in managing and exporting your project data and media.&#x20;
+
+App version is currently **88.9.6**
 
 ### Joining the Beta
 
