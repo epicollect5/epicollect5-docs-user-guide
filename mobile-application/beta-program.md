@@ -33,7 +33,7 @@ This option allows you to **export your project entries and media directly to yo
   * CSV files of all your entries
   * Copies of all associated media (images, audio, video)
 
-**Use case:** Ideal if you want to **set up a third-party app** (like FolderSync) to automatically sync your exported data to your cloud service of choice.
+**Use case:** Ideal if you want to **set up a third-party app** (like [FolderSync](https://foldersync.io/)) to automatically sync your exported data to your cloud service of choice.
 
 #### 2. Share Archive
 
