@@ -1,8 +1,8 @@
 ---
 description: >-
-  Epicollect5 entries cannot open pre-filled with the data from the previous
+  Epicollect5 entries cannot be pre-filled with the data from the previous
   entry. Instead, the recommended pattern for cyclic workflows (like follow-up
-  visits) is to use either child forms or branch
+  visits) is to use either child forms or branches.
 ---
 
 # Cyclic workflows (follow-ups)
@@ -27,10 +27,11 @@ Project managers first create all needed **PATIENT** entries and upload them. La
 
 ### How it works on mobile
 
-1. Create and upload all PATIENT entries (e.g. 100 patients).
-2. On the device, open the project, go to entries, and use **Download Entries**. PATIENT entries are downloaded as **remote, not directly editable**.
-3. For a given PATIENT, tap it and then tap the arrow / linked form button to **add a VISIT entry as a child**.
-4. Each VISIT is a separate child entry (VISIT 1, VISIT 2, …) linked to the same PATIENT. The PATIENT record itself is not modified.
+1. Create and upload all PATIENT entries (e.g. 100 patients). Caan be done in bulk from CSV ([**Bulk uploads**](web-application/manage-entries/bulk-uploads.md))
+2. Set a **limit** on the PATIENT form to avoid unwanted PATIENT entries. ([**Entries limits**](web-application/manage-entries/entries-limits.md))
+3. On the device, open the project, go to entries, and use **Download Entries**. PATIENT entries are downloaded as **remote, not directly editable**.
+4. For a given PATIENT, tap it and then tap the arrow / linked form button to **add a VISIT entry as a child**.
+5. Each VISIT is a separate child entry (VISIT 1, VISIT 2, …) linked to the same PATIENT. The PATIENT record itself is not modified.
 
 ### When to use
 
