@@ -43,7 +43,7 @@ Any email can be used, not only Google or Apple accounts
 {% hint style="warning" %}
 The one-off code **expires** **after 30 minutes** and can be **used only once.**
 
-Once authenticated, each session will last 7 days.\
+Once authenticated, each session will last 14 days.\
 When the session expires, a new one-off code must be requested.
 {% endhint %}
 
