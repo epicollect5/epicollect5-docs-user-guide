@@ -2,7 +2,7 @@
 description: You can export data & media directly from the mobile apps
 ---
 
-# Export Entries
+# Export Entries - Mobile
 
 Those features have been available since version **88.9.6**
 
