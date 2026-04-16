@@ -1,10 +1,12 @@
 ---
-description: You can export data & media directly from the mobile apps
+description: >-
+  Export your project data and media directly from the mobile app, without
+  relying on external integrations or APIs.
 ---
 
 # Export Entries - Mobile
 
-Those features have been available since version **88.9.6**
+These built-in options (available since version **88.9.6**) give you flexible workflows for both automated syncing and one-off data sharing.
 
 #### 1. Send to Device
 
