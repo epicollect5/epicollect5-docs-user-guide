@@ -79,7 +79,7 @@
   * [Incomplete Entries](mobile-application/upload-entries/incomplete-entries.md)
   * [Missing required aswers](mobile-application/upload-entries/missing-required-aswers.md)
   * [Unsync entries](mobile-application/upload-entries/unsync-entries.md)
-* [Export Entries - Mobile](mobile-application/beta-program.md)
+* [Export Entries - Mobile](mobile-application/export-entries-mobile.md)
 * [Entries Limits](mobile-application/entries-limits.md)
 * [Download Entries](mobile-application/download-entries.md)
 * [Delete Entries (App)](mobile-application/delete-entries.md)
@@ -90,7 +90,7 @@
 * [Share Media Files](mobile-application/export-photos.md)
 * [Adjust Font Size](mobile-application/adjust-font-size.md)
 * [Filter Entries](mobile-application/filter-entries.md)
-* [Beta Updates](<mobile-application/beta-program (1).md>)
+* [Beta Updates](mobile-application/beta-program.md)
 * [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
 
 ## Developers

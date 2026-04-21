@@ -1,27 +1,12 @@
-# Beta Updates
+---
+description: >-
+  Export your project data and media directly from the mobile app, without
+  relying on external integrations or APIs.
+---
 
-We’ve added **two new options** to the Epicollect5 mobile app, currently available in **public beta releases** for both Android and iOS. These features give you more flexibility in managing and exporting your project data and media.&#x20;
+# Export Entries - Mobile
 
-App version is currently **88.9.6**
-
-### Joining the Beta
-
-#### Android
-
-1. Open the [Google Play Store](https://play.google.com/) on your device.
-2. Search for **Epicollect5**.
-3. Scroll down to the **“Join the Beta”** section and tap **Join**.
-4. Wait a few minutes for your device to update to the beta version.
-
-#### iOS
-
-1. Install the **TestFlight** app from the App Store.
-2. Use the [beta invitation link](https://testflight.apple.com/join/6gW71eIy) provided to join the beta program.
-3. Open TestFlight and update the app to the beta version.
-
-> Note: Beta versions are periodically updated with new features and fixes. You can leave the beta program at any time to return to the stable release.
-
-### New Features
+These built-in options (available since version **88.9.6**) give you flexible workflows for both automated syncing and one-off data sharing.
 
 #### 1. Send to Device
 
