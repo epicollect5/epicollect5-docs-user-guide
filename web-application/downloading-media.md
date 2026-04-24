@@ -13,3 +13,7 @@ We are aware that bulk downloading can streamline workflows and have added this 
 
 **Why no direct URLs for private media?**\
 Private project media files are secured behind authentication protocols. Attempting to access them via a direct URL will result in a **404 Not Found** error because the files are not publicly exposed to the internet. This ensures that sensitive data remains protected, aligning with our commitment to user privacy and data security.
+
+### Export media files from the device
+
+You can export media files directly from the device and sync them with a cloud service of your choice. [**Learn more**](../mobile-application/export-entries-mobile.md).
