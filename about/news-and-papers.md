@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://sisanjuan.gob.ar/23-ambiente/2026-04-29/67275-en-san-juan-proteger-a-los-animales-tambien-es-cuidar-la-vida-y-el-ambiente" %}
+
 {% embed url="https://oberaonline.com.ar/2026/04/se-lanzo-la-5-edicion-de-plantemos-futuro-en-obera/" %}
 
 {% embed url="https://www.linkedin.com/posts/dr-soumik-ghosh-2901141a5_research-epicollect5-dataentry-activity-7432782293158641665-9T42" %}
