@@ -50,22 +50,17 @@ Another option is to load the first 500 entries and the headers on the first cel
 
 ### Lazy Load Images
 
-Use this updated wording for the guide:
+Google Sheets `=IMAGE()` formulas can request many images at once.&#x20;
 
-````md
-## Lazy loading images in Google Sheets
-
-Google Sheets `=IMAGE()` formulas can request many images at once. For large Epicollect5 exports, this may trigger rate limiting and result in broken images.
+For large Epicollect5 exports, this may trigger rate limiting, resulting in broken images.
 
 To avoid this, keep media URLs as plain text and use Apps Script to insert `=IMAGE()` formulas gradually.
-
-### Example
 
 Import your entries first:
 
 ```excel
-=IMPORTDATA("https://five.epicollect.net/api/export/entries/YOUR_PROJECT?format=csv&per_page=1000&page=1")
-````
+=IMPORTDATA("https://five.epicollect.net/api/export/entries/YOUR_PROJECT?format=csv&per_page=250&page=1")
+```
 
 Then open:
 
@@ -326,7 +321,7 @@ to test one batch manually.
 * Invalid or non-HTTPS URLs are skipped and marked as `Invalid image URL`.
 * If you want to restart from the beginning, use `Images → Reset progress`.
 
-Epicollect5 images are cached for 24 hours, so once an image has loaded it is normally served from cache on later spreadsheet reloads.
+Epicollect5 images are cached for 24 hours, so once an image has loaded, it is normally served from cache on later spreadsheet reloads.
 
 ### IMPORTDATA() Errors&#x20;
 
