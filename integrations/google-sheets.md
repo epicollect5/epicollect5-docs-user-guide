@@ -1,5 +1,6 @@
 ---
 description: Connect a Google spreadsheet to an Epicollect5 public project
+hidden: true
 ---
 
 # Google Sheets
