@@ -8,9 +8,7 @@ Using the Epicollect5 API endpoints, we can get all the entries (500 at a time) 
 
 We are passing a few parameters:
 
-`format=csv`as we need the entries in csv format.
-
-`headers=false` as we do not want the column headers. We are going to use custom headers to fit [Microreact requirements](https://microreact.org/instructions).
+`format=csv since` to get the entries in csv format.
 
 `per_page=500` to get the maximum number of entries on a single request (500) as export responses are paginated.&#x20;
 
