@@ -10,9 +10,9 @@ It is possible to integrate Epicollect5 with Microreact using [Google Spreadshee
 
 We are going to use the [EC5 Demo Project](https://five.epicollect.net/project/ec5-demo-project) as an example. **The project must be public.**
 
-Using the Epicollect5 API endpoints, we can get all the entries (1000 at a time) for that project using the following URL: ([Open in browser](https://five.epicollect.net/api/export/entries/ec5-demo-project?format=csv\&headers=false\&per_page=1000))
+Using the Epicollect5 API endpoints, we can get all the entries (500 at a time) for that project using the following URL: ([Open in browser](https://five.epicollect.net/api/export/entries/ec5-demo-project?format=csv\&headers=false\&per_page=1000))
 
-`https://five.epicollect.net/api/export/entries/ec5-demo-project?format=csv&headers=false&per_page=1000`
+`https://five.epicollect.net/api/export/entries/ec5-demo-project?format=csv&headers=false&per_page=500`
 
 We are passing a few parameters:
 
@@ -20,9 +20,9 @@ We are passing a few parameters:
 
 `headers=false` as we do not want the column headers. We are going to use custom headers to fit [Microreact requirements](https://microreact.org/instructions).
 
-`per_page=1000` to get the maximum number of entries on a single request (1000)as export responses are paginated. Google Sheets could give an error if requesting too many entries though.
+`per_page=500` to get the maximum number of entries on a single request (500)as export responses are paginated. Google Sheets could give an error if requesting too many entries though.
 
-If your project has more than 1000 entries, multiple requests need to be made adding an incremental `page` parameter specifying the next page on each request (`page=1`, `page=2`, `page=3` and so on).
+If your project has more than 500 entries, multiple requests need to be made adding an incremental `page` parameter specifying the next page on each request (`page=1`, `page=2`, `page=3` and so on).
 
 A single Google Sheets spreadsheet can have up to 50 `IMPORTDATA()` calls ([**more info**](https://support.google.com/docs/answer/3093335?hl=en)) therefore the integration will work with projects up to 50.000 entries.
 
@@ -36,7 +36,7 @@ The first thing to do is to leave the first row empty for the time being, and cl
 
 We are going to use the following formula in that cell:
 
-`=IMPORTDATA("https://five.epicollect.net/api/export/entries/ec5-demo-project?format=csv&headers=false&per_page=1000")`
+`=IMPORTDATA("https://five.epicollect.net/api/export/entries/ec5-demo-project?format=csv&headers=false&per_page=500")`
 
 passing the URL described above. \\
 
