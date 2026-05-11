@@ -96,4 +96,5 @@ The project is generated!
 
 <img src="https://docs.epicollect.net/~gitbook/image?url=https%3A%2F%2F3293478884-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F32OIF30CgrNUuRY6IjkW%252Fuploads%252Fgit-blob-f57a05421fe75296e4ae93b0c422998ea050b436%252Fmicroreact-7.png%3Falt%3Dmedia&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=6440436&#x26;sv=2" alt="" height="1017" width="1212">
 
-The project is currently hosted at [https://microreact.org/project/rJTVCyTE-](https://microreact.org/project/rJTVCyTE-)
+The project is currently hosted at [https://microreact.org/project/xsnGcExikXbEDGTMtsFdkC-ec5-demo-project](https://microreact.org/project/xsnGcExikXbEDGTMtsFdkC-ec5-demo-project)
+
