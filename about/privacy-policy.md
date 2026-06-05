@@ -47,7 +47,7 @@ If you make a project public, ALL project data you have collected will be visibl
 
 #### R**easonable Use and Data Retention**
 
-Epicollect5 is provided at no cost to users; however, we incur costs for managing and processing data which are currently covered by grants from NIHR and Gates Foundation. We monitor our system automatically, and projects that generate unusually high activity may be flagged. When this occurs, we may contact the project managers to request clarification. **No project data is accessed by us during this process.**
+Epicollect5 is provided at no cost to users; however, we incur costs for managing and processing data which are currently covered by grants from NIHR and Gates Foundation. We monitor our systems automatically, and projects that generate unusually high activity may be flagged. When this occurs, we may contact the project managers to request clarification. **No project data is accessed by us during this process.**
 
 #### Protecting Your Data
 
