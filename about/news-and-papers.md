@@ -15,6 +15,10 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://azertag.az/xeber/tebiet_erazilerinde_epizootoloji_monitorinqler_kechirilecek-4264887" %}
+
+{% embed url="https://www.argentina.gob.ar/noticias/primera-campana-de-monitoreo-para-la-deteccion-temprana-del-picudo-rojo-de-las-palmeras" %}
+
 {% embed url="https://invasoras.pt/pt/1%C2%AA-maratona-nacional-de-monitoriza%C3%A7%C3%A3o-de-%E2%80%9Ctrichi%E2%80%9D" %}
 
 {% embed url="https://www.facebook.com/ReladesTV/videos/proyecto-espacios-de-paz-transformar-acapulco-desde-la-comunidad/973751345349688/" %}
