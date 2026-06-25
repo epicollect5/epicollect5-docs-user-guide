@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://www.laestrella.com.pa/amp/vida-y-cultura/planeta/investigan-expansion-de-rana-introducida-en-panama-por-riesgo-ecologico-JF23402319" %}
+
 {% embed url="https://azertag.az/xeber/tebiet_erazilerinde_epizootoloji_monitorinqler_kechirilecek-4264887" %}
 
 {% embed url="https://www.argentina.gob.ar/noticias/primera-campana-de-monitoreo-para-la-deteccion-temprana-del-picudo-rojo-de-las-palmeras" %}
