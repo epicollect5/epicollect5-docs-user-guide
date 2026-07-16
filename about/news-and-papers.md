@@ -15,6 +15,8 @@ We invite you to explore this collection to discover the breadth of applications
 
 Whether you're a seasoned researcher, a curious student, or a passionate advocate for data-driven decision-making, you'll find inspiration and knowledge within these pages.
 
+{% embed url="https://www.ouest-france.fr/pays-de-la-loire/mesquer-44420/mesquer-paysage-et-patrimoine-un-inventaire-participatif-05504088-87cc-4f2b-b928-b33fcd8e8ee2" %}
+
 {% embed url="https://www.waingapu.com/bagian-11-ringkasan-laporan-penyelenggaraan-pemerintahan-daerah-kabupaten-sumba-timur-tahun-anggaran-2025/" %}
 
 {% embed url="https://www.antenalivre.pt/noticias/campanha-nacional-desafia-cidadaos-a-ajudar-no-combate-a-acacia-de-espigas" %}
