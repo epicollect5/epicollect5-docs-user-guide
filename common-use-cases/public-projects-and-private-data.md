@@ -34,16 +34,15 @@ While Epicollect5 normally aggregates all data on the central server for a Publi
 
 **3. Export & Submission (Field Participant)**
 
-1. Open the project inside the mobile app and navigate to Project Options / Export Data.
-2. Select the datasets and media files to export.
-3. Use the native device sharing options to send the exported `.zip` or `.csv` files:
+1. Open the project inside the mobile app and navigate to Project Options / Export Entries.
+2. Use the native device sharing options to send the exported `.zip` or `.csv` files:
    * Direct Transfer: Email the export to the project manager.
    * Cloud Storage: Upload the files directly to the project manager’s shared cloud link (Google Drive, Dropbox, OneDrive, etc.).
 
 **4. Data Aggregation (Project Manager)**
 
 1. Collect the individual export files from your participants.
-2. Combine the CSV files using standard data tools (Excel, Python, R, QGIS, etc.) for processing and analysis.
+2. Combine the CSV files using standard data tools (Excel, Python, R, QGIS, etc.) for processing and analysis.&#x20;
 
 #### Advantages & Trade-Offs
 
