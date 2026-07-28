@@ -121,6 +121,7 @@
 * [Child Forms vs Branches](common-use-cases/child-forms-vs-branches.md)
 * [Dependent Dropdowns](common-use-cases/dependent-dropdowns.md)
 * [Referencing Parent Form Responses](common-use-cases/referencing-parent-form-responses.md)
+* [Public Projects & Private Data](common-use-cases/public-projects-and-private-data.md)
 
 ***
 
