@@ -13,10 +13,10 @@ While Epicollect5 normally aggregates all data on the central server for a Publi
 
 *   Public & Locked Project Status:
 
-    Setting a project as **Public** allows any user to discover and download the form structure to their mobile device without needing permission or authentication. Setting it to Locked prevents users from uploading entries back to the Epicollect5 central database.
+    Setting a project as **Public** allows any user to discover and download the form structure to their mobile device without needing permission or authentication. Setting it to **Locked** prevents users from uploading entries back to the Epicollect5 central database.
 *   Local Data & Media Export:
 
-    Users complete forms on their mobile devices, store entries locally, and export the raw data (CSV) and media files directly from the Epicollect5 mobile app to their local file system or cloud storage of choice. [**More Info**](../mobile-application/export-entries-mobile.md)
+    Users complete forms on their mobile devices, store entries locally, and export the raw data (CSV) and media files directly from the Epicollect5 mobile app to their local filesystem or cloud storage of choice. [**More Info**](../mobile-application/export-entries-mobile.md)
 
 #### Step-by-Step Implementation Guide
 
