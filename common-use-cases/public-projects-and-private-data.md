@@ -43,7 +43,7 @@ While Epicollect5 normally aggregates all data on the central server for a Publi
 
 1. Collect the individual export files from your participants.
 2. Combine the CSV files using standard data tools (Excel, Python, R, QGIS, etc.) for processing and analysis. You can also use popular AI tools and agents.
-3. To consolidate Epicollect5 files (hierarchy|child|branch), [**have a look at the examples here.**](consolidate-data.md)
+3. To consolidate Epicollect5 files (_hierarchy|child|branch_), [**have a look at the examples here.**](consolidate-data.md)
 
 #### Advantages & Trade-Offs
 
