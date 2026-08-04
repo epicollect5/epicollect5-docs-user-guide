@@ -21,8 +21,20 @@ Entries can be edited on the server by CREATOR, MANAGER and CURATOR roles via th
 The responsive nature of the web application facilitates seamless access from mobile devices and tablets, contingent upon an internet connection.
 
 {% hint style="success" %}
-**For editing entries on mobile devices, utilizing the web application stands as the sole viable option instead of the mobile app.**
+**For editing entries on mobile devices, utilising the web application stands as the sole viable option instead of the mobile app.**
 {% endhint %}
+
+### How entries are updated on the device
+
+* **New remote entries** — Entries on the server that have no match on the device are added as remote entries. These entries are read-only and cannot be edited on the device.
+* **Matching synced entries** — Entries that exist on the device, are synced, and match a remote entry are replaced with their remote version. After replacement, the entry becomes read-only, and editability on the device is lost.
+* **Unsynced local entries** — Entries that have not yet been synced to the server are left untouched. The download will not overwrite unsynced changes.
+
+#### Before you download
+
+Project versions must match between the device and the server. Before downloading entries, the app will force a **project update** to ensure you have the latest project form definitions.
+
+When a project is updated, any remote entries previously downloaded for that project are cleared, as they may be outdated with the new form structure.
 
 ## Add child entries to downloaded entries
 
