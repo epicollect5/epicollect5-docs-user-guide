@@ -99,3 +99,47 @@ After you save the branch entry, you can upload it.
 Notice the total of branch entries changed to "1 Entry"
 
 <figure><img src="../.gitbook/assets/20230502_105215471_1.png" alt=""><figcaption></figcaption></figure>
+
+### Why downloaded entries are read-only
+
+This design eliminates an entire class of synchronization and conflict-resolution problems by making the **server the single source of truth**.&#x20;
+
+#### Examples of issues avoided by this approach
+
+* **Conflicting edits from multiple devices**
+  * User A downloads an entry onto their tablet and goes offline.
+  * Meanwhile, User B edits the same entry on the server.
+  * If User A were allowed to edit the downloaded copy offline, reconnecting would create two different versions of the same entry. The system would need conflict detection, merging, or ask users which version to keep.
+  * By keeping downloaded entries read-only, the device simply downloads the latest server version, avoiding conflicts entirely.
+* **Outdated data overwriting newer information**
+  * A field worker downloads project data before leaving for the day.
+  * During the day, managers correct several entries through the web application.
+  * If the field worker could later upload edits made from the stale copy, those outdated values could overwrite the more recent corrections made on the server.
+  * With read-only downloaded entries, the latest server changes are always preserved.
+* **Inconsistent data across team members**
+  * Two users download the same entry.
+  * Each edits their local copy while offline.
+  * Since neither modification is propagated immediately, every device now displays different information for the same record.
+  * Restricting edits to the server ensures every user eventually receives the same authoritative version.
+* **Broken parent-child relationships**
+  * A downloaded parent entry is modified locally while new child entries are being created by other users on the server.
+  * When the local changes are eventually uploaded, they may no longer be consistent with the current hierarchy or related records.
+  * Treating downloaded entries as immutable avoids introducing inconsistencies into the project structure while still allowing users to add new child entries and branches.
+* **Complex conflict resolution logic**
+  * Supporting editable downloaded entries would require detecting concurrent edits, comparing field-by-field changes, handling deleted entries, resolving media conflicts, and deciding which version should prevail.
+  * The current approach avoids all of this complexity, making synchronization predictable and reliable.
+* **Audit and data integrity issues**
+  * Entries may be reviewed, corrected, or validated by project managers on the server.
+  * Allowing older downloaded copies to be edited and later uploaded could unintentionally revert approved changes or invalidate audit trails.
+  * By ensuring all edits occur through the server, every client always converges to the same verified dataset.
+
+#### Summary
+
+The read-only nature of downloaded entries is a deliberate design choice that:
+
+* prevents conflicting edits across multiple devices;
+* avoids stale data overwriting newer server changes;
+* guarantees all users converge on the same dataset;
+* preserves the integrity of entry hierarchies;
+* eliminates the need for complex conflict resolution and merge algorithms;
+* keeps the server as the single, authoritative source of project data.
