@@ -74,7 +74,7 @@
 * [Edit Entries](mobile-application/edit-entries.md)
 * [Re-use answers](mobile-application/re-use-answers.md)
 * [Save & Resume Entries](mobile-application/saveresume-entry.md)
-* [Updating a Project on the Mobile App](mobile-application/updating-a-project-on-the-mobile-app.md)
+* [Updating a Project - Mobile](mobile-application/updating-a-project-mobile.md)
 * [Upload Entries](mobile-application/upload-entries/README.md)
   * [Upload Errors](mobile-application/upload-entries/upload-errors.md)
   * [Incomplete Entries](mobile-application/upload-entries/incomplete-entries.md)
