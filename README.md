@@ -14,7 +14,7 @@ Data are collected (including GPS and media) using multiple devices and all data
 
 Data can be exported in CSV and JSON format
 
-The mobile app is currently available for both Android (10+) and iOS (18+)
+The mobile app is currently available for both Android (10+) and iOS (15.6+)
 
 {% hint style="info" %}
 Please note that the supported versions of our application may change over time due to requirements imposed by Google and Apple. These requirements may include updates to the minimum API levels for Android or iOS versions supported by Apple devices.
