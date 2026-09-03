@@ -88,3 +88,7 @@ To ensure data integrity and security, Epicollect5 does not store media in publi
 Under standard operating conditions, these files are not visible via default file explorers or gallery apps.
 
 > Note on Rooted Devices: While media could theoretically be accessed manually on "rooted" (Android) or "jailbroken" (iOS) devices, we strongly discourage this practice. Modifying device permissions in this manner can compromise the security of your data, void device warranties, and may lead to stability issues within the Epicollect5 framework.
+
+### Embedded Camera<br>
+
+coming soon...<br>
