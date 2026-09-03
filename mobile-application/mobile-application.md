@@ -85,7 +85,7 @@ To ensure data integrity and security, Epicollect5 does not store media in publi
 
 #### Manual File Access
 
-Under standard operating conditions, these files are not visible via default file explorers or gallery apps.
+Under standard operating conditions, these files are not visible via default file explorers or gallery apps. Users can, however, export all the media files and data for projects individually. See [**Export Entries**](export-entries-mobile.md).
 
 > Note on Rooted Devices: While media could theoretically be accessed manually on "rooted" (Android) or "jailbroken" (iOS) devices, we strongly discourage this practice. Modifying device permissions in this manner can compromise the security of your data, void device warranties, and may lead to stability issues within the Epicollect5 framework.
 
