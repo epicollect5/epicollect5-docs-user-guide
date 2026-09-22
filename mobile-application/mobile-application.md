@@ -97,7 +97,9 @@ It is **Android only** and **off by default**.
 
 **Why we added it**
 
-Normally, taking a photo hands over to the camera app installed on your device, which comes to the foreground while Epicollect5 goes to the background. On devices with aggressive memory management — Xiaomi's MIUI being the best known — the system can kill the backgrounded Epicollect5 app, and the entry being filled in can be lost when the app restarts. See [**Xiaomi Troubleshooting**](https://docs.epicollect.net/mobile-application/xiaomi-troubleshooting).
+Normally, taking a photo hands over to the camera app installed on your device, which comes to the foreground while Epicollect5 goes to the background. On devices with aggressive memory management — Xiaomi's MIUI being the best known — the system can kill the backgrounded Epicollect5 app, and the entry being filled in can be lost when the app restarts. See [**Xiaomi Troubleshooting**](https://docs.epicollect.net/mobile-application/xiaomi-troubleshooting).\
+\
+**By default, we mitigate this by asking Android to keep the app alive while the capture is happening.** When you take a photo, record a video or scan a barcode with your device's camera app, Epicollect5 runs an Android foreground service, and Android requires that service to show an ongoing notification for as long as it is active. That ongoing notification is the reason the app asks for the notification permission — it is not a message or alert from Epicollect5. If the permission is denied, the service cannot be started, and Android may close the app mid-capture instead. See [**Notification permission**](https://docs.epicollect.net/mobile-application/mobile-app-permissions#notification-permission).
 
 **The embedded camera keeps Epicollect5 in the foreground the whole time, which removes the problem at the root.** Because the app is never backgrounded while a camera app is up, no background service — and no persistent notification — is needed to keep Epicollect5 alive during the capture either.
 
