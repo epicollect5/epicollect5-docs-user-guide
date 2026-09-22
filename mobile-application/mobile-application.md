@@ -89,6 +89,34 @@ Under standard operating conditions, these files are not visible via default fil
 
 > Note on Rooted Devices: While media could theoretically be accessed manually on "rooted" (Android) or "jailbroken" (iOS) devices, we strongly discourage this practice. Modifying device permissions in this manner can compromise the security of your data, void device warranties, and may lead to stability issues within the Epicollect5 framework.
 
-### Embedded Camera<br>
+### Embedded Camera (since version 98.2.9)
 
-coming soon...<br>
+The Epicollect5 app includes an optional **embedded camera** for photo and video questions. Instead of handing over to the camera app installed on your device, the capture happens inside Epicollect5, with a live preview, a shutter, camera flip and flashlight controls.
+
+It is **Android only** and **off by default**.
+
+**Why we added it**
+
+Normally, taking a photo hands over to the camera app installed on your device, which comes to the foreground while Epicollect5 goes to the background. On devices with aggressive memory management — Xiaomi's MIUI being the best known — the system can kill the backgrounded Epicollect5 app, and the entry being filled in can be lost when the app restarts. See [**Xiaomi Troubleshooting**](https://docs.epicollect.net/mobile-application/xiaomi-troubleshooting).
+
+**The embedded camera keeps Epicollect5 in the foreground the whole time, which removes the problem at the root.** Because the app is never backgrounded while a camera app is up, no background service — and no persistent notification — is needed to keep Epicollect5 alive during the capture either.
+
+**How to enable it**
+
+Both settings are per device and can be changed at any time from the app **Settings**:
+
+**Photos:** in the **PHOTO** card, turn on **Use Epicollect5 embedded camera for photos**.
+
+**Videos:** in the **VIDEO** card, turn on **Use Epicollect5 embedded camera for videos**.
+
+The two toggles are independent: you can use the embedded camera for photos, for videos, for both or for neither. Turn them off to go back to the camera app installed on your device; the gallery/import option on photo questions is unaffected either way.
+
+**Limits**
+
+* **Android only.** On iOS and on the web app, photos and videos keep using your device's camera app or file picker.
+* **The same media outputs as the standard flow**: photos are saved at **1024 x 768 px** (**768 x 1024 px** for portrait), cropped to the **4:3 aspect ratio** required by the server, and videos are capped at **720p**.
+* **Media stays inside the app**, in Epicollect5's private storage rather than the device gallery — see Media Storage and Privacy. Recordings have no fixed duration limit, but they are not visible to other apps, so use [Export Entries](https://docs.epicollect.net/mobile-application/export-entries-mobile) to get them out of the device.
+* **Basic controls only**: shutter, camera flip and flashlight. The flashlight works on the rear camera only, and the flip and flashlight controls are hidden while recording video. The automatic modes of your device's own camera app are not available.
+* **One capture at a time.** The shutter is disabled while a capture is in flight, so a double tap cannot start a second photo or a second recording.
+* **Keep Epicollect5 in the foreground.** Leaving the app cancels a recording in progress, exactly like the stock camera, and the interrupted recording cannot be recovered.
+
