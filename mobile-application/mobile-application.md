@@ -89,7 +89,7 @@ Under standard operating conditions, these files are not visible via default fil
 
 > Note on Rooted Devices: While media could theoretically be accessed manually on "rooted" (Android) or "jailbroken" (iOS) devices, we strongly discourage this practice. Modifying device permissions in this manner can compromise the security of your data, void device warranties, and may lead to stability issues within the Epicollect5 framework.
 
-### Embedded Camera (since version 98.3.0)
+### Android Embedded Camera (since version 98.3.0)
 
 The Epicollect5 app includes an optional **embedded camera** for photo and video questions. Instead of handing over to the camera app installed on your device, the capture happens inside Epicollect5, with a live preview, a shutter, camera flip and flashlight controls.
 
