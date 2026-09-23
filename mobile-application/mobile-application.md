@@ -93,7 +93,7 @@ Under standard operating conditions, these files are not visible via default fil
 
 The Epicollect5 app includes an optional **embedded camera** for photo and video questions. Instead of handing over to the camera app installed on your device, the capture happens inside Epicollect5, with a live preview, a shutter, camera flip and flashlight controls.
 
-It is **Android only** and **off by default**.
+It is **Android only** and **off by default**. Most users will not need to use it, as the ongoing notification usually is enough to keep Epicollect5 open on most devices.
 
 **Why we added it**
 
