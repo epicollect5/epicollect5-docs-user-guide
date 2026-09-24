@@ -128,6 +128,7 @@
 
 * [Cyclic workflows (follow-ups)](cyclic-workflows-follow-ups.md)
 * [Converting UTC Timestamps to Local Time](converting-utc-timestamps-to-local-time.md)
+* [Add Altitude to Exported Entries](add-altitude-to-exported-entries.md)
 
 ## Extra
 
