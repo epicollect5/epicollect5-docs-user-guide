@@ -93,6 +93,7 @@
 * [Filter Entries](mobile-application/filter-entries.md)
 * [Beta Updates](mobile-application/beta-program.md)
 * [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
+* [Draw on Photos](mobile-application/draw-on-photos.md)
 
 ## Developers
 
@@ -137,3 +138,7 @@
 * [FAQ](extra/faq.md)
 * [How-to Videos](extra/how-to-videos.md)
 * [Known Issues](extra/known-issues.md)
+
+***
+
+* [DRAW USER GUIDE](draw-user-guide.md)
