@@ -1,10 +1,3 @@
----
-description: >-
-  Uploading and downloading entries can take a while, especially when there are
-  many  entries, large media files, or a slow connection. If the screen turns
-  off part-way     through, the transfer can
----
-
 # Keep Screen On
 
 Uploading and downloading entries can take a while, especially when there are many\
