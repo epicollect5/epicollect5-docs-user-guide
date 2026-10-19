@@ -94,6 +94,7 @@
 * [Beta Updates](mobile-application/beta-program.md)
 * [Xiaomi Troubleshooting](mobile-application/xiaomi-troubleshooting.md)
 * [Draw on Photos](mobile-application/draw-on-photos.md)
+* [Keep Screen On](mobile-application/keep-screen-on.md)
 
 ## Developers
 
